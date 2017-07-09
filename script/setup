@@ -6,21 +6,10 @@ set -x
 
 script/bootstrap
 
-run rm -Rf $PWD/_build/
+MAKE_OPT='clean'
 
-run mkdir -p _build
+cleanbuild
 
-for l in `ls labs`
-do
- echo "--------------------------------------------"
- echo " Building $l"
- echo "--------------------------------------------"
- run mkdir -p "_build/$l/html"
- run mkdir -p "_build/$l/pdf"
- DOCROOT="$PWD/labs/$l/docs"
- echo $DOCROOT
- run script/containthedocs make -C "$DOCROOT" clean html latexpdf
- run cp -Rf "$DOCROOT"/_build/html/* "_build/$l/html"
- run cp -Rf "$DOCROOT"/_build/latex/*.pdf "_build/$l/pdf"
-done
+buildlabs
 
+buildroot
