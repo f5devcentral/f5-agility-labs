@@ -16,6 +16,8 @@ to production environment.
 - `cd f5-agility-labs`
 - `script/setup`
 - Built content will be in the `_build` directory
+- `script/server` will start a python SimpleHTTPServer in `_build`
+- Browse to `http://localhost:8000`
 
 # Adding your Lab
 
