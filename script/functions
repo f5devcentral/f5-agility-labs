@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Run a command.  Print error and exit if exitcode > 0
+function run {
+    "$@"
+    local status=$?
+    if [ $status -ne 0 ]; then
+        echo "error with $1" >&2
+        exit $status
+    fi
+    return $status
+}
+
+# Build lab submodules.  Set MAKE_OPT to pass addtional options/targets to make
+function buildlabs {
+	for l in `ls labs`
+	do
+ 		run mkdir -p "_build/$l/html"
+ 		run mkdir -p "_build/$l/pdf"
+ 		DOCROOT="$PWD/labs/$l/docs"
+ 		run script/containthedocs make -C "$DOCROOT" $MAKE_OPT html latexpdf
+ 		run cp -Rf "$DOCROOT"/_build/html/* "_build/$l/html"
+ 		run cp -Rf "$DOCROOT"/_build/latex/*.pdf "_build/$l/pdf"
+	done
+}
+
+# Build the root lab index
+function buildroot {
+	rm docs/labs.include
+	for l in `ls labs`
+	do
+		LABROOT="$PWD/labs/$l"
+		PDFPATH=`ls _build/$l/pdf/*.pdf | head -n 1`
+		PDFNAME=`basename $PDFPATH`
+ 		if [ -f "$LABROOT"/DESCRIPTION.rst ]; then
+ 			cat "$LABROOT"/DESCRIPTION.rst >> docs/labs.include
+ 		else
+ 			LABNAME="$(tr '[:lower:]' '[:upper:]' <<< ${l:0:1})${l:1}"
+ 			printf "$LABNAME Labs\n---------------------------------------\n" >> docs/labs.include
+ 		fi
+ 		echo "" >> docs/labs.include
+ 		echo "\`HTML Lab Guide <$l/html/index.html>\`__ | \`PDF Lab Guide <$l/pdf/$PDFNAME>\`__" >> docs/labs.include
+ 		echo "" >> docs/labs.include
+ 	done
+	run make -C docs clean html
+	run cp -Rf docs/_build/html/* "_build/"
+}
+
+# Clean up the _build directory
+function cleanbuild {
+	run rm -Rf $PWD/_build/
+	run mkdir -p _build
+}

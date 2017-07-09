@@ -1,0 +1,9 @@
+[submodule "labs/programmability"]
+	path = labs/programmability
+	url = https://github.com/f5devcentral/f5-automation-labs.git
+[submodule "labs/dns"]
+	path = labs/dns
+	url = https://github.com/f5devcentral/f5-agility-labs-dns.git
+[submodule "labs/openstack"]
+	path = labs/openstack
+	url = https://github.com/f5devcentral/f5-agility-labs-openstack.git
