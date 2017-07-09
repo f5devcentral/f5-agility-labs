@@ -59,3 +59,15 @@ To `pull` the latest commits for **ALL** submodules:
 To `pull` the latest commits for a specific submodule:
 
 `git submodule status labs/<name>`
+
+Push new commit hashes for submodules:
+
+`git commit -a -m "commit msg"`
+`git push`
+
+# Add Lab Submodule
+
+`git submodule add <repo_url> labs/<name>`
+`git commit -a -m "commit msg"`
+`git push`
+
