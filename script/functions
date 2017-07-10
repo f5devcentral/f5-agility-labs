@@ -40,7 +40,7 @@ function buildroot {
  			printf "$LABNAME Labs\n---------------------------------------\n" >> docs/labs.include
  		fi
  		echo "" >> docs/labs.include
- 		echo "\`HTML Lab Guide <$l/html/index.html>\`__ | \`PDF Lab Guide <$l/pdf/$PDFNAME>\`__" >> docs/labs.include
+ 		echo "\`HTML Lab Guide </training/$l/html/index.html>\`__ | \`PDF Lab Guide </training/$l/pdf/$PDFNAME>\`__" >> docs/labs.include
  		echo "" >> docs/labs.include
  	done
 	run make -C docs clean html
