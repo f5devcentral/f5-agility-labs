@@ -8,3 +8,15 @@ install:
     - pip install -r requirements.txt
 script:
     - script/cibuild
+deploy:
+	- provider: s3
+  		access_key_id: $AWS_ACCESS_KEY_ID
+  		secret_access_key: $AWS_SECRET_ACCESS_KEY
+  		bucket: $AWS_S3_BUCKET
+  		local_dir: _build/
+  		upload_dir: /training/
+  		region: us-west-2
+  		acl: public_read
+  		skip_cleanup: true
+  		on:
+    		repo: f5devcentral/f5-agility-labs
