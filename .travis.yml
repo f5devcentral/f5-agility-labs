@@ -1,22 +1,23 @@
-sudo: required
-services:
-    - docker
+deploy: 
+  - 
+    access_key_id: $AWS_ACCESS_KEY_ID
+    acl: public_read
+    bucket: $AWS_S3_BUCKET
+    local_dir: _build/
+    provider: s3
+    region: us-west-2
+    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    skip_cleanup: true
+    true: 
+      repo: f5devcentral/f5-agility-labs
+    upload_dir: /training/
+install: 
+  - "pip install -r requirements.txt"
 language: python
-python:
-    - '2.7'
-install:
-    - pip install -r requirements.txt
-script:
-    - script/cibuild
-deploy:
-	- provider: s3
-  		access_key_id: $AWS_ACCESS_KEY_ID
-  		secret_access_key: $AWS_SECRET_ACCESS_KEY
-  		bucket: $AWS_S3_BUCKET
-  		local_dir: _build/
-  		upload_dir: /training/
-  		region: us-west-2
-  		acl: public_read
-  		skip_cleanup: true
-  		on:
-    		repo: f5devcentral/f5-agility-labs
+python: 
+  - "2.7"
+script: 
+  - script/cibuild
+services: 
+  - docker
+sudo: required
