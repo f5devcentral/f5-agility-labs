@@ -10,7 +10,7 @@ deploy:
     skip_cleanup: true
     true: 
       repo: f5devcentral/f5-agility-labs
-    upload_dir: /training/
+    upload_dir: /training
 install: 
   - "pip install -r requirements.txt"
 language: python
