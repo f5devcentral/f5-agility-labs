@@ -64,12 +64,12 @@ To `pull` the latest commits for a specific submodule:
 
 Push new commit hashes for submodules:
 
-`git commit -a -m "commit msg"`
-`git push`
+- `git commit -a -m "commit msg"`
+- `git push`
 
 # Add Lab Submodule
 
-`git submodule add <repo_url> labs/<name>`
-`git commit -a -m "commit msg"`
-`git push`
+- `git submodule add <repo_url> labs/<name>`
+- `git commit -a -m "commit msg"`
+- `git push`
 
