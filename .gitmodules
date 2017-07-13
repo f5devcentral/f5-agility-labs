@@ -7,3 +7,12 @@
 [submodule "labs/openstack"]
 	path = labs/openstack
 	url = https://github.com/f5devcentral/f5-agility-labs-openstack.git
+[submodule "labs/vdi"]
+	path = labs/vdi
+	url = https://github.com/f5devcentral/f5-agility-labs-vdi.git
+[submodule "labs/ddos"]
+	path = labs/ddos
+	url = https://github.com/f5devcentral/f5-agility-labs-ddos.git
+[submodule "labs/firewall"]
+	path = labs/firewall
+	url = https://github.com/f5devcentral/f5-agility-labs-firewall.git
