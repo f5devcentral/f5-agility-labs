@@ -15,12 +15,12 @@ function run {
 function buildlabs {
 	for l in `ls labs`
 	do
- 		run mkdir -p "_build/$l/html"
- 		run mkdir -p "_build/$l/pdf"
+ 		run mkdir -p "_build/community/$l/html"
+ 		run mkdir -p "_build/community/$l/pdf"
  		DOCROOT="$PWD/labs/$l/docs"
  		run script/containthedocs make -C "$DOCROOT" $MAKE_OPT html latexpdf
- 		run cp -Rf "$DOCROOT"/_build/html/* "_build/$l/html"
- 		run cp -Rf "$DOCROOT"/_build/latex/*.pdf "_build/$l/pdf"
+ 		run cp -Rf "$DOCROOT"/_build/html/* "_build/community/$l/html"
+ 		run cp -Rf "$DOCROOT"/_build/latex/*.pdf "_build/community/$l/pdf"
 	done
 }
 

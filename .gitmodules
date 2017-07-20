@@ -16,3 +16,18 @@
 [submodule "labs/firewall"]
 	path = labs/firewall
 	url = https://github.com/f5devcentral/f5-agility-labs-firewall.git
+[submodule "labs/public-cloud"]
+	path = labs/public-cloud
+	url = https://github.com/f5devcentral/f5-agility-labs-public-cloud.git
+[submodule "labs/irules"]
+	path = labs/irules
+	url = https://github.com/f5devcentral/f5-agility-labs-irules.git
+[submodule "labs/waf"]
+	path = labs/waf
+	url = https://github.com/f5devcentral/f5-agility-labs-waf.git
+[submodule "lab/kubernetes"]
+	path = labs/kubernetes
+	url = https://github.com/f5devcentral/f5-agility-labs-kubernetes.git
+[submodule "labs/iam"]
+	path = labs/iam
+	url = https://github.com/f5devcentral/f5-agility-labs-iam.git
