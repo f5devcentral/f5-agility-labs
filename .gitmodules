@@ -4,9 +4,6 @@
 [submodule "labs/dns"]
 	path = labs/dns
 	url = https://github.com/f5devcentral/f5-agility-labs-dns.git
-[submodule "labs/openstack"]
-	path = labs/openstack
-	url = https://github.com/f5devcentral/f5-agility-labs-openstack.git
 [submodule "labs/vdi"]
 	path = labs/vdi
 	url = https://github.com/f5devcentral/f5-agility-labs-vdi.git
