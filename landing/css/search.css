@@ -1,0 +1,57 @@
+.tile-medium {
+	border-radius: 10px;
+    border: 1px solid grey;
+    padding: 6px;
+    margin: 10px;
+}
+
+.panel-footer {
+    font-style: italic;
+}
+
+.panel .panel-body .panel-header
+{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 6px;
+}
+
+.panel-header > h2 {
+	margin: 0px;
+}
+
+.label {
+	display: inline-block;
+	margin: 2px;
+}
+
+.label-primary {
+	padding-top: 4px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+}
+.btn {
+	margin-right: 2px;
+	margin-bottom: 2px;
+	border-radius: 10px;
+    font-size: 80%;
+}
+.panel
+{
+    min-height: 200px;
+}
+
+.filter h3 {
+    margin-top: 10px;
+}
+.row
+{
+    width: 100%;
+    display: table;
+}
+
+.topic-select, .orgs, .topics, .searchbox {
+	margin-left: 10px;
+}
+
