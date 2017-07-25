@@ -17,13 +17,19 @@ function buildlabs {
 	do
  		run mkdir -p "_build/community/$l/html"
  		run mkdir -p "_build/community/$l/pdf"
- 		DOCROOT="$PWD/labs/$l/docs"
+ 		REPOROOT=$PWD
+ 		LABREPOROOT="$PWD/labs/$l"
+ 		DOCROOT="$LABREPOROOT/docs"
  		cp common/preamble.tex $DOCROOT/
  		cp common/front_cover.png $DOCROOT/_static/
  		cp common/back_cover.png $DOCROOT/_static/
  		run script/containthedocs make -C "$DOCROOT" $MAKE_OPT html latexpdf
+ 		run cd $LABREPOROOT
+ 		run ./containthedocs-pdf-perclass.sh
+ 		run cd $REPOROOT
  		run cp -Rf "$DOCROOT"/_build/html/* "_build/community/$l/html"
  		run cp -Rf "$DOCROOT"/_build/latex/*.pdf "_build/community/$l/pdf"
+ 		run cp -Rf "$LABREPOROOT"/pdf/*.pdf "_build/community/$l/pdf"
 	done
 }
 

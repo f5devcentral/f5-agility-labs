@@ -28,9 +28,6 @@
 [submodule "labs/iam"]
 	path = labs/iam
 	url = https://github.com/f5devcentral/f5-agility-labs-iam.git
-[submodule "labs/kubernetes"]
-	path = labs/kubernetes
-	url = https://github.com/f5devcentral/f5-agility-labs-kubernetes.git
 [submodule "labs/private-cloud"]
 	path = labs/private-cloud
 	url = https://github.com/f5devcentral/f5-agility-labs-private-cloud.git
