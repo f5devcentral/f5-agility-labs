@@ -57,3 +57,23 @@
 	margin-left: 10px;
 }
 
+.container-fluid, .jumbotron {
+    padding: 0px;
+}
+
+.corp-header, .pageHeader {
+    margin: 0px;
+}
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'FontAwesome';  /* essential for enabling glyphicon */
+    content: "\f063";    /* adjust as needed, taken from bootstrap.css */
+    color: grey;         /* adjust as needed */
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f062";    /* adjust as needed, taken from bootstrap.css */
+}
+
+
