@@ -31,3 +31,15 @@
 [submodule "labs/sslviz"]
 	path = labs/sslviz
 	url = https://github.com/f5devcentral/f5-agility-labs-sslviz.git
+[submodule "labs/containers"]
+	path = labs/containers
+	url = https://github.com/f5devcentral/f5-agility-labs-containers.git
+[submodule "labs/adc"]
+	path = labs/adc
+	url = https://github.com/f5devcentral/f5-agility-labs-adc.git
+[submodule "labs/analytics"]
+	path = labs/analytics
+	url = https://github.com/f5devcentral/f5-agility-labs-analytics.git
+[submodule "labs/fps"]
+	path = labs/fps
+	url = https://github.com/f5devcentral/f5-agility-labs-fps.git
