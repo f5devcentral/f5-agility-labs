@@ -16,7 +16,7 @@
 
     <!-- Custom styles for this template -->
     <link href="/assets/css/f5.css" rel="stylesheet">
-
+    <link href="css/landing.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -180,7 +180,16 @@
     </div>
   </div>
 
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="js/F5CTLanding.js"></script>
 
+  <script>
+  $( document ).ready(function() {
+    var landing = F5CTLanding;
+    landing.loadClasses();
+    });
+  </script>
 
   <!-- Main jumbotron for a primary marketing message or call to action >
       <div class="jumbotron">
@@ -190,119 +199,16 @@
       </div>
     </div>
    <-->
+
     <div class="container">
-      <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
             <h2>Agility Labs</h2>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <h2><a href="public-cloud/html/index.html">Public Cloud Labs</a></h2>
-          <p>Learn how to leverage F5 BIG-IP with Public Cloud providers such as Amazon AWS, Microsoft Azure and Google Compute Platform</p>
-          <p>
-            <a class="btn btn-primary" href="public-cloud/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="public-cloud/pdf/F5PublicCloudSolutions.pdf" role="button">PDF</a>
-          </p>
-        </div>
-
-        <div class="col-md-4">
-          <h2><a href="private-cloud/html/index.html">Private Cloud Labs</a></h2>
-          <p>Learn how to leverage F5 BIG-IP with Private Cloud solutions such as OpenStack and Cisco APIC</p>
-          <p>
-            <a class="btn btn-primary" href="private-cloud/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="private-cloud/pdf/F5PrivateCloudSolutions.pdf" role="button">PDF</a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2><a href="programmability/html/index.html">Programmability Labs</a></h2>
-          <p>Learn how to use the programmability features of the F5 platform using the iControl REST API, iWorkflow, the f5-super-netops toolchain and other tools.</p>
-          <p>
-            <a class="btn btn-primary" href="programmability/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="programmability/pdf/F5ProgrammabilityTraining.pdf" role="button">PDF</a>
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <h2><a href="vdi/html/index.html">VDI Labs</a></h2>
-          <p>Learn how to integrate F5 solutions with VDI solutions with VMware View, Citrix XenDesktop and Microsoft RDS Proxy.</p>
-          <p>
-            <a class="btn btn-primary" href="vdi/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="vdi/pdf/F5SolutionsforVDI.pdf" role="button">PDF</a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2><a href="ddos/html/index.html">DDoS Labs</a></h2>
-          <p>Learn how to use the F5 platform to mitigate Distributed Deniel of Service attacks.</p>
-          <p>
-            <a class="btn btn-primary" href="ddos/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="ddos/pdf/F5SolutionsforDDoS.pdf" role="button">PDF</a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2><a href="firewall/html/index.html">Firewall Labs</a></h2>
-          <p>Learn how to Firewall Use Case with the F5 platform.</p>
-          <p>
-            <a class="btn btn-primary" href="firewall/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="firewall/pdf/F5FirewallSolutions.pdf" role="button">PDF</a>
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <h2><a href="irules/html/index.html">iRules Labs</a></h2>
-          <p>Learn how to leverage data plane programmability with F5 iRules and iRules LX</p>
-          <p>
-            <a class="btn btn-primary" href="irules/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="irules/pdf/F5iRulesDataPlaneProgrammability.pdf" role="button">PDF</a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2><a href="dns/html/index.html">GSLB/DNS Labs</a></h2>
-          <p>Learn how to use the DNS features of the F5 platform including Global Server Load Balancing, DNS Resolver/Caching, DNSSEC and other functionality.</p>
-          <p>
-            <a class="btn btn-primary" href="dns/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="dns/pdf/DNS.pdf" role="button">PDF</a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2><a href="waf/html/index.html">Web Application Firewall Labs</a></h2>
-          <p>Protect your web based applications using F5 Web Application Firewalling solutions</p>
-          <p>
-            <a class="btn btn-primary" href="waf/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="waf/pdf/F5WAFPracticalIntrotoL7Security.pdf" role="button">PDF</a>
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <h2><a href="kubernetes/html/index.html">Kubernetes Labs</a></h2>
-          <p>Learn how to integrate the F5 platform with Kubernetes</p>
-          <p>
-            <a class="btn btn-primary" href="kubernetes/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="kubernetes/pdf/F5SolutionsforKubernetes.pdf" role="button">PDF</a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2><a href="iam/html/index.html">Identity &amp; Access Management Labs</a></h2>
-          <p>Learn how to deploy F5 Identity &amp; Access Management solutions</p>
-          <p>
-            <a class="btn btn-primary" href="iam/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="iam/pdf/SWGSecuringOutboundInternetAccess.pdf" role="button">PDF</a>
-          </p>
-        </div>
-        <div class="col-md-4">
-          <h2><a href="sslviz/html/index.html">SSL Visibility Labs</a></h2>
-          <p>Gain security visibility into SSL/TLS Encrypted Traffic with F5 SSL Visibility solutions</p>
-          <p>
-            <a class="btn btn-primary" href="sslviz/html/index.html" role="button">HTML</a>
-            <a class="btn btn-primary" href="sslviz/pdf/F5SolutionsforSSLVisibility.pdf" role="button">PDF</a>
-          </p>
-        </div>
-      </div>
+      </div>      
+      <div class="f5-classes"></div>
     </div>
+
     </div>
       <hr>
 <footer>
@@ -421,7 +327,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>-->
   </body>
 </html>
