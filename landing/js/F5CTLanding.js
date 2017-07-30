@@ -117,8 +117,8 @@ var F5CTLanding = {
 
 			}
 			$(".f5-classes").append('</div>');
+			_this.updateStats();
 		}
 
-		_this.updateStats();
 	}
 }
