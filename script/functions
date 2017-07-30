@@ -28,6 +28,7 @@ function buildlabs {
  		cp common/preamble.tex $DOCROOT/
  		cp common/front_cover.png $DOCROOT/_static/
  		cp common/back_cover.png $DOCROOT/_static/
+ 		cp common/header.html $DOCROOT/_templates/
  		run script/containthedocs make -C "$DOCROOT" $MAKE_OPT html latexpdf
  		run cd $LABREPOROOT
  		run ./containthedocs-pdf-perclass.sh
