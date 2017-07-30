@@ -4,6 +4,7 @@
 var F5CTLanding = {
 	data: {},
 	stats: { "totalPages":0, "totalWords":0 },
+	classCounter: 0,
 	_data_loaded: 0,
 	_stats_loaded: 0,
 	_loaded: {},
@@ -21,9 +22,6 @@ var F5CTLanding = {
 		var baseUrl = _this._getSiteURL();
 		$.getJSON(baseUrl + 'js/stats.json', function(data) {
 			_this.stats = data;
-			if(typeof(_this.stats.totalClasses) === 'undefined') {
-				_this.stats.totalClasses = 0;
-			}
 			_this._stats_loaded = 1;
     	});
 
@@ -65,7 +63,7 @@ var F5CTLanding = {
 		console.log("words: " + this.stats.totalWords);
 		$(".f5-stats").empty();
 		$(".f5-stats").append('<p class="f5-stats">Currently serving up ' +
-			this.stats.totalClasses.toLocaleString() + ' classes with ' +
+			this.classCounter.toLocaleString() + ' classes with ' +
 			this.stats.totalPages.toLocaleString() + ' pages (' +
 			this.stats.totalWords.toLocaleString() + ' words) of awesome!</p>')
 	},
@@ -107,7 +105,7 @@ var F5CTLanding = {
         			'   </p>' +
       				'  </div>');
 
-				_this.stats.totalClasses++;
+				_this.classCounter++;
 				_this._bs_col_iter++;
 				if(_this._bs_col_iter > 2) {
 					$(".f5-classes").append('</div>');
