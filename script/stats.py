@@ -10,6 +10,7 @@ import PyPDF2
 import glob
 import json
 import argparse
+import requests
 
 def getPageCount(pdf_file):
 
@@ -36,19 +37,24 @@ def getWordCount(data):
 
 
 def main():
-	if len(sys.argv)!=3:
-		print('command usage: python stats.py <dir to search> <output file>')
-		exit(1)
+
+	parser = argparse.ArgumentParser(description='Collect stats on the generated docs')
+	parser.add_argument("dir", help="The directory to search")
+	parser.add_argument("out", help="The JSON output file")
+	parser.add_argument("-i", "--incremental", help="Perform and incremental update", action="store_true")
+	args = parser.parse_args()
+
+	if args.incremental:
+		resp = requests.get(url='http://clouddocs.f5.com/training/community/js/stats.json')
+		data = json.loads(resp.text)
+		data["totalPages"] = 0;
+		data["totalWords"] = 0;
 	else:
-		dir = sys.argv[1]
-		out = sys.argv[2]
+		data = { "totalPages":0, "totalWords":0 };
 
-	data = { "totalPages":0, "totalWords":0 };
-
-	for filename in glob.iglob('%s/**/*.pdf' % dir, recursive=True):
+	for filename in glob.iglob('%s/**/*.pdf' % args.dir, recursive=True):
 		if '-class' in filename:
 			continue
-
 
 		#check if the specified file exists or not
 		try:
@@ -68,10 +74,13 @@ def main():
 		print (filename, numPages, totalWords, sep=",", end='\n')
 
 		data[filename.split('/').pop()] = { "words": totalWords, "pages": numPages }
-		data["totalPages"] += numPages
-		data["totalWords"] += totalWords
 
-	with open(out, 'w') as outfile:
+	for pdf in data:
+		if '.pdf' in pdf:
+			data["totalPages"] += data[pdf]["pages"]
+			data["totalWords"] += data[pdf]["words"]
+
+	with open(args.out, 'w') as outfile:
 		json.dump(data, outfile, indent=2)
 
 

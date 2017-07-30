@@ -18,7 +18,16 @@ function buildlabs {
 		return
 	fi
 
-	for l in `ls labs`
+	if [[ -z "$BUILD_LIST" ]]; then
+		BUILD_LIST=`ls labs`
+		STATS_OPTIONS=""
+	else
+		STATS_OPTIONS="-i"
+	fi
+
+	echo "BUILD_LIST=$BUILD_LIST"
+
+	for l in ${BUILD_LIST}
 	do
  		run mkdir -p "_build/community/$l/html"
  		run mkdir -p "_build/community/$l/pdf"
@@ -50,7 +59,7 @@ function buildstats {
 		return
 	fi
 
-	run script/containthedocs python3 script/stats.py `pwd`/_build `pwd`/_build/community/js/stats.json
+	run script/containthedocs python3 script/stats.py ${STATS_OPTIONS} `pwd`/_build `pwd`/_build/community/js/stats.json
 }
 
 function buildrootorig {
