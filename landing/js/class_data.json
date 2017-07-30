@@ -41,7 +41,7 @@
 		{
 			"id":"ddos",
 	         "name":"DDoS Solutions",
-	         "description":"Learn how to use the F5 platform to mitigate Distributed Deniel of Service attacks.",
+	         "description":"Learn how to use the F5 platform to mitigate Distributed Denial of Service attacks",
 	         "tags":["security","ddos","afm","asm"],
 	         "sphinxname":"F5SolutionsforDDoS",
 	         "ga_id":"",
@@ -63,7 +63,7 @@
 		{
 			"id":"dns",
 	         "name":"GSLB & DNS Solutions",
-	         "description":"Learn how to use the DNS features of the F5 platform including Global Server Load Balancing, DNS Resolver/Caching, DNSSEC and other functionality.",
+	         "description":"Learn how to use the DNS features of the F5 platform including Global Server Load Balancing, DNS Resolver/Caching, DNSSEC and other functionality",
 	         "tags":["adc","dns","caching","resolver","ltm","gtm"],
 	         "sphinxname":"DNSServices",
 	         "ga_id":"",
@@ -123,13 +123,25 @@
 		{
 			"id":"iam",
 			"name":"Identity & Access Management Solutions",
-			"description":"Learn how to protect Application Access by leveraging SAML, oAuth, SSL-VPN and Active Directory",
+			"description":"Learn how to protect Application Access by leveraging SAML, OAuth, SSL-VPN and Active Directory",
 			"tags":["security","identity","saml","oauth","active-directory"],
 			"sphinxname":"F5IdentityandAccessManagementSolutions",
 			"ga_id":"",
 			"classes": [
 				{
+					"id":"class1",
+					"name":"SAML Federation with F5",
+					"tags":["federation","saml"],
+					"level":0
+				},
+				{
 					"id":"class2",
+					"name":"OAuth Federation with F5",
+					"tags":["federation","oauth"],
+					"level":0
+				},
+				{
+					"id":"class3",
 					"name":"SWG - Securing Outbound Internet Access",
 					"tags":[],
 					"level":0
@@ -166,15 +178,17 @@
 		},
 		{
 			"id":"containers",
-			"name":"Containerized Infrastructure Solutions",
+			"name":"Container Solutions",
 			"description":"Learn how to integrate the F5 platform with Kubernetes, Mesos/Marathon and OpenShift",
 			"tags":["container","kubernetes","k8s","mesos","marathon","openshift","asp","cc"],
-			"sphinxname":"F5SolutionsforContainerInfrastructures",
+			"sphinxname":"F5SolutionsforContainers",
 			"ga_id":"",
 			"classes": [
 				{
 					"id":"class1",
-					"name":"F5 101 Kubernetes",
+					"name":"F5 Container Solutions",
+					"htmllink":"/html/index.html",
+					"pdflink":"/pdf/F5SolutionsforContainers.pdf",
 					"tags":[],
 					"level":0
 				}
@@ -205,7 +219,7 @@
 		{
 			"id":"programmability",
 			"name":"Control Plane Programmability and Automation",
-			"description":"Learn how to use the programmability features of the F5 platform using the iControl REST API, iWorkflow, the f5-super-netops toolchain and other tools.",
+			"description":"Learn how to use the programmability features of the F5 platform using the iControl REST API, iWorkflow, the f5-super-netops toolchain and other tools",
 			"tags":["programmability","rest","icontrol","ansible","python","api","devops","declarative","automation"],
 			"sphinxname":"F5ProgrammabilityTraining",
 			"ga_id":"",
@@ -265,7 +279,7 @@
 		{
 			"id":"vdi",
 			"name":"Virtual Desktop Infrastructure Solutions",
-			"description":"Learn how to integrate F5 solutions with VDI solutions with VMware View, Citrix XenDesktop and Microsoft RDS Proxy.",
+			"description":"Learn how to integrate F5 solutions with VDI solutions with VMware View, Citrix XenDesktop and Microsoft RDS Proxy",
 			"tags":["vdi","vmware","citrix","rds","view","xendesktop"],
 			"sphinxname":"F5SolutionsforVDI",
 			"ga_id":"",

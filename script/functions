@@ -39,6 +39,10 @@ function buildroot {
 	run cp -Rf landing/* _build/community/
 }
 
+function buildstats {
+	run script/containthedocs python3 script/stats.py `pwd`/_build `pwd`/_build/community/js/stats.json
+}
+
 function buildrootorig {
 	rm docs/labs.include
 	mkdir -p _build/community/
