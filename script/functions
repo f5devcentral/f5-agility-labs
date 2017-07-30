@@ -13,6 +13,11 @@ function run {
 
 # Build lab submodules.  Set MAKE_OPT to pass addtional options/targets to make
 function buildlabs {
+
+	if [[ ! -z "$SKIP_BUILDLABS" ]]; then
+		return
+	fi
+
 	for l in `ls labs`
 	do
  		run mkdir -p "_build/community/$l/html"
@@ -40,6 +45,10 @@ function buildroot {
 }
 
 function buildstats {
+	if [[ ! -z "$SKIP_BUILDLABS" ]]; then
+		return
+	fi
+
 	run script/containthedocs python3 script/stats.py `pwd`/_build `pwd`/_build/community/js/stats.json
 }
 
