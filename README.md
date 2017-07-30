@@ -73,3 +73,18 @@ Push new commit hashes for submodules:
 - `git commit -a -m "commit msg"`
 - `git push`
 
+# Build Options
+
+The following environment variables can be used to modify what is built:
+
+- ``SKIP_BUILDLABS``: Presense of the variable will cause lab content 
+  build to be skipped.  Landing page will still be built
+
+  - Example: ``export SKIP_BUILDLABS=1``
+
+- ``BUILD_LIST``: A space delimted list of lab submodules to build.  By 
+  default the contents of the labs/ submodule directory are populated
+  in this variable.  Setting allows you to build only specific labs
+
+  - Example: ``export BUILD_LIST="adc ddos programmability"
+  

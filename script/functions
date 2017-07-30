@@ -18,7 +18,13 @@ function buildlabs {
 		return
 	fi
 
-	for l in `ls labs`
+	if [[ -z "$BUILD_LIST" ]]; then
+		BUILD_LIST=`ls labs`
+	fi
+
+	echo "BUILD_LIST=$BUILD_LIST"
+
+	for l in ${BUILD_LIST}
 	do
  		run mkdir -p "_build/community/$l/html"
  		run mkdir -p "_build/community/$l/pdf"
