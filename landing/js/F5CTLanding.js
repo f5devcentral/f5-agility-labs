@@ -59,8 +59,6 @@ var F5CTLanding = {
 		window.setTimeout(loadDone, 20);
 	},
 	updateStats: function() {
-		console.log("pages: " + this.stats.totalPages);
-		console.log("words: " + this.stats.totalWords);
 		$(".f5-stats").empty();
 		$(".f5-stats").append('<p class="f5-stats">Currently serving up ' +
 			this.classCounter.toLocaleString() + ' classes with ' +
