@@ -86,5 +86,5 @@ The following environment variables can be used to modify what is built:
   default the contents of the labs/ submodule directory are populated
   in this variable.  Setting allows you to build only specific labs
 
-  - Example: ``export BUILD_LIST="adc ddos programmability"
+  - Example: ``export BUILD_LIST="adc ddos programmability"``
   
