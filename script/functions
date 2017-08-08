@@ -26,6 +26,10 @@ function buildlabs {
 
 	STATS_OPTIONS="-i"
 
+	if [[ -z "$BUILD_ALL" ]]; then
+		STATS_OPTIONS=""
+	fi
+
 	echo "BUILD_LIST=$BUILD_LIST"
 
 	run mkdir -p hash
