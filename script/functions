@@ -1,5 +1,7 @@
 #!/bin/bash
 
+CD_BASEURL="http://clouddocs.f5.com/training/community"
+
 # Run a command.  Print error and exit if exitcode > 0
 function run {
     "$@"
@@ -20,20 +22,31 @@ function buildlabs {
 
 	if [[ -z "$BUILD_LIST" ]]; then
 		BUILD_LIST=`ls labs`
-		STATS_OPTIONS=""
-	else
-		STATS_OPTIONS="-i"
 	fi
+
+	STATS_OPTIONS="-i"
 
 	echo "BUILD_LIST=$BUILD_LIST"
 
+	run mkdir -p hash
+
 	for l in ${BUILD_LIST}
 	do
- 		run mkdir -p "_build/community/$l/html"
- 		run mkdir -p "_build/community/$l/pdf"
  		REPOROOT=$PWD
  		LABREPOROOT="$PWD/labs/$l"
  		DOCROOT="$LABREPOROOT/docs"
+
+ 		RESPONSE=`curl --write-out %{http_code} -s -o $REPOROOT/hash/$l "$CD_BASEURL/$l/buildhash"`
+ 		CUR_HASH=`cd $LABREPOROOT && git rev-parse HEAD`
+ 		LIVE_HASH=`cat $REPOROOT/hash/$l`
+ 		if [[ "$RESPONSE" == "200" && "$CUR_HASH" == "$LIVE_HASH" ]]; then
+ 			if [[ -z "$BUILD_ALL" ]]; then
+ 				continue
+ 			fi
+ 		fi
+
+ 		run mkdir -p "_build/community/$l/html"
+ 		run mkdir -p "_build/community/$l/pdf"
  		cp common/preamble.tex $DOCROOT/
  		cp common/front_cover.png $DOCROOT/_static/
  		cp common/back_cover.png $DOCROOT/_static/
@@ -41,6 +54,7 @@ function buildlabs {
  		run script/containthedocs make -C "$DOCROOT" $MAKE_OPT html latexpdf
  		run cd $LABREPOROOT
  		run ./containthedocs-pdf-perclass.sh
+ 		run git rev-parse HEAD >> "$REPOROOT/_build/community/$l/buildhash"
  		run cd $REPOROOT
  		run cp -Rf "$DOCROOT"/_build/html/* "_build/community/$l/html"
  		run cp -Rf "$DOCROOT"/_build/latex/*.pdf "_build/community/$l/pdf"
@@ -60,28 +74,6 @@ function buildstats {
 	fi
 
 	run script/containthedocs python3 script/stats.py ${STATS_OPTIONS} `pwd`/_build `pwd`/_build/community/js/stats.json
-}
-
-function buildrootorig {
-	rm docs/labs.include
-	mkdir -p _build/community/
-	for l in `ls labs`
-	do
-		LABROOT="$PWD/labs/$l"
-		PDFPATH=`ls _build/$l/pdf/*.pdf | head -n 1`
-		PDFNAME=`basename $PDFPATH`
- 		if [ -f "$LABROOT"/DESCRIPTION.rst ]; then
- 			cat "$LABROOT"/DESCRIPTION.rst >> docs/labs.include
- 		else
- 			LABNAME="$(tr '[:lower:]' '[:upper:]' <<< ${l:0:1})${l:1}"
- 			printf "$LABNAME Labs\n---------------------------------------\n" >> docs/labs.include
- 		fi
- 		echo "" >> docs/labs.include
- 		echo "\`HTML Lab Guide </training/$l/html/index.html>\`__ | \`PDF Lab Guide </training/$l/pdf/$PDFNAME>\`__" >> docs/labs.include
- 		echo "" >> docs/labs.include
- 	done
-	run make -C docs clean html
-	run cp -Rf docs/_build/html/* "_build/community/"
 }
 
 # Clean up the _build directory

@@ -87,4 +87,9 @@ The following environment variables can be used to modify what is built:
   in this variable.  Setting allows you to build only specific labs
 
   - Example: ``export BUILD_LIST="adc ddos programmability"``
+
+- ``BUILD_ALL``: Force a build of all submodules in ``BUILD_LIST``
+
+  - Example: ``export BUILD_ALL=1``
+
   
