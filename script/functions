@@ -26,7 +26,7 @@ function buildlabs {
 
 	STATS_OPTIONS="-i"
 
-	if [[ -z "$BUILD_ALL" ]]; then
+	if [[ ! -z "$BUILD_ALL" ]]; then
 		STATS_OPTIONS=""
 	fi
 
