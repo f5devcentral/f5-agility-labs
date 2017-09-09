@@ -57,6 +57,12 @@
 	               "name":"Intermediate DDoS Protection",
 	               "tags":[""],
 	               "level":1
+	            },
+	            {
+	               "id":"class3",
+	               "name":"F5 Agility Lab Day: DDoS Hybrid Defender",
+	               "tags":[""],
+	               "level":1
 	            }
 	         ]
 		},
