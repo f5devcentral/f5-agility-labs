@@ -61,8 +61,8 @@ function buildlabs {
  		run git rev-parse HEAD >> "$REPOROOT/_build/community/$l/buildhash"
  		run cd $REPOROOT
  		run cp -Rf "$DOCROOT"/_build/html/* "_build/community/$l/html"
- 		run cp -Rf "$DOCROOT"/_build/latex/*.pdf "_build/community/$l/pdf"
- 		run cp -Rf "$LABREPOROOT"/pdf/*.pdf "_build/community/$l/pdf"
+ 		run cp -Rf "$DOCROOT"/_build/latex/[!graphviz]*.pdf "_build/community/$l/pdf"
+ 		run cp -Rf "$LABREPOROOT"/pdf/[!graphviz]*.pdf "_build/community/$l/pdf"
 	done
 }
 
