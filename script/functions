@@ -57,7 +57,7 @@ function buildlabs {
  		run cp -Rf "$DOCROOT"/_build/html/* "_build/community/$l/html"
     run cd "_build/community/$l"
     run ln -s html $l
-    run zip -r $l.zip $l/*
+    run zip -rq9 $l.zip $l/*
     run rm $l
     run cd $REPOROOT
 
