@@ -86,11 +86,7 @@ var F5CTLanding = {
 					var classHtmlLink = htmlLink;
 				}
 
-				if(typeof(c.pdflink) === 'undefined') {
-					var pdfLink = g.id + '/pdf/' + g.sphinxname + '-' + c.id + '.pdf';
-				} else {
-					var pdfLink = g.id + c.pdflink;
-				}
+				var zipLink = g.id + '/' + g.id + '.zip';
 
 				$( ".f5-classes" ).append(
 					'  <div class="col-md-4 f5-class-item">' +
@@ -99,7 +95,7 @@ var F5CTLanding = {
 					'   <p>' + g.description + '</p>' +
         			'   <p>' +
           			'    <a class="btn btn-primary" href="' + classHtmlLink + '">HTML</a>' +
-          			'    <a class="btn btn-primary" href="' + pdfLink + '">PDF</a>' +
+          			'    <a class="btn btn-primary" href="' + zipLink + '">ZIP</a>' +
         			'   </p>' +
       				'  </div>');
 

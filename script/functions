@@ -50,19 +50,30 @@ function buildlabs {
  		fi
 
  		run mkdir -p "_build/community/$l/html"
- 		run mkdir -p "_build/community/$l/pdf"
- 		cp common/preamble.tex $DOCROOT/
- 		cp common/front_cover.png $DOCROOT/_static/
- 		cp common/back_cover.png $DOCROOT/_static/
- 		cp common/header.html $DOCROOT/_templates/
- 		run script/containthedocs make -C "$DOCROOT" $MAKE_OPT html latexpdf
- 		run cd $LABREPOROOT
- 		run ./containthedocs-pdf-perclass.sh
+    run script/containthedocs make -C "$DOCROOT" $MAKE_OPT html
+    run cd $LABREPOROOT
  		run git rev-parse HEAD >> "$REPOROOT/_build/community/$l/buildhash"
  		run cd $REPOROOT
  		run cp -Rf "$DOCROOT"/_build/html/* "_build/community/$l/html"
- 		run cp -Rf "$DOCROOT"/_build/latex/[!graphviz]*.pdf "_build/community/$l/pdf"
- 		run cp -Rf "$LABREPOROOT"/pdf/[!graphviz]*.pdf "_build/community/$l/pdf"
+    run cd "_build/community/$l"
+    run ln -s html $l
+    run zip -r $l.zip $l/*
+    run rm $l
+    run cd $REPOROOT
+
+    if [[ ! -z "$BUILD_PDF" ]]; then
+      run mkdir -p "_build/community/$l/pdf"
+   		cp common/preamble.tex $DOCROOT/
+   		cp common/front_cover.png $DOCROOT/_static/
+   		cp common/back_cover.png $DOCROOT/_static/
+   		cp common/header.html $DOCROOT/_templates/
+      run script/containthedocs make -C "$DOCROOT" $MAKE_OPT latexpdf
+      run cd $LABREPOROOT
+   		run ./containthedocs-pdf-perclass.sh
+      run cp -Rf "$DOCROOT"/_build/latex/[!graphviz]*.pdf "_build/community/$l/pdf"
+   		run cp -Rf "$LABREPOROOT"/pdf/[!graphviz]*.pdf "_build/community/$l/pdf"
+    fi
+
 	done
 }
 
@@ -77,7 +88,7 @@ function buildstats {
 		return
 	fi
 
-	run script/containthedocs python3 script/stats.py ${STATS_OPTIONS} `pwd`/_build `pwd`/_build/community/js/stats.json
+	#run script/containthedocs python3 script/stats.py ${STATS_OPTIONS} `pwd`/_build `pwd`/_build/community/js/stats.json
 }
 
 # Clean up the _build directory
