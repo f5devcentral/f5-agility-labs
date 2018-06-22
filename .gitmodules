@@ -46,3 +46,6 @@
 [submodule "labs/gsts"]
 	path = labs/gsts
 	url = https://github.com/f5devcentral/f5-gsts-labs-ansible-cookbook
+[submodule "labs/cloud-edition"]
+	path = labs/cloud-edition
+	url = https://github.com/f5devcentral/f5-big-iq-6.0.0-lab
