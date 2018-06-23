@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CD_BASEURL="http://clouddocs.f5.com/training/community"
+CD_BASEURL="https://clouddocs.f5.com/training/community"
 
 # Run a command.  Print error and exit if exitcode > 0
 function run {
