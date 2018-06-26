@@ -40,7 +40,7 @@ function buildlabs {
  		LABREPOROOT="$PWD/labs/$l"
  		DOCROOT="$LABREPOROOT/docs"
 
- 		RESPONSE=`curl --write-out %{http_code} -s -o $REPOROOT/hash/$l "$CD_BASEURL/$l/buildhash"`
+ 		RESPONSE=`curl --write-out %{http_code} -s -o $REPOROOT/hash/$l "$CD_BASEURL/$l/buildhash.sha1"`
  		CUR_HASH=`cd $LABREPOROOT && git rev-parse HEAD`
  		LIVE_HASH=`cat $REPOROOT/hash/$l`
  		if [[ "$RESPONSE" == "200" && "$CUR_HASH" == "$LIVE_HASH" ]]; then
@@ -52,7 +52,7 @@ function buildlabs {
  		run mkdir -p "_build/community/$l/html"
     run script/containthedocs make -C "$DOCROOT" $MAKE_OPT html
     run cd $LABREPOROOT
- 		run git rev-parse HEAD >> "$REPOROOT/_build/community/$l/buildhash"
+ 		run git rev-parse HEAD >> "$REPOROOT/_build/community/$l/buildhash.sha1"
  		run cd $REPOROOT
  		run cp -Rf "$DOCROOT"/_build/html/* "_build/community/$l/html"
     run cd "_build/community/$l"
