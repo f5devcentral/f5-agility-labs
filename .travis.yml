@@ -1,7 +1,6 @@
 deploy:
   -
     access_key_id: $AWS_ACCESS_KEY_ID
-    acl: public_read
     bucket: $AWS_S3_BUCKET
     local_dir: _build/
     provider: s3
@@ -11,6 +10,8 @@ deploy:
     true:
       repo: f5devcentral/f5-agility-labs
     upload_dir: training
+after_deploy:
+    - aws cloudfront create-invalidation --distribution-id E1HX79G4673AUN --paths /training/community
 before_install:
     - sudo apt-get -qq update
     - sudo apt-get install -y python3
@@ -24,3 +25,4 @@ script:
 services:
   - docker
 sudo: required
+
