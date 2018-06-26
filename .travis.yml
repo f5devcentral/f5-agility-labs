@@ -4,7 +4,7 @@ deploy:
     bucket: $AWS_S3_BUCKET
     local_dir: _build/
     provider: s3
-    region: us-west-1
+    region: us-east-1
     secret_access_key: $AWS_SECRET_ACCESS_KEY
     skip_cleanup: true
     true:
