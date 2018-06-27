@@ -11,7 +11,7 @@ deploy:
       repo: f5devcentral/f5-agility-labs
     upload_dir: training
 after_deploy:
-    - aws cloudfront create-invalidation --distribution-id E1HX79G4673AUN --paths /training/community
+    - aws cloudfront create-invalidation --distribution-id $AWS_DIST_ID --paths /training/community
 before_install:
     - sudo apt-get -qq update
     - sudo apt-get install -y python3
