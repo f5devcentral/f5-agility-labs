@@ -2,8 +2,8 @@
 	"groups": [
 		{
 			"id":"adc",
-			"name":"Application Delivery Controller Solutions",
-			"description":"Learn how to leverage F5 ADC solutions and Make Your Apps GO",
+			"name":"Application Delivery Controller",
+			"description":"Leverage F5 ADC solutions and Make Your Apps GO",
 			"tags":["adc","ltm","irules","ssl","tls"],
 			"sphinxname":"F5ApplicationDeliveryControllerSolutions",
 			"ga_id":"",
@@ -24,8 +24,8 @@
 		},
 		{
 			"id":"analytics",
-			"name":"Analytics and Visibility Solutions",
-			"description":"Learn how to gain Visiblity and Insights into your application traffic",
+			"name":"Analytics and Visibility",
+			"description":"Gain Visiblity and Insights into your application traffic",
 			"tags":["analytics","visibility","appiq","adc","security"],
 			"sphinxname":"F5AnalyticsandVisibilitySolutions",
 			"ga_id":"",
@@ -39,9 +39,37 @@
 			]
 		},
 		{
+			"id":"programmability",
+			"name":"Automation, Orchestration & DevOps",
+			"description":"Use the programmability features of the F5 platform using the iControl REST API, iControl LX Extensions, the f5-super-netops toolchain and other tools",
+			"tags":["programmability","rest","icontrol","ansible","python","api","devops","declarative","automation"],
+			"sphinxname":"F5ProgrammabilityTraining",
+			"ga_id":"",
+			"classes": [
+				{
+					"id":"class1",
+					"name":"Introduction to Automation & Orchestration",
+					"tags":["automation","orchestration","rest","postman"],
+					"level":0
+				},
+				{
+					"id":"class2",
+					"name":"Building Continuous Delivery Pipelines",
+					"tags":["devops","ci","cd","jenkins"],
+					"level":1
+				},
+				{
+					"id":"class3",
+					"name":"Introduction to SecDevOps",
+					"tags":["security","secdevops","devops","automation"],
+					"level":1
+				}
+			]
+		},
+		{
 			"id":"ddos",
-	         "name":"DDoS Solutions",
-	         "description":"Learn how to use the F5 platform to mitigate Distributed Denial of Service attacks",
+	         "name":"DDoS",
+	         "description":"Use the F5 platform to mitigate Distributed Denial of Service attacks",
 	         "tags":["security","ddos","afm","asm"],
 	         "sphinxname":"F5SolutionsforDDoS",
 	         "ga_id":"",
@@ -68,8 +96,8 @@
 		},
 		{
 			"id":"dns",
-	         "name":"GSLB & DNS Solutions",
-	         "description":"Learn how to use the DNS features of the F5 platform including Global Server Load Balancing, DNS Resolver/Caching, DNSSEC and other functionality",
+	         "name":"GSLB & DNS",
+	         "description":"Use the DNS features of the F5 platform including Global Server Load Balancing, DNS Resolver/Caching, DNSSEC and other functionality",
 	         "tags":["adc","dns","caching","resolver","ltm","gtm"],
 	         "sphinxname":"DNSServices",
 	         "ga_id":"",
@@ -90,8 +118,8 @@
 		},
 		{
 			"id":"firewall",
-			"name":"L4-7 Firewall Solutions",
-			"description":"Learn how to leverage F5's rich application layer capabilities for L4-7 Firewall use cases",
+			"name":"L4-7 Firewall",
+			"description":"Leverage F5's rich application layer capabilities for L4-7 Firewall use cases",
 			"tags":["firewall","security","afm","asm"],
 			"sphinxname":"F5FirewallSolutions",
 			"ga_id":"",
@@ -112,8 +140,8 @@
 		},
 		{
 			"id":"fps",
-			"name":"Fraud Protection Solutions",
-			"description":"Learn how to protect your users from client-side malware, phishing and credential theft",
+			"name":"Fraud Protection",
+			"description":"Protect your users from client-side malware, phishing and credential theft",
 			"tags":["security","fraud","malware","phishing","credentials","websafe"],
 			"sphinxname":"F5FraudProtectionSolutions",
 			"ga_id":"",
@@ -128,8 +156,8 @@
 		},
 		{
 			"id":"iam",
-			"name":"Identity & Access Management Solutions",
-			"description":"Learn how to protect Application Access by leveraging SAML, OAuth, SSL-VPN and Active Directory",
+			"name":"Identity & Access Management",
+			"description":"Protect Application Access by leveraging SAML, OAuth, SSL-VPN and Active Directory",
 			"tags":["security","identity","saml","oauth","active-directory"],
 			"sphinxname":"F5IdentityandAccessManagementSolutions",
 			"ga_id":"",
@@ -156,8 +184,8 @@
 		},
 		{
 			"id":"irules",
-			"name":"iRules Data Programmability",
-			"description":"Learn how to leverage data plane programmability with F5 iRules and iRules LX",
+			"name":"iRules Data Plane Programmability",
+			"description":"Leverage data plane programmability with F5 iRules and iRules LX",
 			"tags":["adc","programmability","irules","iruleslx","tcl","nodejs","node"],
 			"sphinxname":"F5iRulesDataPlaneProgrammability",
 			"ga_id":"",
@@ -184,8 +212,8 @@
 		},
 		{
 			"id":"containers",
-			"name":"Container Solutions",
-			"description":"Learn how to integrate the F5 platform with Kubernetes, Mesos/Marathon and OpenShift",
+			"name":"Container Ecosystems",
+			"description":"Integrate the F5 platform with Kubernetes, Mesos/Marathon and OpenShift",
 			"tags":["container","kubernetes","k8s","mesos","marathon","openshift","asp","cc"],
 			"sphinxname":"F5SolutionsforContainers",
 			"ga_id":"",
@@ -202,8 +230,8 @@
 		},
 		{
 			"id":"private-cloud",
-			"name":"Private Cloud Solutions",
-			"description":"Learn how to leverage F5 BIG-IP with Private Cloud solutions such as OpenStack and Cisco APIC",
+			"name":"Private Cloud",
+			"description":"Leverage F5 BIG-IP with Private Cloud solutions such as OpenStack and Cisco APIC",
 			"tags":["private-cloud","cloud","automation","programmability","apic","cisco","openstack"],
 			"sphinxname":"F5PrivateCloudSolutions",
 			"ga_id":"",
@@ -229,37 +257,9 @@
 			]
 		},
 		{
-			"id":"programmability",
-			"name":"Control Plane Programmability and Automation",
-			"description":"Learn how to use the programmability features of the F5 platform using the iControl REST API, iWorkflow, the f5-super-netops toolchain and other tools",
-			"tags":["programmability","rest","icontrol","ansible","python","api","devops","declarative","automation"],
-			"sphinxname":"F5ProgrammabilityTraining",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"Introduction to Automation & Orchestration",
-					"tags":["automation","orchestration","rest","postman"],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"Building Continuous Delivery Pipelines",
-					"tags":["devops","ci","cd","jenkins"],
-					"level":1
-				},
-				{
-					"id":"class3",
-					"name":"Introduction to SecDevOps",
-					"tags":["security","secdevops","devops","automation"],
-					"level":1
-				}
-			]
-		},
-		{
 			"id":"public-cloud",
-			"name":"Public Cloud Solutions",
-			"description":"Learn how to leverage F5 BIG-IP with Public Cloud providers such as Amazon AWS, Microsoft Azure and Google Compute Platform",
+			"name":"Public Cloud",
+			"description":"Leverage F5 BIG-IP with Public Cloud providers such as Amazon AWS, Microsoft Azure and Google Compute Platform",
 			"tags":["public-cloud","aws","azure","gcp"],
 			"sphinxname":"F5PublicCloudSolutions",
 			"ga_id":"",
@@ -274,7 +274,7 @@
 		},
 		{
 			"id":"sslviz",
-			"name":"SSL/TLS Visiblity Solutions",
+			"name":"SSL/TLS Visiblity",
 			"description":"Gain security visibility into SSL/TLS Encrypted Traffic with F5 SSL Visibility solutions",
 			"tags":["ssl","security","tls"],
 			"sphinxname":"F5SolutionsforSSLVisibility",
@@ -290,8 +290,8 @@
 		},
 		{
 			"id":"vdi",
-			"name":"Virtual Desktop Infrastructure Solutions",
-			"description":"Learn how to integrate F5 solutions with VDI solutions with VMware View, Citrix XenDesktop and Microsoft RDS Proxy",
+			"name":"Virtual Desktop Infrastructure",
+			"description":"Integrate F5 solutions with VDI solutions with VMware View, Citrix XenDesktop and Microsoft RDS Proxy",
 			"tags":["vdi","vmware","citrix","rds","view","xendesktop"],
 			"sphinxname":"F5SolutionsforVDI",
 			"ga_id":"",
@@ -306,7 +306,7 @@
 		},
 		{
 			"id":"waf",
-			"name":"Web Application Firewall Solutions",
+			"name":"Web Application Firewall",
 			"description":"Protect your web based applications using F5 Web Application Firewalling solutions",
 			"tags":["waf","security"],
 			"sphinxname":"F5WebApplicationFirewallSolutions",

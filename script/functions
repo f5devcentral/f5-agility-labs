@@ -81,14 +81,7 @@ function buildlabs {
 function buildroot {
 	run mkdir -p _build/community/
 	run cp -Rf landing/* _build/community/
-}
-
-function buildstats {
-	if [[ ! -z "$SKIP_BUILDLABS" ]]; then
-		return
-	fi
-
-	#run script/containthedocs python3 script/stats.py ${STATS_OPTIONS} `pwd`/_build `pwd`/_build/community/js/stats.json
+	run script/containthedocs script/genindex.py landing/js/class_data.json landing/index.html _build/community/index.html
 }
 
 # Clean up the _build directory
