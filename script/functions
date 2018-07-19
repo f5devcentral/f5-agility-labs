@@ -81,6 +81,7 @@ function buildlabs {
 function buildroot {
 	run mkdir -p _build/community/
 	run cp -Rf landing/* _build/community/
+	run script/containthedocs script/genindex.py landing/js/class_data.json landing/index.html _build/community/index.html
 }
 
 # Clean up the _build directory

@@ -1,17 +1,38 @@
 h2 {
     margin-bottom: 2px;
 }
-.f5-class-item {
-    min-height: 200px;
-}
 
 .f5-group {
+    margin: 10px;
+    border: 1px solid gray
+}
+
+.f5-group-name {
+    color: black;
+    font-style: bold;
+    font-size: 22px;
+    margin: 5px;
+}
+
+.f5-group-description {
     color: grey;
     font-style: italic;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+.f5-class-item {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.f5-class-download {
+    font-size: 12px;
 }
 
 .f5-stats {
 	color: grey;
 	font-style: italic;
-	margin-top: 22px;
+    margin-top: 22px;
+    text-align: right;
 }
