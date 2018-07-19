@@ -61,9 +61,7 @@ var F5CTLanding = {
 	updateStats: function() {
 		$(".f5-stats").empty();
 		$(".f5-stats").append('<p class="f5-stats">Currently serving up ' +
-			this.classCounter.toLocaleString() + ' classes with ' +
-			this.stats.totalPages.toLocaleString() + ' pages (' +
-			this.stats.totalWords.toLocaleString() + ' words) of awesome!</p>')
+			this.classCounter.toLocaleString() + ' awesome classes!</p>')
 	},
 	updatePage: function() {
 		var _this = this;

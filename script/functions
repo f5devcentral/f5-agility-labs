@@ -83,14 +83,6 @@ function buildroot {
 	run cp -Rf landing/* _build/community/
 }
 
-function buildstats {
-	if [[ ! -z "$SKIP_BUILDLABS" ]]; then
-		return
-	fi
-
-	#run script/containthedocs python3 script/stats.py ${STATS_OPTIONS} `pwd`/_build `pwd`/_build/community/js/stats.json
-}
-
 # Clean up the _build directory
 function cleanbuild {
 	run rm -Rf $PWD/_build/
