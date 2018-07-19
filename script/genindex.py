@@ -28,7 +28,7 @@ def main():
 
             html += ' <div class="row f5-group">\n' +\
                     '  <div class="col-md-12">\n' +\
-                    '   <a class="f5-group-name" href="' + group["id"] + 'html/index.html">' + group["name"] + '</a><br>\n' +\
+                    '   <a class="f5-group-name" href="' + group["id"] + '/html/index.html">' + group["name"] + '</a><br>\n' +\
                     '   <font class="f5-group-description">' + group["description"] + '</font>\n' +\
                     '  </div>'
 
