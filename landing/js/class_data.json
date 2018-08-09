@@ -113,6 +113,12 @@
 	               "name":"DNS Services",
 	               "tags":["gslb"],
 	               "level":0
+	            },
+	            {
+	               "id":"class4",
+	               "name":"DNS and EDNS0",
+	               "tags":["dns","edns0"],
+	               "level":2
 	            }
 	         ]
 		},
