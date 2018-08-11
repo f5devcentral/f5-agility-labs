@@ -39,6 +39,28 @@
 			]
 		},
 		{
+			"id":"f5cert",
+			"name":"F5 Certification",
+			"description":"F5 Certification Labs",
+			"tags":["f5","cert","agility","certification"],
+			"sphinxname":"F5certlabs",
+			"ga_id":"",
+			"classes": [
+				{
+					"id":"class1",
+					"name":"F5 201 - TMOS Administration",
+					"tags":["201","cert"],
+					"level":0
+				},
+				{
+					"id":"class2",
+					"name":"F5 301a - LTM Specialist: Architect, Setup, and Deploy",
+					"tags":["301a","cert"],
+					"level":0
+				}
+			]
+		},
+		{
 			"id":"programmability",
 			"name":"Automation, Orchestration & DevOps",
 			"description":"Use the programmability features of the F5 platform using the iControl REST API, iControl LX Extensions, the f5-super-netops toolchain and other tools",
@@ -288,7 +310,7 @@
 			"classes": [
 				{
 					"id":"class1",
-					"name":" Deploying F5 Azure SACA",
+					"name":"Deploying F5 Azure SACA",
 					"tags":["azure","saca"],
 					"level":1
 				}
