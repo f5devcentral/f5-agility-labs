@@ -199,7 +199,7 @@
 				{
 					"id":"class1",
 					"name":"Cooking with iRules - HTTP",
-					"tags":["http"],
+					"tags":["irules"],
 					"level":0
 				},
 				{
@@ -275,6 +275,22 @@
 					"name":" Deploying BIG-IP Virtual Edition in AWS",
 					"tags":["aws","virtual-edition"],
 					"level":0
+				}
+			]
+		},
+		{
+			"id":"azure-saca",
+			"name":"F5 Azure SACA",
+			"description":"F5 Secure Azure Computing Architecture for DoD (SACA)",
+			"tags":["public-cloud","azure","saca"],
+			"sphinxname":"F5AzureSACA",
+			"ga_id":"",
+			"classes": [
+				{
+					"id":"class1",
+					"name":" Deploying F5 Azure SACA",
+					"tags":["azure","saca"],
+					"level":1
 				}
 			]
 		},
