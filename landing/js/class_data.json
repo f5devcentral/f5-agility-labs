@@ -377,7 +377,50 @@
 					"name":"F5 WAF: Practical Intro to L7 Security",
 					"tags":["waf","security"],
 					"level":0
+				},
+				{
+					"id":"class2",
+					"name":"F5 WAF: Capture the Flag",
+					"tags":["waf","security"],
+					"level":0
+				},
+				{
+					"id":"class3",
+					"name":"ASM 141 - Getting started with ASM",
+					"tags":["waf","security"],
+					"level":0
+				},
+				{
+					"id":"class4",
+					"name":"ASM 241 - Elevating ASM Protection",
+					"tags":["waf","security"],
+					"level":1
+				},
+				{
+					"id":"class5",
+					"name":"ASM 341 - High and Maximum Security",
+					"tags":["waf","security"],
+					"level":2
+				},
+				{
+					"id":"class6",
+					"name":"ASM 342 - WAF Programmability",
+					"tags":["waf","security"],
+					"level":2
+				},
+				{
+					"id":"class7",
+					"name":"ASM 280: Pwn like a Hacker; Protect like a Pro",
+					"tags":["waf","api","security"],
+					"level":0
+				},
+				{
+					"id":"class8",
+					"name":"API Protection with ASM",
+					"tags":["waf","api","security"],
+					"level":0
 				}
+
 			]
 		}
 	]
