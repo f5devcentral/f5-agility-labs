@@ -19,6 +19,18 @@
 					"name":"Building the F5 Fabric",
 					"tags":["high-availability","dsc","clustering"],
 					"level":2
+				},
+				{
+					"id":"class3",
+					"name":"BIG-IP® Local Traffic Manager (LTM) - v13.1 Lab Guide",
+					"tags":["BIG-IP","ltm"],
+					"level":1
+				},
+				{
+					"id":"class4",
+					"name":"Troubleshoot with tcpdump and Wireshark",
+					"tags":["tcpdump","wireshark"],
+					"level":1
 				}
 			]
 		},
@@ -49,13 +61,13 @@
 				{
 					"id":"class1",
 					"name":"F5 201 - TMOS Administration",
-					"tags":["201","cert"],
+					"tags":["201","cert","tmos"],
 					"level":0
 				},
 				{
 					"id":"class2",
 					"name":"F5 301a - LTM Specialist: Architect, Setup, and Deploy",
-					"tags":["301a","cert"],
+					"tags":["301a","cert","ltm"],
 					"level":0
 				}
 			]
@@ -227,7 +239,7 @@
 				{
 					"id":"class2",
 					"name":"Cooking with iRules - Security/SSL",
-					"tags":["security","ssl"],
+					"tags":["irules","security","ssl"],
 					"level":1
 				},
 				{
@@ -242,15 +254,19 @@
 			"id":"containers",
 			"name":"Container Ecosystems",
 			"description":"Integrate the F5 platform with Kubernetes, Mesos/Marathon and OpenShift",
-			"tags":["container","kubernetes","k8s","mesos","marathon","openshift","asp","cc"],
+			"tags":["docker","container","kubernetes","k8s","mesos","marathon","openshift","ocp","cc"],
 			"sphinxname":"F5SolutionsforContainers",
 			"ga_id":"",
 			"classes": [
 				{
 					"id":"class1",
 					"name":"F5 Container Solutions",
-					"htmllink":"/html/index.html",
-					"pdflink":"/pdf/F5SolutionsforContainers.pdf",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class2",
+					"name":"Advanced Labs for Red Hat OpenShift Container Platform (OCP)",
 					"tags":[],
 					"level":0
 				}
@@ -341,7 +357,7 @@
 			"ga_id":"",
 			"classes": [
 				{
-					"id":"class2",
+					"id":"class1",
 					"name":"VDI the F5 Way",
 					"tags":[],
 					"level":1
