@@ -22,7 +22,7 @@
 				},
 				{
 					"id":"class3",
-					"name":"BIG-IP® Local Traffic Manager (LTM) - v13.1 Lab Guide",
+					"name":"BIG-IP Local Traffic Manager (LTM) - v13.1 Lab Guide",
 					"tags":["BIG-IP","ltm"],
 					"level":1
 				},
@@ -44,7 +44,7 @@
 			"classes": [
 				{
 				   "id":"class1",
-				   "name":"Introduction to F5 Analytics",
+				   "name":"F5 Analytics and Visibility Solutions",
 				   "tags":[],
 				   "level":0
 				}
