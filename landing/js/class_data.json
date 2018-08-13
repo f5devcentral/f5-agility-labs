@@ -109,7 +109,21 @@
 					"name":"Introduction to SecDevOps",
 					"tags":["security","secdevops","devops","automation"],
 					"level":1
-				}
+				},
+				{
+					"id":"miniclass1",
+					"htmllink":"/html/miniclass/miniclass1/miniclass1.html",
+					"name":"F5 Architectures with Ansible",
+					"tags":["ansible","automation","devops","orchestration"],
+					"level":1
+				},
+				{
+					"id":"miniclass3",
+					"htmllink":"/html/miniclass/miniclass3/miniclass3.html",
+					"name":"Getting Started with F5 &amp; Puppet",
+					"tags":["puppet","automation","devops","orchestration"],
+					"level":1
+				}								
 			]
 		},
 		{
@@ -218,7 +232,7 @@
 			"classes": [
 				{
 					"id":"class1",
-					"name":"Application Firewall Manager, the ENTERPRISE Firewall",
+					"name":"AFM - The Data Center Firewall",
 					"tags":[],
 					"level":0
 				},
