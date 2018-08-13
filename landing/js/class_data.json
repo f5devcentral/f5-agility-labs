@@ -550,7 +550,7 @@
 				},
 				{
 					"id":"lab5",
-					"name":"Consolidate VDI Accessj",
+					"name":"Consolidate VDI Access",
 					"tags":[],
 					"level":1
 				}
@@ -564,12 +564,6 @@
 			"sphinxname":"F5WebApplicationFirewallSolutions",
 			"ga_id":"",
 			"classes": [
-				{
-					"id":"class1",
-					"name":"F5 WAF: Practical Intro to L7 Security",
-					"tags":["waf","security"],
-					"level":0
-				},
 				{
 					"id":"class2",
 					"name":"ASM 280 - Pwn like a Hacker; Protect like a Pro",
