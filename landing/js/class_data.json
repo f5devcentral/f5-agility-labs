@@ -380,9 +380,9 @@
 				},
 				{
 					"id":"class2",
-					"name":"F5 WAF: Capture the Flag",
+					"name":"ASM 280 - Pwn like a Hacker; Protect like a Pro",
 					"tags":["waf","security"],
-					"level":0
+					"level":1
 				},
 				{
 					"id":"class3",
@@ -410,12 +410,6 @@
 				},
 				{
 					"id":"class7",
-					"name":"ASM 280: Pwn like a Hacker; Protect like a Pro",
-					"tags":["waf","api","security"],
-					"level":0
-				},
-				{
-					"id":"class8",
 					"name":"API Protection with ASM",
 					"tags":["waf","api","security"],
 					"level":0
