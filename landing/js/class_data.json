@@ -31,7 +31,13 @@
 					"name":"Troubleshoot with tcpdump and Wireshark",
 					"tags":["tcpdump","wireshark"],
 					"level":1
-				}
+				},
+				{
+					"id":"class5",
+					"name":"Resilient Data Center Architectures with F5 BIG-IP",
+					"tags":["ltm","architecture"],
+					"level":1
+				}				
 			]
 		},
 		{
@@ -43,11 +49,17 @@
 			"ga_id":"",
 			"classes": [
 				{
-				   "id":"class1",
-				   "name":"F5 Analytics and Visibility Solutions",
-				   "tags":[],
+				   "id":"lab1",
+				   "name":"Introduction to AVR",
+				   "tags":["analytics","avr"],
 				   "level":0
-				}
+				},
+				{
+					"id":"lab2",
+					"name":"Integration with Splunk",
+					"tags":["analytics","splunk"],
+					"level":0
+				 }				
 			]
 		},
 		{
@@ -71,7 +83,7 @@
 					"level":0
 				}
 			]
-		},
+		},		
 		{
 			"id":"programmability",
 			"name":"Automation, Orchestration & DevOps",
@@ -101,6 +113,22 @@
 			]
 		},
 		{
+			"id":"icontrol-lx",
+			"name":"iControlLX API Extensions",
+			"description":"Learn how to write iControlLX API Extensions",
+			"tags":["programmability","rest","icontrol","ansible","python","api","devops","declarative","automation"],
+			"sphinxname":"F5iControlLX",
+			"ga_id":"",
+			"classes": [
+				{
+					"id":"class1",
+					"name":"Single Call Security iControlLX REST Extension",
+					"tags":["automation","orchestration","rest","postman"],
+					"level":0
+				}
+			]
+		},		
+		{
 			"id":"ddos",
 	         "name":"DDoS",
 	         "description":"Use the F5 platform to mitigate Distributed Denial of Service attacks",
@@ -122,10 +150,34 @@
 	            },
 	            {
 	               "id":"class3",
-	               "name":"F5 Agility Lab Day: DDoS Hybrid Defender",
+	               "name":"DDoS Hybrid Defender",
 	               "tags":[""],
 	               "level":1
-	            }
+				},
+	            {
+					"id":"class4",
+					"name":"Mitigating Real World DDoS Attacks",
+					"tags":[""],
+					"level":1
+				 },
+				 {
+					"id":"class5",
+					"name":"On prem Attack Mitigation Exercises",
+					"tags":[""],
+					"level":1
+				 },
+				 {
+					"id":"class6",
+					"name":"F5 Agility 2018:  DDoS Attack Protection",
+					"tags":[""],
+					"level":1
+				 },
+				 {
+					"id":"class7",
+					"name":"Introduction to L7 Behavioral DoS",
+					"tags":[""],
+					"level":1
+				 }				
 	         ]
 		},
 		{
@@ -138,13 +190,13 @@
 	         "classes": [
 	            {
 	               "id":"class1",
-	               "name":"Availability with GSLB",
+	               "name":"Intro to GSLB",
 	               "tags":["gslb"],
 	               "level":0
 	            },
 	            {
 	               "id":"class2",
-	               "name":"DNS Services",
+	               "name":"Next Generation DNS Services",
 	               "tags":["gslb"],
 	               "level":0
 	            },
@@ -173,6 +225,18 @@
 				{
 					"id":"class2",
 					"name":"Advanced Multi-Layer Firewall Protection",
+					"tags":[],
+					"level":2
+				},
+				{
+					"id":"class3",
+					"name":"F5 BIG-IP DDoS and DNS DoS Protections",
+					"tags":[],
+					"level":2
+				},
+				{
+					"id":"class4",
+					"name":"Flowmon Integrated Out-of-path DDoS Solution",
 					"tags":[],
 					"level":2
 				}
@@ -219,6 +283,48 @@
 					"name":"SWG - Securing Outbound Internet Access",
 					"tags":[],
 					"level":0
+				},
+				{
+					"id":"class4",
+					"name":"SAML Identity Provider (IdP) Lab",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class5",
+					"name":"AD FS Proxy Lab",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class6",
+					"name":"Federating Common Services",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class7",
+					"name":"Introduction to Universal Access",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class8",
+					"name":"Troubleshooting Universal Access",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class9",
+					"name":"Multi-Factor Auth for Cloud Applications",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class10",
+					"name":"Priviledged User Authentication",
+					"tags":[],
+					"level":0
 				}
 			]
 		},
@@ -260,16 +366,34 @@
 			"classes": [
 				{
 					"id":"class1",
-					"name":"F5 Container Solutions",
+					"name":"Introduction to Docker",
 					"tags":[],
 					"level":0
 				},
 				{
 					"id":"class2",
+					"name":"Introduction to Kubernetes",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class3",
+					"name":"Introduction to Mesos / Marathon",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class4",
+					"name":"Introduction to RedHat OpenShift",
+					"tags":[],
+					"level":0
+				},
+				{
+					"id":"class5",
 					"name":"Advanced Labs for Red Hat OpenShift Container Platform (OCP)",
 					"tags":[],
 					"level":0
-				}
+				}											
 			]
 		},
 		{
@@ -310,10 +434,40 @@
 			"classes": [
 				{
 					"id":"class1",
-					"name":" Deploying BIG-IP Virtual Edition in AWS",
+					"name":"Deploying BIG-IP Virtual Edition in AWS",
 					"tags":["aws","virtual-edition"],
 					"level":0
-				}
+				},
+				{
+					"id":"class2",
+					"name":"F5 in AWS Advanced Use Cases Beyond Native Tools",
+					"tags":["aws","virtual-edition"],
+					"level":0
+				},
+				{
+					"id":"class3",
+					"name":"F5 WAF in AWS",
+					"tags":["aws","virtual-edition"],
+					"level":0
+				},
+				{
+					"id":"class4",
+					"name":"Secure BIG-IP and Application Deployments in AWS",
+					"tags":["aws","virtual-edition"],
+					"level":0
+				},
+				{
+					"id":"class5",
+					"name":"Protecting Cloud Native Applications",
+					"tags":["aws","virtual-edition"],
+					"level":0
+				},
+				{
+					"id":"class6",
+					"name":"F5 Azure Automation",
+					"tags":["aws","virtual-edition"],
+					"level":0
+				}																			
 			]
 		},
 		{
@@ -342,7 +496,7 @@
 			"classes": [
 				{
 					"id":"class1",
-					"name":"Intro to SSL Orchestrator 2.0",
+					"name":"SSL Orchestration",
 					"tags":[],
 					"level":0
 				}
@@ -357,8 +511,32 @@
 			"ga_id":"",
 			"classes": [
 				{
-					"id":"class1",
+					"id":"lab1",
 					"name":"VDI the F5 Way",
+					"tags":[],
+					"level":1
+				},
+				{
+					"id":"lab2",
+					"name":"Solutions for VMware View",
+					"tags":[],
+					"level":1
+				},
+				{
+					"id":"lab3",
+					"name":"Solutions for Citrix XenDesktop",
+					"tags":[],
+					"level":1
+				},
+				{
+					"id":"lab4",
+					"name":"Proxy for Microsoft RDS",
+					"tags":[],
+					"level":1
+				},
+				{
+					"id":"lab5",
+					"name":"Consolidate VDI Accessj",
 					"tags":[],
 					"level":1
 				}
@@ -380,13 +558,13 @@
 				},
 				{
 					"id":"class2",
-					"name":"F5 WAF: Capture the Flag",
+					"name":"ASM 280 - Pwn like a Hacker; Protect like a Pro",
 					"tags":["waf","security"],
 					"level":0
 				},
 				{
 					"id":"class3",
-					"name":"ASM 141 - Getting started with ASM",
+					"name":"ASM 141 - Good WAF Security, Getting started with ASM",
 					"tags":["waf","security"],
 					"level":0
 				},
@@ -410,18 +588,39 @@
 				},
 				{
 					"id":"class7",
-					"name":"ASM 280: Pwn like a Hacker; Protect like a Pro",
-					"tags":["waf","api","security"],
-					"level":0
-				},
-				{
-					"id":"class8",
 					"name":"API Protection with ASM",
 					"tags":["waf","api","security"],
 					"level":0
 				}
-
 			]
-		}
+		},
+		{
+			"id":"big-iq",
+			"name":"F5 BIG-IQ Labs",
+			"description":"BIG-IQ Centralized Management Solutions",
+			"tags":["big-iq"],
+			"sphinxname":"F5BIGIQ",
+			"ga_id":"",
+			"classes": [
+				{
+					"id":"class1",
+					"name":"BIG-IQ 6.0 Centralized Management Up And Running",
+					"tags":["big-iq"],
+					"level":0
+				},
+				{
+					"id":"class2",
+					"name":"F5 BIG-IQ - Infrastructure and Application owners reunite!",
+					"tags":["waf","security"],
+					"level":0
+				},
+				{
+					"id":"class3",
+					"name":"BIG-IQ CM Access Self Guided",
+					"tags":["waf","security"],
+					"level":0
+				}
+			]
+		}		
 	]
 }
