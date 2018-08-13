@@ -560,7 +560,7 @@
 					"id":"class2",
 					"name":"ASM 280 - Pwn like a Hacker; Protect like a Pro",
 					"tags":["waf","security"],
-					"level":0
+					"level":1
 				},
 				{
 					"id":"class3",
