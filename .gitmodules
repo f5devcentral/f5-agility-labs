@@ -49,3 +49,15 @@
 [submodule "labs/cloud-edition"]
 	path = labs/cloud-edition
 	url = https://github.com/f5devcentral/f5-big-iq-lab
+[submodule "labs/azure-saca"]
+	path = labs/azure-saca
+	url = https://github.com/f5devcentral/f5-azure-saca.git
+[submodule "labs/f5cert"]
+	path = labs/f5cert
+	url = https://github.com/f5devcentral/f5-agility-labs-cert.git
+[submodule "labs/big-iq"]
+	path = labs/big-iq
+	url = https://github.com/f5devcentral/f5-agility-labs-big-iq.git
+[submodule "labs/icontrol-lx"]
+	path = labs/icontrol-lx
+	url = https://github.com/f5devcentral/f5-agility-labs-icontrol-lx.git
