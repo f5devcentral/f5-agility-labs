@@ -118,6 +118,13 @@
 					"level":1
 				},
 				{
+					"id":"miniclass2",
+					"htmllink":"/html/miniclass/miniclass1/miniclass2.html",
+					"name":"Getting Started with F5 Terraform",
+					"tags":["terraform","automation","devops","orchestration"],
+					"level":1
+				},
+				{
 					"id":"miniclass3",
 					"htmllink":"/html/miniclass/miniclass3/miniclass3.html",
 					"name":"Getting Started with F5 &amp; Puppet",
