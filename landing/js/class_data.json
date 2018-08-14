@@ -119,7 +119,7 @@
 				},
 				{
 					"id":"miniclass2",
-					"htmllink":"/html/miniclass/miniclass1/miniclass2.html",
+					"htmllink":"/html/miniclass/miniclass2/miniclass2.html",
 					"name":"Getting Started with F5 Terraform",
 					"tags":["terraform","automation","devops","orchestration"],
 					"level":1
