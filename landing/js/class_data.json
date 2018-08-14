@@ -183,7 +183,7 @@
 	            },
 	            {
 	               "id":"class5",
-	               "name":"On prem Attack Mitigation Exercises",
+	               "name":"Multilayer DDoS Protection",
 	               "tags":[""],
 	               "level":1
 	            },
@@ -198,13 +198,7 @@
 	               "name":"Introduction to L7 Behavioral DoS",
 	               "tags":[""],
 	               "level":1
-	            },
-	            {
-	               "id":"class8",
-	               "name":"Multilayer DDoS Protection",
-	               "tags":[""],
-	               "level":0
-	            }				
+	            }
 	         ]
 		},
 		{
