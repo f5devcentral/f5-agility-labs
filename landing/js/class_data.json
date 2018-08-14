@@ -222,6 +222,12 @@
 	               "level":0
 	            },
 	            {
+	               "id":"class3",
+	               "name":"Data Center Availability Services Using BIG-IP DNS",
+	               "tags":["gslb"],
+	               "level":1
+	            },
+	            {
 	               "id":"class4",
 	               "name":"DNS and EDNS0",
 	               "tags":["dns","edns0"],
