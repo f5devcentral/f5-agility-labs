@@ -13,6 +13,16 @@
 	padding-bottom: 5px;
 }
 
+.section ol.lowerroman > li {
+	list-style: lower-roman;
+	padding-bottom: 5px;
+}
+
+.section ol.upperroman > li {
+	list-style: upper-roman;
+	padding-bottom: 5px;
+}
+
 div[class^='highlight'] pre, div[class~='docutils'], code, .code.descname {
     background: lightgrey !important;
     margin: 5px;
