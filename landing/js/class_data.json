@@ -174,31 +174,37 @@
 	               "name":"DDoS Hybrid Defender",
 	               "tags":[""],
 	               "level":1
-				},
+		},
 	            {
-					"id":"class4",
-					"name":"Mitigating Real World DDoS Attacks",
-					"tags":[""],
-					"level":1
-				 },
-				 {
-					"id":"class5",
-					"name":"On prem Attack Mitigation Exercises",
-					"tags":[""],
-					"level":1
-				 },
-				 {
-					"id":"class6",
-					"name":"F5 Agility 2018:  DDoS Attack Protection",
-					"tags":[""],
-					"level":1
-				 },
-				 {
-					"id":"class7",
-					"name":"Introduction to L7 Behavioral DoS",
-					"tags":[""],
-					"level":1
-				 }				
+	               "id":"class4",
+	               "name":"Mitigating Real World DDoS Attacks",
+	               "tags":[""],
+	               "level":1
+	            },
+	            {
+	               "id":"class5",
+	               "name":"On prem Attack Mitigation Exercises",
+	               "tags":[""],
+	               "level":1
+	            },
+	            {
+	               "id":"class6",
+	               "name":"F5 Agility 2018:  DDoS Attack Protection",
+	               "tags":[""],
+	               "level":1
+	            },
+	            {
+	               "id":"class7",
+	               "name":"Introduction to L7 Behavioral DoS",
+	               "tags":[""],
+	               "level":1
+	            },
+	            {
+	               "id":"class8",
+	               "name":"Multilayer DDoS Protection",
+	               "tags":[""],
+	               "level":0
+	            }				
 	         ]
 		},
 		{
