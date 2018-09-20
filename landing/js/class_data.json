@@ -494,6 +494,12 @@
 					"name":"F5 Azure Automation",
 					"tags":["aws","virtual-edition"],
 					"level":0
+				},
+				{
+					"id":"class7",
+					"name":"F5 in Google Cloud Platform",
+					"tags":["gcp","virtual-edition"],
+					"level":0
 				}																			
 			]
 		},
