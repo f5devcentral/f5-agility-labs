@@ -49,10 +49,10 @@
 			"ga_id":"",
 			"classes": [
 				{
-				   "id":"lab1",
-				   "name":"Introduction to AVR",
-				   "tags":["analytics","avr"],
-				   "level":0
+				    "id":"lab1",
+				    "name":"Introduction to AVR",
+				    "tags":["analytics","avr"],
+				    "level":0
 				},
 				{
 					"id":"lab2",
@@ -64,23 +64,71 @@
 		},
 		{
 			"id":"f5cert",
-			"name":"F5 Certification",
-			"description":"F5 Certification Labs",
+			"name":"F5 Certification Material",
+			"description":"F5 Certification Study Guides and Labs",
 			"tags":["f5","cert","agility","certification"],
 			"sphinxname":"F5certlabs",
 			"ga_id":"",
 			"classes": [
 				{
 					"id":"class1",
-					"name":"F5 201 - TMOS Administration",
-					"tags":["201","cert","tmos"],
+					"name":"F5 101 - App Delivery Fundamentals Study Guide",
+					"tags":["101","cert","adc"],
 					"level":0
 				},
 				{
 					"id":"class2",
-					"name":"F5 301a - LTM Specialist: Architect, Setup, and Deploy",
-					"tags":["301a","cert","ltm"],
-					"level":0
+					"name":"F5 201 - TMOS Administration Study Guide",
+					"tags":["201","cert","tmos"],
+					"level":2
+                },
+				{
+					"id":"class3",
+					"name":"F5 202 - Pre-Sales Fundamentals Study Guide",
+					"tags":["202","cert","adc","tmos","ltm"],
+					"level":2
+				},
+				{
+					"id":"class4",
+					"name":"F5 301A - BIG-IP LTM Specialist: Architect, Set-Up & Deploy Study Guide",
+					"tags":["301A","cert","tmos","ltm"],
+					"level":3
+				},
+				{
+					"id":"class5",
+					"name":"F5 301A - BIG-IP LTM Specialist Labs",
+					"tags":["301A","cert","tmos","ltm"],
+					"level":3
+				},
+				{
+					"id":"class7",
+					"name":"F5 301B - BIG-IP LTM Specialist: Maintain and Troubleshoot Study Guide",
+					"tags":["301B","cert","tmos","ltm"],
+					"level":3
+				},
+				{
+					"id":"class9",
+					"name":"F5 302 – BIG-IP DNS Specialist Study Guide",
+					"tags":["302","cert","tmos","dns"],
+					"level":3
+				},
+				{
+					"id":"class11",
+					"name":"F5 303 – BIG-IP ASM Specialist Study Guide",
+					"tags":["303","cert","tmos","asm"],
+					"level":3
+				},
+				{
+					"id":"class13",
+					"name":"F5 304 – BIG-IP APM Specialist Study Guide",
+					"tags":["304","cert","tmos","apm"],
+					"level":3
+				},
+				{
+					"id":"class15",
+					"name":"F5 401 – Security Solution Expert Study Guide",
+					"tags":["401","cert","tmos","security"],
+					"level":4
 				}
 			]
 		},		
