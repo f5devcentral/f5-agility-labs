@@ -81,7 +81,25 @@
 					"name":"F5 201 - TMOS Administration Study Guide",
 					"tags":["201","cert","tmos"],
 					"level":2
-                }
+                },
+				{
+					"id":"class3",
+					"name":"F5 202 - Pre-Sales Fundamentals Study Guide",
+					"tags":["202","cert","adc","tmos","ltm"],
+					"level":2
+				},
+				{
+					"id":"class4",
+					"name":"F5 301A - BIG-IP LTM Specialist: Architect, Set-Up & Deploy Study Guide",
+					"tags":["301A","cert","tmos","ltm"],
+					"level":3
+				},
+				{
+					"id":"class5",
+					"name":"F5 301A - BIG-IP LTM Specialist Labs",
+					"tags":["301A","cert","tmos","ltm"],
+					"level":3
+				}
 			]
 		},		
 		{
