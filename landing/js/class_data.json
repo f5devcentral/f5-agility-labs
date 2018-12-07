@@ -99,6 +99,18 @@
 					"name":"F5 301A - BIG-IP LTM Specialist Labs",
 					"tags":["301A","cert","tmos","ltm"],
 					"level":3
+                },
+				{
+					"id":"class7",
+					"name":"F5 301B - BIG-IP LTM Specialist: Maintain and Troubleshoot Study Guide",
+					"tags":["301B","cert","tmos","ltm"],
+					"level":3
+				},
+				{
+					"id":"class9",
+					"name":"F5 302 – BIG-IP DNS Specialist Study Guide",
+					"tags":["302","cert","tmos","dns"],
+					"level":3
 				}
 			]
 		},		
