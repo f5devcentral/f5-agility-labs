@@ -108,9 +108,27 @@
 				},
 				{
 					"id":"class9",
-					"name":"F5 302 – BIG-IP DNS Specialist Study Guide",
+					"name":"F5 302 - BIG-IP DNS Specialist Study Guide",
 					"tags":["302","cert","tmos","dns"],
 					"level":3
+                },
+				{
+					"id":"class11",
+					"name":"F5 303 - BIG-IP ASM Specialist Study Guide",
+					"tags":["303","cert","tmos","asm"],
+					"level":3
+				},
+				{
+					"id":"class13",
+					"name":"F5 304 - BIG-IP APM Specialist Study Guide",
+					"tags":["304","cert","tmos","apm"],
+					"level":3
+				},
+				{
+					"id":"class15",
+					"name":"F5 401 - Security Solution Expert Study Guide",
+					"tags":["401","cert","tmos","security"],
+					"level":4
 				}
 			]
 		},		
