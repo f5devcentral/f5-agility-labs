@@ -583,10 +583,16 @@
 			"classes": [
 				{
 					"id":"class1",
-					"name":"SSL Orchestration",
+					"name":"SSL Orchestration v4 (Agility)",
 					"tags":[],
 					"level":0
-				}
+                },
+				{
+					"id":"class2",
+					"name":"SSL Orchestration v5 (Ravello)",
+					"tags":[],
+					"level":0
+                }
 			]
 		},
 		{
