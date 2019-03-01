@@ -1,713 +1,1152 @@
 {
-	"groups": [
-		{
-			"id":"adc",
-			"name":"Application Delivery Controller",
-			"description":"Leverage F5 ADC solutions and Make Your Apps GO",
-			"tags":["adc","ltm","irules","ssl","tls"],
-			"sphinxname":"F5ApplicationDeliveryControllerSolutions",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"Introduction to ADC Deployments with BIG-IP LTM",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"Building the F5 Fabric",
-					"tags":["high-availability","dsc","clustering"],
-					"level":2
-				},
-				{
-					"id":"class3",
-					"name":"BIG-IP Local Traffic Manager (LTM) - v13.1 Lab Guide",
-					"tags":["BIG-IP","ltm"],
-					"level":1
-				},
-				{
-					"id":"class4",
-					"name":"Troubleshoot with tcpdump and Wireshark",
-					"tags":["tcpdump","wireshark"],
-					"level":1
-				},
-				{
-					"id":"class5",
-					"name":"Resilient Data Center Architectures with F5 BIG-IP",
-					"tags":["ltm","architecture"],
-					"level":1
-				}				
-			]
-		},
-		{
-			"id":"analytics",
-			"name":"Analytics and Visibility",
-			"description":"Gain Visiblity and Insights into your application traffic",
-			"tags":["analytics","visibility","appiq","adc","security"],
-			"sphinxname":"F5AnalyticsandVisibilitySolutions",
-			"ga_id":"",
-			"classes": [
-				{
-				    "id":"lab1",
-				    "name":"Introduction to AVR",
-				    "tags":["analytics","avr"],
-				    "level":0
-				},
-				{
-					"id":"lab2",
-					"name":"Integration with Splunk",
-					"tags":["analytics","splunk"],
-					"level":0
-				 }				
-			]
-		},
-		{
-			"id":"f5cert",
-			"name":"F5 Certification Material",
-			"description":"F5 Certification Study Guides and Labs",
-			"tags":["f5","cert","agility","certification"],
-			"sphinxname":"F5certlabs",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"F5 101 - App Delivery Fundamentals Study Guide",
-					"tags":["101","cert","adc"],
-					"level":1
-				},
-				{
-					"id":"class2",
-					"name":"F5 201 - TMOS Administration Study Guide",
-					"tags":["201","cert","tmos"],
-					"level":2
+    "groups": [
+        {
+            "id": "adc",
+            "name": "Application Delivery Controller",
+            "description": "Leverage F5 ADC solutions and Make Your Apps GO",
+            "tags": [
+                "adc",
+                "ltm",
+                "irules",
+                "ssl",
+                "tls"
+            ],
+            "sphinxname": "F5ApplicationDeliveryControllerSolutions",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Introduction to ADC Deployments with BIG-IP LTM",
+                    "tags": [],
+                    "level": 0
                 },
-				{
-					"id":"class3",
-					"name":"F5 201 - TMOS Administration Labs",
-					"tags":["201","cert","tmos"],
-					"level":2
+                {
+                    "id": "class2",
+                    "name": "Building the F5 Fabric",
+                    "tags": [
+                        "high-availability",
+                        "dsc",
+                        "clustering"
+                    ],
+                    "level": 2
                 },
-				{
-					"id":"class4",
-					"name":"F5 202 - Pre-Sales Fundamentals Study Guide",
-					"tags":["202","cert","adc","tmos","ltm"],
-					"level":2
-				},
-				{
-					"id":"class5",
-					"name":"F5 301A - BIG-IP LTM Specialist: Architect, Set-Up & Deploy Study Guide",
-					"tags":["301A","cert","tmos","ltm"],
-					"level":3
-				},
-				{
-					"id":"class6",
-					"name":"F5 301A - BIG-IP LTM Specialist Labs",
-					"tags":["301A","cert","tmos","ltm"],
-					"level":3
+                {
+                    "id": "class3",
+                    "name": "BIG-IP Local Traffic Manager (LTM) - v13.1 Lab Guide",
+                    "tags": [
+                        "BIG-IP",
+                        "ltm"
+                    ],
+                    "level": 1
                 },
-				{
-					"id":"class7",
-					"name":"F5 301B - BIG-IP LTM Specialist: Maintain and Troubleshoot Study Guide",
-					"tags":["301B","cert","tmos","ltm"],
-					"level":3
-				},
-				{
-					"id":"class9",
-					"name":"F5 302 - BIG-IP DNS Specialist Study Guide",
-					"tags":["302","cert","tmos","dns"],
-					"level":3
+                {
+                    "id": "class4",
+                    "name": "Troubleshoot with tcpdump and Wireshark",
+                    "tags": [
+                        "tcpdump",
+                        "wireshark"
+                    ],
+                    "level": 1
                 },
-				{
-					"id":"class11",
-					"name":"F5 303 - BIG-IP ASM Specialist Study Guide",
-					"tags":["303","cert","tmos","asm"],
-					"level":3
-				},
-				{
-					"id":"class13",
-					"name":"F5 304 - BIG-IP APM Specialist Study Guide",
-					"tags":["304","cert","tmos","apm"],
-					"level":3
-				},
-				{
-					"id":"class15",
-					"name":"F5 401 - Security Solution Expert Study Guide",
-					"tags":["401","cert","tmos","security"],
-					"level":4
-				}
-			]
-		},		
-		{
-			"id":"programmability",
-			"name":"Automation, Orchestration & DevOps",
-			"description":"Use the programmability features of the F5 platform using the iControl REST API, iControl LX Extensions, the f5-super-netops toolchain and other tools",
-			"tags":["programmability","rest","icontrol","ansible","python","api","devops","declarative","automation"],
-			"sphinxname":"F5ProgrammabilityTraining",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"Introduction to Automation & Orchestration",
-					"tags":["automation","orchestration","rest","postman"],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"Building Continuous Delivery Pipelines",
-					"tags":["devops","ci","cd","jenkins"],
-					"level":1
-				},
-				{
-					"id":"class3",
-					"name":"Introduction to SecDevOps",
-					"tags":["security","secdevops","devops","automation"],
-					"level":1
-				},
-				{
-					"id":"miniclass1",
-					"htmllink":"/html/miniclass/miniclass1/miniclass1.html",
-					"name":"F5 Architectures with Ansible",
-					"tags":["ansible","automation","devops","orchestration"],
-					"level":1
-				},
-				{
-					"id":"miniclass2",
-					"htmllink":"/html/miniclass/miniclass2/miniclass2.html",
-					"name":"Getting Started with F5 Terraform",
-					"tags":["terraform","automation","devops","orchestration"],
-					"level":1
-				},
-				{
-					"id":"miniclass3",
-					"htmllink":"/html/miniclass/miniclass3/miniclass3.html",
-					"name":"Getting Started with F5 &amp; Puppet",
-					"tags":["puppet","automation","devops","orchestration"],
-					"level":1
-				}								
-			]
-		},
-		{
-			"id":"icontrol-lx",
-			"name":"iControlLX API Extensions",
-			"description":"Learn how to write iControlLX API Extensions",
-			"tags":["programmability","rest","icontrol","ansible","python","api","devops","declarative","automation"],
-			"sphinxname":"F5iControlLX",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"Single Call Security iControlLX REST Extension",
-					"tags":["automation","orchestration","rest","postman"],
-					"level":0
-				}
-			]
-		},		
-		{
-			"id":"ddos",
-	         "name":"DDoS",
-	         "description":"Use the F5 platform to mitigate Distributed Denial of Service attacks",
-	         "tags":["security","ddos","afm","asm"],
-	         "sphinxname":"F5SolutionsforDDoS",
-	         "ga_id":"",
-	         "classes": [
-	            {
-	               "id":"class1",
-	               "name":"Introduction to DDoS with F5 Herculon",
-	               "tags":["herculon"],
-	               "level":0
-	            },
-	            {
-	               "id":"class2",
-	               "name":"Intermediate DDoS Protection",
-	               "tags":[""],
-	               "level":1
-	            },
-	            {
-	               "id":"class3",
-	               "name":"DDoS Hybrid Defender",
-	               "tags":[""],
-	               "level":1
-		},
-	            {
-	               "id":"class4",
-	               "name":"Mitigating Real World DDoS Attacks",
-	               "tags":[""],
-	               "level":1
-	            },
-	            {
-	               "id":"class5",
-	               "name":"Multilayer DDoS Protection",
-	               "tags":[""],
-	               "level":1
-	            },
-	            {
-	               "id":"class6",
-	               "name":"F5 Agility 2018:  DDoS Attack Protection",
-	               "tags":[""],
-	               "level":1
-	            },
-	            {
-	               "id":"class7",
-	               "name":"Introduction to L7 Behavioral DoS",
-	               "tags":[""],
-	               "level":1
-	            }
-	         ]
-		},
-		{
-			"id":"dns",
-	         "name":"GSLB & DNS",
-	         "description":"Use the DNS features of the F5 platform including Global Server Load Balancing, DNS Resolver/Caching, DNSSEC and other functionality",
-	         "tags":["adc","dns","caching","resolver","ltm","gtm"],
-	         "sphinxname":"DNSServices",
-	         "ga_id":"",
-	         "classes": [
-	            {
-	               "id":"class1",
-	               "name":"Intro to GSLB",
-	               "tags":["gslb"],
-	               "level":0
-	            },
-	            {
-	               "id":"class2",
-	               "name":"Next Generation DNS Services",
-	               "tags":["gslb"],
-	               "level":0
-	            },
-	            {
-	               "id":"class3",
-	               "name":"Data Center Availability Services Using BIG-IP DNS",
-	               "tags":["gslb"],
-	               "level":1
-	            },
-	            {
-	               "id":"class4",
-	               "name":"DNS and EDNS0",
-	               "tags":["dns","edns0"],
-	               "level":2
-	            }
-	         ]
-		},
-		{
-			"id":"firewall",
-			"name":"L4-7 Firewall",
-			"description":"Leverage F5's rich application layer capabilities for L4-7 Firewall use cases",
-			"tags":["firewall","security","afm","asm"],
-			"sphinxname":"F5FirewallSolutions",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"AFM - The Data Center Firewall",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"Advanced Multi-Layer Firewall Protection",
-					"tags":[],
-					"level":2
-				},
-				{
-					"id":"class3",
-					"name":"F5 BIG-IP DDoS and DNS DoS Protections",
-					"tags":[],
-					"level":2
-				},
-				{
-					"id":"class4",
-					"name":"Flowmon Integrated Out-of-path DDoS Solution",
-					"tags":[],
-					"level":2
-				}
-			]
-		},
-		{
-			"id":"fps",
-			"name":"Fraud Protection",
-			"description":"Protect your users from client-side malware, phishing and credential theft",
-			"tags":["security","fraud","malware","phishing","credentials","websafe"],
-			"sphinxname":"F5FraudProtectionSolutions",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"Introduction to Fraud and F5 WebSafe",
-					"tags":[],
-					"level":0
-				}
-			]
-		},
-		{
-			"id":"iam",
-			"name":"Identity & Access Management",
-			"description":"Protect Application Access by leveraging SAML, OAuth, SSL-VPN and Active Directory",
-			"tags":["security","identity","saml","oauth","active-directory"],
-			"sphinxname":"F5IdentityandAccessManagementSolutions",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"SAML Federation with F5",
-					"tags":["federation","saml"],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"OAuth Federation with F5",
-					"tags":["federation","oauth"],
-					"level":0
-				},
-				{
-					"id":"class3",
-					"name":"SWG - Securing Outbound Internet Access",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class4",
-					"name":"SAML Identity Provider (IdP) Lab",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class5",
-					"name":"AD FS Proxy Lab",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class6",
-					"name":"Federating Common Services",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class7",
-					"name":"Introduction to Universal Access",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class8",
-					"name":"Troubleshooting Universal Access",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class9",
-					"name":"Multi-Factor Auth for Cloud Applications",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class10",
-					"name":"Priviledged User Authentication",
-					"tags":[],
-					"level":0
-				}
-			]
-		},
-		{
-			"id":"irules",
-			"name":"iRules Data Plane Programmability",
-			"description":"Leverage data plane programmability with F5 iRules and iRules LX",
-			"tags":["adc","programmability","irules","iruleslx","tcl","nodejs","node"],
-			"sphinxname":"F5iRulesDataPlaneProgrammability",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"Cooking with iRules - HTTP",
-					"tags":["irules"],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"Cooking with iRules - Security/SSL",
-					"tags":["irules","security","ssl"],
-					"level":1
-				},
-				{
-					"id":"class3",
-					"name":"Introduction to iRules LX",
-					"tags":["iruleslx"],
-					"level":2
-				}
-			]
-		},
-		{
-			"id":"containers",
-			"name":"Container Ecosystems",
-			"description":"Integrate the F5 platform with Kubernetes, Mesos/Marathon and OpenShift",
-			"tags":["docker","container","kubernetes","k8s","mesos","marathon","openshift","ocp","cc"],
-			"sphinxname":"F5SolutionsforContainers",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"Introduction to Docker",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"Introduction to Kubernetes",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class3",
-					"name":"Introduction to Mesos / Marathon",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class4",
-					"name":"Introduction to RedHat OpenShift",
-					"tags":[],
-					"level":0
-				},
-				{
-					"id":"class5",
-					"name":"Advanced Labs for Red Hat OpenShift Container Platform (OCP)",
-					"tags":[],
-					"level":0
-				}											
-			]
-		},
-		{
-			"id":"private-cloud",
-			"name":"Private Cloud",
-			"description":"Leverage F5 BIG-IP with Private Cloud solutions such as OpenStack and Cisco APIC",
-			"tags":["private-cloud","cloud","automation","programmability","apic","cisco","openstack"],
-			"sphinxname":"F5PrivateCloudSolutions",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"F5 Private Cloud Solutions for OpenStack",
-					"tags":["openstack"],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"Deploying Cisco APIC with F5 iWorkflow and BIG-IP",
-					"tags":["apic","cisco"],
-					"level":0
-				},
-				{
-					"id":"class3",
-					"name":"Automation of Cisco APIC and F5 BIG-IP using Ansible",
-					"tags":["apic","cisco","ansible"],
-					"level":0
-				}
-			]
-		},
-		{
-			"id":"public-cloud",
-			"name":"Public Cloud",
-			"description":"Leverage F5 BIG-IP with Public Cloud providers such as Amazon AWS, Microsoft Azure and Google Compute Platform",
-			"tags":["public-cloud","aws","azure","gcp"],
-			"sphinxname":"F5PublicCloudSolutions",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"Deploying BIG-IP Virtual Edition in AWS",
-					"tags":["aws","virtual-edition"],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"F5 in AWS Advanced Use Cases Beyond Native Tools",
-					"tags":["aws","virtual-edition"],
-					"level":0
-				},
-				{
-					"id":"class3",
-					"name":"F5 WAF in AWS",
-					"tags":["aws","virtual-edition"],
-					"level":0
-				},
-				{
-					"id":"class4",
-					"name":"Secure BIG-IP and Application Deployments in AWS",
-					"tags":["aws","virtual-edition"],
-					"level":0
-				},
-				{
-					"id":"class5",
-					"name":"Protecting Cloud Native Applications",
-					"tags":["aws","virtual-edition"],
-					"level":0
-				},
-				{
-					"id":"class6",
-					"name":"F5 Azure Automation",
-					"tags":["aws","virtual-edition"],
-					"level":0
-				},
-				{
-					"id":"class7",
-					"name":"F5 in Google Cloud Platform",
-					"tags":["gcp","virtual-edition"],
-					"level":0
-				}																			
-			]
-		},
-		{
-			"id":"azure-saca",
-			"name":"F5 Azure SACA",
-			"description":"F5 Secure Azure Computing Architecture for DoD (SACA)",
-			"tags":["public-cloud","azure","saca"],
-			"sphinxname":"F5AzureSACA",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"Deploying F5 Azure SACA",
-					"tags":["azure","saca"],
-					"level":1
-				}
-			]
-		},
-		{
-			"id":"sslviz",
-			"name":"SSL/TLS Visiblity",
-			"description":"Gain security visibility into SSL/TLS Encrypted Traffic with F5 SSL Visibility solutions",
-			"tags":["ssl","security","tls"],
-			"sphinxname":"F5SolutionsforSSLVisibility",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"SSL Orchestration v4 (Agility)",
-					"tags":[],
-					"level":0
-                },
-				{
-					"id":"class2",
-					"name":"SSL Orchestration v5 (Ravello)",
-					"tags":[],
-					"level":0
+                {
+                    "id": "class5",
+                    "name": "Resilient Data Center Architectures with F5 BIG-IP",
+                    "tags": [
+                        "ltm",
+                        "architecture"
+                    ],
+                    "level": 1
                 }
-			]
-		},
-		{
-			"id":"vdi",
-			"name":"Virtual Desktop Infrastructure",
-			"description":"Integrate F5 solutions with VDI solutions with VMware View, Citrix XenDesktop and Microsoft RDS Proxy",
-			"tags":["vdi","vmware","citrix","rds","view","xendesktop"],
-			"sphinxname":"F5SolutionsforVDI",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"lab1",
-					"name":"VDI the F5 Way",
-					"tags":[],
-					"level":1
-				},
-				{
-					"id":"lab2",
-					"name":"Solutions for VMware View",
-					"tags":[],
-					"level":1
-				},
-				{
-					"id":"lab3",
-					"name":"Solutions for Citrix XenDesktop",
-					"tags":[],
-					"level":1
-				},
-				{
-					"id":"lab4",
-					"name":"Proxy for Microsoft RDS",
-					"tags":[],
-					"level":1
-				},
-				{
-					"id":"lab5",
-					"name":"Consolidate VDI Access",
-					"tags":[],
-					"level":1
-				}
-			]
-		},
-		{
-			"id":"waf",
-			"name":"Web Application Firewall",
-			"description":"Protect your web based applications using F5 Web Application Firewalling solutions",
-			"tags":["waf","security"],
-			"sphinxname":"F5WebApplicationFirewallSolutions",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class2",
-					"name":"ASM 280 - Pwn like a Hacker; Protect like a Pro",
-					"tags":["waf","security"],
-					"level":1
-				},
-				{
-					"id":"class3",
-					"name":"ASM 141 - Good WAF Security, Getting started with ASM",
-					"tags":["waf","security"],
-					"level":0
-				},
-				{
-					"id":"class4",
-					"name":"ASM 241 - Elevating ASM Protection",
-					"tags":["waf","security"],
-					"level":1
-				},
-				{
-					"id":"class5",
-					"name":"ASM 341 - High and Maximum Security",
-					"tags":["waf","security"],
-					"level":2
-				},
-				{
-					"id":"class6",
-					"name":"ASM 342 - WAF Programmability",
-					"tags":["waf","security"],
-					"level":2
-				},
-				{
-					"id":"class7",
-					"name":"API Protection with ASM",
-					"tags":["waf","api","security"],
-					"level":0
-				}
-			]
-		},
-		{
-			"id":"big-iq",
-			"name":"F5 BIG-IQ Labs",
-			"description":"BIG-IQ Centralized Management Solutions",
-			"tags":["big-iq"],
-			"sphinxname":"F5BIGIQ",
-			"ga_id":"",
-			"classes": [
-				{
-					"id":"class1",
-					"name":"BIG-IQ 6.0 Centralized Management Up And Running",
-					"tags":["big-iq"],
-					"level":0
-				},
-				{
-					"id":"class2",
-					"name":"F5 BIG-IQ - Infrastructure and Application owners reunite!",
-					"tags":["waf","security"],
-					"level":0
-				},
-				{
-					"id":"class3",
-					"name":"BIG-IQ CM Access Self Guided",
-					"tags":["waf","security"],
-					"level":0
-				}
-			]
-		}		
-	]
+            ]
+        },
+        {
+            "id": "analytics",
+            "name": "Analytics and Visibility",
+            "description": "Gain Visiblity and Insights into your application traffic",
+            "tags": [
+                "analytics",
+                "visibility",
+                "appiq",
+                "adc",
+                "security"
+            ],
+            "sphinxname": "F5AnalyticsandVisibilitySolutions",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "lab1",
+                    "name": "Introduction to AVR",
+                    "tags": [
+                        "analytics",
+                        "avr"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "lab2",
+                    "name": "Integration with Splunk",
+                    "tags": [
+                        "analytics",
+                        "splunk"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "f5cert",
+            "name": "F5 Certification Material",
+            "description": "F5 Certification Study Guides and Labs",
+            "tags": [
+                "f5",
+                "cert",
+                "agility",
+                "certification"
+            ],
+            "sphinxname": "F5certlabs",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "F5 101 - App Delivery Fundamentals Study Guide",
+                    "tags": [
+                        "101",
+                        "cert",
+                        "adc"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class2",
+                    "name": "F5 201 - TMOS Administration Study Guide",
+                    "tags": [
+                        "201",
+                        "cert",
+                        "tmos"
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": "class3",
+                    "name": "F5 201 - TMOS Administration Labs",
+                    "tags": [
+                        "201",
+                        "cert",
+                        "tmos"
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": "class4",
+                    "name": "F5 202 - Pre-Sales Fundamentals Study Guide",
+                    "tags": [
+                        "202",
+                        "cert",
+                        "adc",
+                        "tmos",
+                        "ltm"
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": "class5",
+                    "name": "F5 301A - BIG-IP LTM Specialist: Architect, Set-Up & Deploy Study Guide",
+                    "tags": [
+                        "301A",
+                        "cert",
+                        "tmos",
+                        "ltm"
+                    ],
+                    "level": 3
+                },
+                {
+                    "id": "class6",
+                    "name": "F5 301A - BIG-IP LTM Specialist Labs",
+                    "tags": [
+                        "301A",
+                        "cert",
+                        "tmos",
+                        "ltm"
+                    ],
+                    "level": 3
+                },
+                {
+                    "id": "class7",
+                    "name": "F5 301B - BIG-IP LTM Specialist: Maintain and Troubleshoot Study Guide",
+                    "tags": [
+                        "301B",
+                        "cert",
+                        "tmos",
+                        "ltm"
+                    ],
+                    "level": 3
+                },
+                {
+                    "id": "class9",
+                    "name": "F5 302 - BIG-IP DNS Specialist Study Guide",
+                    "tags": [
+                        "302",
+                        "cert",
+                        "tmos",
+                        "dns"
+                    ],
+                    "level": 3
+                },
+                {
+                    "id": "class11",
+                    "name": "F5 303 - BIG-IP ASM Specialist Study Guide",
+                    "tags": [
+                        "303",
+                        "cert",
+                        "tmos",
+                        "asm"
+                    ],
+                    "level": 3
+                },
+                {
+                    "id": "class13",
+                    "name": "F5 304 - BIG-IP APM Specialist Study Guide",
+                    "tags": [
+                        "304",
+                        "cert",
+                        "tmos",
+                        "apm"
+                    ],
+                    "level": 3
+                },
+                {
+                    "id": "class15",
+                    "name": "F5 401 - Security Solution Expert Study Guide",
+                    "tags": [
+                        "401",
+                        "cert",
+                        "tmos",
+                        "security"
+                    ],
+                    "level": 4
+                }
+            ]
+        },
+        {
+            "id": "programmability",
+            "name": "Automation, Orchestration & DevOps",
+            "description": "Use the programmability features of the F5 platform using the iControl REST API, iControl LX Extensions, the f5-super-netops toolchain and other tools",
+            "tags": [
+                "programmability",
+                "rest",
+                "icontrol",
+                "ansible",
+                "python",
+                "api",
+                "devops",
+                "declarative",
+                "automation"
+            ],
+            "sphinxname": "F5ProgrammabilityTraining",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Introduction to Automation & Orchestration",
+                    "tags": [
+                        "automation",
+                        "orchestration",
+                        "rest",
+                        "postman"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Building Continuous Delivery Pipelines",
+                    "tags": [
+                        "devops",
+                        "ci",
+                        "cd",
+                        "jenkins"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "Introduction to SecDevOps",
+                    "tags": [
+                        "security",
+                        "secdevops",
+                        "devops",
+                        "automation"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "miniclass1",
+                    "htmllink": "/html/miniclass/miniclass1/miniclass1.html",
+                    "name": "F5 Architectures with Ansible",
+                    "tags": [
+                        "ansible",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "miniclass2",
+                    "htmllink": "/html/miniclass/miniclass2/miniclass2.html",
+                    "name": "Getting Started with F5 Terraform",
+                    "tags": [
+                        "terraform",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "miniclass3",
+                    "htmllink": "/html/miniclass/miniclass3/miniclass3.html",
+                    "name": "Getting Started with F5 &amp; Puppet",
+                    "tags": [
+                        "puppet",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "icontrol-lx",
+            "name": "iControlLX API Extensions",
+            "description": "Learn how to write iControlLX API Extensions",
+            "tags": [
+                "programmability",
+                "rest",
+                "icontrol",
+                "ansible",
+                "python",
+                "api",
+                "devops",
+                "declarative",
+                "automation"
+            ],
+            "sphinxname": "F5iControlLX",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Single Call Security iControlLX REST Extension",
+                    "tags": [
+                        "automation",
+                        "orchestration",
+                        "rest",
+                        "postman"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "ddos",
+            "name": "DDoS",
+            "description": "Use the F5 platform to mitigate Distributed Denial of Service attacks",
+            "tags": [
+                "security",
+                "ddos",
+                "afm",
+                "asm"
+            ],
+            "sphinxname": "F5SolutionsforDDoS",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Introduction to DDoS with F5 Herculon",
+                    "tags": [
+                        "herculon"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Intermediate DDoS Protection",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "DDoS Hybrid Defender",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class4",
+                    "name": "Mitigating Real World DDoS Attacks",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class5",
+                    "name": "Multilayer DDoS Protection",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class6",
+                    "name": "F5 Agility 2018:  DDoS Attack Protection",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class7",
+                    "name": "Introduction to L7 Behavioral DoS",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "dns",
+            "name": "GSLB & DNS",
+            "description": "Use the DNS features of the F5 platform including Global Server Load Balancing, DNS Resolver/Caching, DNSSEC and other functionality",
+            "tags": [
+                "adc",
+                "dns",
+                "caching",
+                "resolver",
+                "ltm",
+                "gtm"
+            ],
+            "sphinxname": "DNSServices",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Intro to GSLB",
+                    "tags": [
+                        "gslb"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Next Generation DNS Services",
+                    "tags": [
+                        "gslb"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "Data Center Availability Services Using BIG-IP DNS",
+                    "tags": [
+                        "gslb"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class4",
+                    "name": "DNS and EDNS0",
+                    "tags": [
+                        "dns",
+                        "edns0"
+                    ],
+                    "level": 2
+                }
+            ]
+        },
+        {
+            "id": "firewall",
+            "name": "L4-7 Firewall",
+            "description": "Leverage F5's rich application layer capabilities for L4-7 Firewall use cases",
+            "tags": [
+                "firewall",
+                "security",
+                "afm",
+                "asm"
+            ],
+            "sphinxname": "F5FirewallSolutions",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "AFM - The Data Center Firewall",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Advanced Multi-Layer Firewall Protection",
+                    "tags": [],
+                    "level": 2
+                },
+                {
+                    "id": "class3",
+                    "name": "F5 BIG-IP DDoS and DNS DoS Protections",
+                    "tags": [],
+                    "level": 2
+                },
+                {
+                    "id": "class4",
+                    "name": "Flowmon Integrated Out-of-path DDoS Solution",
+                    "tags": [],
+                    "level": 2
+                }
+            ]
+        },
+        {
+            "id": "fps",
+            "name": "Fraud Protection",
+            "description": "Protect your users from client-side malware, phishing and credential theft",
+            "tags": [
+                "security",
+                "fraud",
+                "malware",
+                "phishing",
+                "credentials",
+                "websafe"
+            ],
+            "sphinxname": "F5FraudProtectionSolutions",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Introduction to Fraud and F5 WebSafe",
+                    "tags": [],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "iam",
+            "name": "Identity & Access Management",
+            "description": "Protect Application Access by leveraging SAML, OAuth, SSL-VPN and Active Directory",
+            "tags": [
+                "security",
+                "identity",
+                "saml",
+                "oauth",
+                "active-directory"
+            ],
+            "sphinxname": "F5IdentityandAccessManagementSolutions",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "SAML Federation with F5",
+                    "tags": [
+                        "federation",
+                        "saml"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "OAuth Federation with F5",
+                    "tags": [
+                        "federation",
+                        "oauth"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "SWG - Securing Outbound Internet Access",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class4",
+                    "name": "SAML Identity Provider (IdP) Lab",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class5",
+                    "name": "AD FS Proxy Lab",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class6",
+                    "name": "Federating Common Services",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class7",
+                    "name": "Introduction to Universal Access",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class8",
+                    "name": "Troubleshooting Universal Access",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class9",
+                    "name": "Multi-Factor Auth for Cloud Applications",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class10",
+                    "name": "Priviledged User Authentication",
+                    "tags": [],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "irules",
+            "name": "iRules Data Plane Programmability",
+            "description": "Leverage data plane programmability with F5 iRules and iRules LX",
+            "tags": [
+                "adc",
+                "programmability",
+                "irules",
+                "iruleslx",
+                "tcl",
+                "nodejs",
+                "node"
+            ],
+            "sphinxname": "F5iRulesDataPlaneProgrammability",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Cooking with iRules - HTTP",
+                    "tags": [
+                        "irules"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Cooking with iRules - Security/SSL",
+                    "tags": [
+                        "irules",
+                        "security",
+                        "ssl"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "Introduction to iRules LX",
+                    "tags": [
+                        "iruleslx"
+                    ],
+                    "level": 2
+                }
+            ]
+        },
+        {
+            "id": "containers",
+            "name": "Container Ecosystems",
+            "description": "Integrate the F5 platform with Kubernetes, Mesos/Marathon and OpenShift",
+            "tags": [
+                "docker",
+                "container",
+                "kubernetes",
+                "k8s",
+                "mesos",
+                "marathon",
+                "openshift",
+                "ocp",
+                "cc"
+            ],
+            "sphinxname": "F5SolutionsforContainers",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Introduction to Docker",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Introduction to Kubernetes",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "Introduction to Mesos / Marathon",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class4",
+                    "name": "Introduction to RedHat OpenShift",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class5",
+                    "name": "Advanced Labs for Red Hat OpenShift Container Platform (OCP)",
+                    "tags": [],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "private-cloud",
+            "name": "Private Cloud",
+            "description": "Leverage F5 BIG-IP with Private Cloud solutions such as OpenStack and Cisco APIC",
+            "tags": [
+                "private-cloud",
+                "cloud",
+                "automation",
+                "programmability",
+                "apic",
+                "cisco",
+                "openstack"
+            ],
+            "sphinxname": "F5PrivateCloudSolutions",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "F5 Private Cloud Solutions for OpenStack",
+                    "tags": [
+                        "openstack"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Deploying Cisco APIC with F5 iWorkflow and BIG-IP",
+                    "tags": [
+                        "apic",
+                        "cisco"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "Automation of Cisco APIC and F5 BIG-IP using Ansible",
+                    "tags": [
+                        "apic",
+                        "cisco",
+                        "ansible"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "public-cloud",
+            "name": "Public Cloud",
+            "description": "Leverage F5 BIG-IP with Public Cloud providers such as Amazon AWS, Microsoft Azure and Google Compute Platform",
+            "tags": [
+                "public-cloud",
+                "aws",
+                "azure",
+                "gcp"
+            ],
+            "sphinxname": "F5PublicCloudSolutions",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Deploying BIG-IP Virtual Edition in AWS",
+                    "tags": [
+                        "aws",
+                        "virtual-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "F5 in AWS Advanced Use Cases Beyond Native Tools",
+                    "tags": [
+                        "aws",
+                        "virtual-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "F5 WAF in AWS",
+                    "tags": [
+                        "aws",
+                        "virtual-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class4",
+                    "name": "Secure BIG-IP and Application Deployments in AWS",
+                    "tags": [
+                        "aws",
+                        "virtual-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class5",
+                    "name": "Protecting Cloud Native Applications",
+                    "tags": [
+                        "aws",
+                        "virtual-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class6",
+                    "name": "F5 Azure Automation",
+                    "tags": [
+                        "aws",
+                        "virtual-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class7",
+                    "name": "F5 in Google Cloud Platform",
+                    "tags": [
+                        "gcp",
+                        "virtual-edition"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "azure-saca",
+            "name": "F5 Azure SACA",
+            "description": "F5 Secure Azure Computing Architecture for DoD (SACA)",
+            "tags": [
+                "public-cloud",
+                "azure",
+                "saca"
+            ],
+            "sphinxname": "F5AzureSACA",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Deploying F5 Azure SACA",
+                    "tags": [
+                        "azure",
+                        "saca"
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "sslviz",
+            "name": "SSL/TLS Visiblity",
+            "description": "Gain security visibility into SSL/TLS Encrypted Traffic with F5 SSL Visibility solutions",
+            "tags": [
+                "ssl",
+                "security",
+                "tls"
+            ],
+            "sphinxname": "F5SolutionsforSSLVisibility",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "SSL Orchestration v4 (Agility)",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "SSL Orchestration v5 (Ravello)",
+                    "tags": [],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "vdi",
+            "name": "Virtual Desktop Infrastructure",
+            "description": "Integrate F5 solutions with VDI solutions with VMware View, Citrix XenDesktop and Microsoft RDS Proxy",
+            "tags": [
+                "vdi",
+                "vmware",
+                "citrix",
+                "rds",
+                "view",
+                "xendesktop"
+            ],
+            "sphinxname": "F5SolutionsforVDI",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "lab1",
+                    "name": "VDI the F5 Way",
+                    "tags": [],
+                    "level": 1
+                },
+                {
+                    "id": "lab2",
+                    "name": "Solutions for VMware View",
+                    "tags": [],
+                    "level": 1
+                },
+                {
+                    "id": "lab3",
+                    "name": "Solutions for Citrix XenDesktop",
+                    "tags": [],
+                    "level": 1
+                },
+                {
+                    "id": "lab4",
+                    "name": "Proxy for Microsoft RDS",
+                    "tags": [],
+                    "level": 1
+                },
+                {
+                    "id": "lab5",
+                    "name": "Consolidate VDI Access",
+                    "tags": [],
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "waf",
+            "name": "Web Application Firewall",
+            "description": "Protect your web based applications using F5 Web Application Firewalling solutions",
+            "tags": [
+                "waf",
+                "security"
+            ],
+            "sphinxname": "F5WebApplicationFirewallSolutions",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class2",
+                    "name": "ASM 280 - Pwn like a Hacker; Protect like a Pro",
+                    "tags": [
+                        "waf",
+                        "security"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "ASM 141 - Good WAF Security, Getting started with ASM",
+                    "tags": [
+                        "waf",
+                        "security"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class4",
+                    "name": "ASM 241 - Elevating ASM Protection",
+                    "tags": [
+                        "waf",
+                        "security"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class5",
+                    "name": "ASM 341 - High and Maximum Security",
+                    "tags": [
+                        "waf",
+                        "security"
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": "class6",
+                    "name": "ASM 342 - WAF Programmability",
+                    "tags": [
+                        "waf",
+                        "security"
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": "class7",
+                    "name": "API Protection with ASM",
+                    "tags": [
+                        "waf",
+                        "api",
+                        "security"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "big-iq",
+            "name": "F5 BIG-IQ v6.0",
+            "description": "BIG-IQ v6.0 Centralized Management Solutions",
+            "tags": [
+                "big-iq"
+            ],
+            "sphinxname": "F5BIGIQ",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "BIG-IQ Centralized Management Up And Running",
+                    "tags": [
+                        "big-iq"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "F5 BIG-IQ - Infrastructure and Application owners reunite!",
+                    "tags": [
+                        "waf",
+                        "security"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "BIG-IQ (v5.4) CM Access Self Guided",
+                    "tags": [
+                        "waf",
+                        "security"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "cloud-edition",
+            "name": "F5 BIG-IQ v6.1 and BIG-IP Cloud Edition",
+            "description": "BIG-IQ v6.1 and BIG-IP Cloud Edition",
+            "tags": [
+                "big-iq",
+                "cloud-edition"
+            ],
+            "sphinxname": "F5CE",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "BIG-IQ Application Management and AS3 (Cloud Edition)",
+                    "tags": [
+                        "big-iq",
+                        "as3",
+                        "cloud-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "BIG-IQ Deployment with auto-scale on AWS, Azure & VMware (Cloud Edition)",
+                    "tags": [
+                        "big-iq",
+                        "public-cloud",
+                        "aws",
+                        "azure",
+                        "vmware",
+                        "cloud-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "BIG-IQ Analytics (Cloud Edition)",
+                    "tags": [
+                        "big-iq",
+                        "analytics",
+                        "cloud-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class4",
+                    "name": "BIG-IQ Platform",
+                    "tags": [
+                        "big-iq",
+                        "dcd"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class5",
+                    "name": "BIG-IQ Device Management",
+                    "tags": [
+                        "big-iq"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class6",
+                    "name": "BIG-IQ ADC Management",
+                    "tags": [
+                        "big-iq",
+                        "adc"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class7",
+                    "name": "BIG-IQ Application Firewall Manager (AFM)",
+                    "tags": [
+                        "big-iq",
+                        "afm"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class8",
+                    "name": "BIG-IQ Application Security Manager (ASM)",
+                    "tags": [
+                        "big-iq",
+                        "asm"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class9",
+                    "name": "BIG-IQ Access Policy Manager (APM)",
+                    "tags": [
+                        "big-iq",
+                        "apm"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class10",
+                    "name": "BIG-IQ DNS",
+                    "tags": [
+                        "big-iq",
+                        "dns"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class11",
+                    "name": "BIG-IQ DDoS Monitoring and Dashboard",
+                    "tags": [
+                        "big-iq",
+                        "ddos"
+                    ],
+                    "level": 0
+                }
+            ]
+        }
+    ]
 }
