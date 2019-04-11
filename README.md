@@ -73,6 +73,12 @@ Push new commit hashes for submodules:
 - `git commit -a -m "commit msg"`
 - `git push`
 
+# Remove Lab Submodule
+
+- `git submodule deinit -f labs/<name>`
+- `rm -rf .git/modules/labs/<name>`
+- `git rm -f labs/<name>`
+
 # Build Options
 
 The following environment variables can be used to modify what is built:

@@ -830,29 +830,6 @@
             ]
         },
         {
-            "id": "azure-saca",
-            "name": "F5 Azure SACA",
-            "description": "F5 Secure Azure Computing Architecture for DoD (SACA)",
-            "tags": [
-                "public-cloud",
-                "azure",
-                "saca"
-            ],
-            "sphinxname": "F5AzureSACA",
-            "ga_id": "",
-            "classes": [
-                {
-                    "id": "class1",
-                    "name": "Deploying F5 Azure SACA",
-                    "tags": [
-                        "azure",
-                        "saca"
-                    ],
-                    "level": 1
-                }
-            ]
-        },
-        {
             "id": "sslviz",
             "name": "SSL/TLS Visiblity",
             "description": "Gain security visibility into SSL/TLS Encrypted Traffic with F5 SSL Visibility solutions",
