@@ -1,6 +1,40 @@
 {
     "groups": [
         {
+            "id": "analytics",
+            "name": "Analytics and Visibility",
+            "description": "Gain Visiblity and Insights into your application traffic",
+            "tags": [
+                "analytics",
+                "visibility",
+                "appiq",
+                "adc",
+                "security"
+            ],
+            "sphinxname": "F5AnalyticsandVisibilitySolutions",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "lab1",
+                    "name": "Introduction to AVR",
+                    "tags": [
+                        "analytics",
+                        "avr"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "lab2",
+                    "name": "Integration with Splunk",
+                    "tags": [
+                        "analytics",
+                        "splunk"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
             "id": "adc",
             "name": "Application Delivery Controller",
             "description": "Leverage F5 ADC solutions and Make Your Apps GO",
@@ -60,34 +94,198 @@
             ]
         },
         {
-            "id": "analytics",
-            "name": "Analytics and Visibility",
-            "description": "Gain Visiblity and Insights into your application traffic",
+            "id": "programmability",
+            "name": "Automation, Orchestration & DevOps",
+            "description": "Use the programmability features of the F5 platform using the iControl REST API, iControl LX Extensions, the f5-super-netops toolchain and other tools",
             "tags": [
-                "analytics",
-                "visibility",
-                "appiq",
-                "adc",
-                "security"
+                "programmability",
+                "rest",
+                "icontrol",
+                "ansible",
+                "python",
+                "api",
+                "devops",
+                "declarative",
+                "automation"
             ],
-            "sphinxname": "F5AnalyticsandVisibilitySolutions",
+            "sphinxname": "F5ProgrammabilityTraining",
             "ga_id": "",
             "classes": [
                 {
-                    "id": "lab1",
-                    "name": "Introduction to AVR",
+                    "id": "class1",
+                    "name": "Introduction to Automation & Orchestration",
                     "tags": [
-                        "analytics",
-                        "avr"
+                        "automation",
+                        "orchestration",
+                        "rest",
+                        "postman"
                     ],
                     "level": 0
                 },
                 {
-                    "id": "lab2",
-                    "name": "Integration with Splunk",
+                    "id": "class2",
+                    "name": "Building Continuous Delivery Pipelines",
                     "tags": [
-                        "analytics",
-                        "splunk"
+                        "devops",
+                        "ci",
+                        "cd",
+                        "jenkins"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "Introduction to SecDevOps",
+                    "tags": [
+                        "security",
+                        "secdevops",
+                        "devops",
+                        "automation"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "miniclass1",
+                    "htmllink": "/html/miniclass/miniclass1/miniclass1.html",
+                    "name": "F5 Architectures with Ansible",
+                    "tags": [
+                        "ansible",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "miniclass2",
+                    "htmllink": "/html/miniclass/miniclass2/miniclass2.html",
+                    "name": "Getting Started with F5 Terraform",
+                    "tags": [
+                        "terraform",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "miniclass3",
+                    "htmllink": "/html/miniclass/miniclass3/miniclass3.html",
+                    "name": "Getting Started with F5 &amp; Puppet",
+                    "tags": [
+                        "puppet",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "ddos",
+            "name": "DDoS",
+            "description": "Use the F5 platform to mitigate Distributed Denial of Service attacks",
+            "tags": [
+                "security",
+                "ddos",
+                "afm",
+                "asm"
+            ],
+            "sphinxname": "F5SolutionsforDDoS",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Introduction to DDoS with F5 Herculon",
+                    "tags": [
+                        "herculon"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Intermediate DDoS Protection",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "DDoS Hybrid Defender",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class4",
+                    "name": "Mitigating Real World DDoS Attacks",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class5",
+                    "name": "Multilayer DDoS Protection",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class6",
+                    "name": "F5 Agility 2018:  DDoS Attack Protection",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class7",
+                    "name": "Introduction to L7 Behavioral DoS",
+                    "tags": [
+                        ""
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "big-iq",
+            "name": "F5 BIG-IQ v6.0",
+            "description": "BIG-IQ v6.0 Centralized Management Solutions",
+            "tags": [
+                "big-iq"
+            ],
+            "sphinxname": "F5BIGIQ",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "BIG-IQ Centralized Management Up And Running",
+                    "tags": [
+                        "big-iq"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "F5 BIG-IQ - Infrastructure and Application owners reunite!",
+                    "tags": [
+                        "waf",
+                        "security"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "BIG-IQ (v5.4) CM Access Self Guided",
+                    "tags": [
+                        "waf",
+                        "security"
                     ],
                     "level": 0
                 }
@@ -228,193 +426,73 @@
             ]
         },
         {
-            "id": "programmability",
-            "name": "Automation, Orchestration & DevOps",
-            "description": "Use the programmability features of the F5 platform using the iControl REST API, iControl LX Extensions, the f5-super-netops toolchain and other tools",
+            "id": "containers",
+            "name": "F5 Container Ingress Services",
+            "description": "Integrate the F5 platform with Kubernetes or OpenShift",
             "tags": [
-                "programmability",
-                "rest",
-                "icontrol",
-                "ansible",
-                "python",
-                "api",
-                "devops",
-                "declarative",
-                "automation"
+                "docker",
+                "container",
+                "kubernetes",
+                "k8s",
+                "openshift",
+                "ocp",
+                "okd"
             ],
-            "sphinxname": "F5ProgrammabilityTraining",
+            "sphinxname": "F5SolutionsforContainers",
             "ga_id": "",
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Introduction to Automation & Orchestration",
-                    "tags": [
-                        "automation",
-                        "orchestration",
-                        "rest",
-                        "postman"
-                    ],
+                    "name": "Introduction to Docker",
+                    "tags": [],
                     "level": 0
                 },
                 {
                     "id": "class2",
-                    "name": "Building Continuous Delivery Pipelines",
-                    "tags": [
-                        "devops",
-                        "ci",
-                        "cd",
-                        "jenkins"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "class3",
-                    "name": "Introduction to SecDevOps",
-                    "tags": [
-                        "security",
-                        "secdevops",
-                        "devops",
-                        "automation"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "miniclass1",
-                    "htmllink": "/html/miniclass/miniclass1/miniclass1.html",
-                    "name": "F5 Architectures with Ansible",
-                    "tags": [
-                        "ansible",
-                        "automation",
-                        "devops",
-                        "orchestration"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "miniclass2",
-                    "htmllink": "/html/miniclass/miniclass2/miniclass2.html",
-                    "name": "Getting Started with F5 Terraform",
-                    "tags": [
-                        "terraform",
-                        "automation",
-                        "devops",
-                        "orchestration"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "miniclass3",
-                    "htmllink": "/html/miniclass/miniclass3/miniclass3.html",
-                    "name": "Getting Started with F5 &amp; Puppet",
-                    "tags": [
-                        "puppet",
-                        "automation",
-                        "devops",
-                        "orchestration"
-                    ],
-                    "level": 1
-                }
-            ]
-        },
-        {
-            "id": "icontrol-lx",
-            "name": "iControlLX API Extensions",
-            "description": "Learn how to write iControlLX API Extensions",
-            "tags": [
-                "programmability",
-                "rest",
-                "icontrol",
-                "ansible",
-                "python",
-                "api",
-                "devops",
-                "declarative",
-                "automation"
-            ],
-            "sphinxname": "F5iControlLX",
-            "ga_id": "",
-            "classes": [
-                {
-                    "id": "class1",
-                    "name": "Single Call Security iControlLX REST Extension",
-                    "tags": [
-                        "automation",
-                        "orchestration",
-                        "rest",
-                        "postman"
-                    ],
-                    "level": 0
-                }
-            ]
-        },
-        {
-            "id": "ddos",
-            "name": "DDoS",
-            "description": "Use the F5 platform to mitigate Distributed Denial of Service attacks",
-            "tags": [
-                "security",
-                "ddos",
-                "afm",
-                "asm"
-            ],
-            "sphinxname": "F5SolutionsforDDoS",
-            "ga_id": "",
-            "classes": [
-                {
-                    "id": "class1",
-                    "name": "Introduction to DDoS with F5 Herculon",
-                    "tags": [
-                        "herculon"
-                    ],
+                    "name": "Introduction to Kubernetes",
+                    "tags": [],
                     "level": 0
                 },
                 {
-                    "id": "class2",
-                    "name": "Intermediate DDoS Protection",
-                    "tags": [
-                        ""
-                    ],
-                    "level": 1
-                },
-                {
                     "id": "class3",
-                    "name": "DDoS Hybrid Defender",
-                    "tags": [
-                        ""
-                    ],
-                    "level": 1
+                    "name": "Introduction to Mesos / Marathon",
+                    "tags": [],
+                    "level": 0
                 },
                 {
                     "id": "class4",
-                    "name": "Mitigating Real World DDoS Attacks",
-                    "tags": [
-                        ""
-                    ],
-                    "level": 1
+                    "name": "Introduction to RedHat OpenShift",
+                    "tags": [],
+                    "level": 0
                 },
                 {
                     "id": "class5",
-                    "name": "Multilayer DDoS Protection",
-                    "tags": [
-                        ""
-                    ],
-                    "level": 1
-                },
+                    "name": "Advanced Labs for Red Hat OpenShift Container Platform (OCP)",
+                    "tags": [],
+                    "level": 0
+                }
+            ]
+        },
+        {
+            "id": "fps",
+            "name": "Fraud Protection",
+            "description": "Protect your users from client-side malware, phishing and credential theft",
+            "tags": [
+                "security",
+                "fraud",
+                "malware",
+                "phishing",
+                "credentials",
+                "websafe"
+            ],
+            "sphinxname": "F5FraudProtectionSolutions",
+            "ga_id": "",
+            "classes": [
                 {
-                    "id": "class6",
-                    "name": "F5 Agility 2018:  DDoS Attack Protection",
-                    "tags": [
-                        ""
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "class7",
-                    "name": "Introduction to L7 Behavioral DoS",
-                    "tags": [
-                        ""
-                    ],
-                    "level": 1
+                    "id": "class1",
+                    "name": "Introduction to Fraud and F5 WebSafe",
+                    "tags": [],
+                    "level": 0
                 }
             ]
         },
@@ -469,63 +547,32 @@
             ]
         },
         {
-            "id": "firewall",
-            "name": "L4-7 Firewall",
-            "description": "Leverage F5's rich application layer capabilities for L4-7 Firewall use cases",
+            "id": "icontrol-lx",
+            "name": "iControlLX API Extensions",
+            "description": "Learn how to write iControlLX API Extensions",
             "tags": [
-                "firewall",
-                "security",
-                "afm",
-                "asm"
+                "programmability",
+                "rest",
+                "icontrol",
+                "ansible",
+                "python",
+                "api",
+                "devops",
+                "declarative",
+                "automation"
             ],
-            "sphinxname": "F5FirewallSolutions",
+            "sphinxname": "F5iControlLX",
             "ga_id": "",
             "classes": [
                 {
                     "id": "class1",
-                    "name": "AFM - The Data Center Firewall",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class2",
-                    "name": "Advanced Multi-Layer Firewall Protection",
-                    "tags": [],
-                    "level": 2
-                },
-                {
-                    "id": "class3",
-                    "name": "F5 BIG-IP DDoS and DNS DoS Protections",
-                    "tags": [],
-                    "level": 2
-                },
-                {
-                    "id": "class4",
-                    "name": "Flowmon Integrated Out-of-path DDoS Solution",
-                    "tags": [],
-                    "level": 2
-                }
-            ]
-        },
-        {
-            "id": "fps",
-            "name": "Fraud Protection",
-            "description": "Protect your users from client-side malware, phishing and credential theft",
-            "tags": [
-                "security",
-                "fraud",
-                "malware",
-                "phishing",
-                "credentials",
-                "websafe"
-            ],
-            "sphinxname": "F5FraudProtectionSolutions",
-            "ga_id": "",
-            "classes": [
-                {
-                    "id": "class1",
-                    "name": "Introduction to Fraud and F5 WebSafe",
-                    "tags": [],
+                    "name": "Single Call Security iControlLX REST Extension",
+                    "tags": [
+                        "automation",
+                        "orchestration",
+                        "rest",
+                        "postman"
+                    ],
                     "level": 0
                 }
             ]
@@ -657,50 +704,41 @@
             ]
         },
         {
-            "id": "containers",
-            "name": "F5 Container Ingress Services",
-            "description": "Integrate the F5 platform with Kubernetes or OpenShift",
+            "id": "firewall",
+            "name": "L4-7 Firewall",
+            "description": "Leverage F5's rich application layer capabilities for L4-7 Firewall use cases",
             "tags": [
-                "docker",
-                "container",
-                "kubernetes",
-                "k8s",
-                "openshift",
-                "ocp",
-                "okd"
+                "firewall",
+                "security",
+                "afm",
+                "asm"
             ],
-            "sphinxname": "F5SolutionsforContainers",
+            "sphinxname": "F5FirewallSolutions",
             "ga_id": "",
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Introduction to Docker",
+                    "name": "AFM - The Data Center Firewall",
                     "tags": [],
                     "level": 0
                 },
                 {
                     "id": "class2",
-                    "name": "Introduction to Kubernetes",
+                    "name": "Advanced Multi-Layer Firewall Protection",
                     "tags": [],
-                    "level": 0
+                    "level": 2
                 },
                 {
                     "id": "class3",
-                    "name": "Introduction to Mesos / Marathon",
+                    "name": "F5 BIG-IP DDoS and DNS DoS Protections",
                     "tags": [],
-                    "level": 0
+                    "level": 2
                 },
                 {
                     "id": "class4",
-                    "name": "Introduction to RedHat OpenShift",
+                    "name": "Flowmon Integrated Out-of-path DDoS Solution",
                     "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class5",
-                    "name": "Advanced Labs for Red Hat OpenShift Container Platform (OCP)",
-                    "tags": [],
-                    "level": 0
+                    "level": 2
                 }
             ]
         },
@@ -962,44 +1000,6 @@
                     "tags": [
                         "waf",
                         "api",
-                        "security"
-                    ],
-                    "level": 0
-                }
-            ]
-        },
-        {
-            "id": "big-iq",
-            "name": "F5 BIG-IQ v6.0",
-            "description": "BIG-IQ v6.0 Centralized Management Solutions",
-            "tags": [
-                "big-iq"
-            ],
-            "sphinxname": "F5BIGIQ",
-            "ga_id": "",
-            "classes": [
-                {
-                    "id": "class1",
-                    "name": "BIG-IQ Centralized Management Up And Running",
-                    "tags": [
-                        "big-iq"
-                    ],
-                    "level": 0
-                },
-                {
-                    "id": "class2",
-                    "name": "F5 BIG-IQ - Infrastructure and Application owners reunite!",
-                    "tags": [
-                        "waf",
-                        "security"
-                    ],
-                    "level": 0
-                },
-                {
-                    "id": "class3",
-                    "name": "BIG-IQ (v5.4) CM Access Self Guided",
-                    "tags": [
-                        "waf",
                         "security"
                     ],
                     "level": 0
