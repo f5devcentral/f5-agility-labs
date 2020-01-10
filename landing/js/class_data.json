@@ -313,7 +313,20 @@
                         "orchestration"
                     ],
                     "level": 1
-                }
+                },
+                {
+                    "id": "class1",
+                    "htmllink": "/service-discovery/html/",
+                    "name": "Service Discovery",
+                    "tags": [
+                        "terraform",
+                        "consul",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                }                
             ]
         },
         {
