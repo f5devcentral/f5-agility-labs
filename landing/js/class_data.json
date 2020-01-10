@@ -658,18 +658,16 @@
         },
         {
             "id": "containers",
-            "name": "Container Ecosystems",
-            "description": "Integrate the F5 platform with Kubernetes, Mesos/Marathon and OpenShift",
+            "name": "F5 Container Ingress Services",
+            "description": "Integrate the F5 platform with Kubernetes or OpenShift",
             "tags": [
                 "docker",
                 "container",
                 "kubernetes",
                 "k8s",
-                "mesos",
-                "marathon",
                 "openshift",
                 "ocp",
-                "cc"
+                "okd"
             ],
             "sphinxname": "F5SolutionsforContainers",
             "ga_id": "",
