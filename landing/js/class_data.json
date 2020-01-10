@@ -316,7 +316,7 @@
                 },
                 {
                     "id": "class1",
-                    "htmllink": "/service-discovery/html/",
+                    "htmllink": "../service-discovery/html/",
                     "name": "Service Discovery",
                     "tags": [
                         "terraform",
