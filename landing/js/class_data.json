@@ -892,6 +892,95 @@
             ]
         },
         {
+            "id": "programmability",
+            "name": "F5 Super-NetOps",
+            "description": "Learn the skills necessary to standardize critical application services and provide them within automated toolchains",
+            "tags": [
+                "programmability",
+                "rest",
+                "icontrol",
+                "ansible",
+                "python",
+                "api",
+                "devops",
+                "declarative",
+                "automation"
+            ],
+            "sphinxname": "F5ProgrammabilityTraining",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Introduction to Automation & Orchestration",
+                    "tags": [
+                        "automation",
+                        "orchestration",
+                        "rest",
+                        "postman"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Building Continuous Delivery Pipelines",
+                    "tags": [
+                        "devops",
+                        "ci",
+                        "cd",
+                        "jenkins"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "Introduction to SecDevOps",
+                    "tags": [
+                        "security",
+                        "secdevops",
+                        "devops",
+                        "automation"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "miniclass1",
+                    "htmllink": "/html/miniclass/miniclass1/miniclass1.html",
+                    "name": "F5 Architectures with Ansible",
+                    "tags": [
+                        "ansible",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "miniclass2",
+                    "htmllink": "/html/miniclass/miniclass2/miniclass2.html",
+                    "name": "Getting Started with F5 Terraform",
+                    "tags": [
+                        "terraform",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "miniclass3",
+                    "htmllink": "/html/miniclass/miniclass3/miniclass3.html",
+                    "name": "Getting Started with F5 &amp; Puppet",
+                    "tags": [
+                        "puppet",
+                        "automation",
+                        "devops",
+                        "orchestration"
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
             "id": "vdi",
             "name": "Virtual Desktop Infrastructure",
             "description": "Integrate F5 solutions with VDI solutions with VMware View, Citrix XenDesktop and Microsoft RDS Proxy",
