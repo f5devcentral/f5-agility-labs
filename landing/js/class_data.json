@@ -94,9 +94,9 @@
             ]
         },
         {
-            "id": "programmability",
+            "id": "automation",
             "name": "Automation, Orchestration & DevOps",
-            "description": "Use the programmability features of the F5 platform using the iControl REST API, iControl LX Extensions, the f5-super-netops toolchain and other tools",
+            "description": "Use the programmability features of the F5 platform using the iControl REST API, iControl LX Extensions, and other tools",
             "tags": [
                 "programmability",
                 "rest",
@@ -108,12 +108,12 @@
                 "declarative",
                 "automation"
             ],
-            "sphinxname": "F5ProgrammabilityTraining",
+            "sphinxname": "F5AutomationOrchestration",
             "ga_id": "",
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Introduction to Automation & Orchestration",
+                    "name": "class 1 title here",
                     "tags": [
                         "automation",
                         "orchestration",
@@ -124,7 +124,7 @@
                 },
                 {
                     "id": "class2",
-                    "name": "Building Continuous Delivery Pipelines",
+                    "name": "class 2 title here",
                     "tags": [
                         "devops",
                         "ci",
@@ -135,48 +135,12 @@
                 },
                 {
                     "id": "class3",
-                    "name": "Introduction to SecDevOps",
+                    "name": "class 3 title here",
                     "tags": [
                         "security",
                         "secdevops",
                         "devops",
                         "automation"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "miniclass1",
-                    "htmllink": "/html/miniclass/miniclass1/miniclass1.html",
-                    "name": "F5 Architectures with Ansible",
-                    "tags": [
-                        "ansible",
-                        "automation",
-                        "devops",
-                        "orchestration"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "miniclass2",
-                    "htmllink": "/html/miniclass/miniclass2/miniclass2.html",
-                    "name": "Getting Started with F5 Terraform",
-                    "tags": [
-                        "terraform",
-                        "automation",
-                        "devops",
-                        "orchestration"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "miniclass3",
-                    "htmllink": "/html/miniclass/miniclass3/miniclass3.html",
-                    "name": "Getting Started with F5 &amp; Puppet",
-                    "tags": [
-                        "puppet",
-                        "automation",
-                        "devops",
-                        "orchestration"
                     ],
                     "level": 1
                 }
