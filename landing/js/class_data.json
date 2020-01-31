@@ -134,12 +134,12 @@
                     "level": 1
                 },
                 {
-                    "id": "class3",
-                    "name": "class 3 title here",
+                    "id": "class12",
+                    "name": "Dude Where's My Services: Introduction to Service Discovery with Consul",
                     "tags": [
-                        "security",
-                        "secdevops",
-                        "devops",
+                        "terraform",
+                        "consul",
+                        "hashicorp",
                         "automation"
                     ],
                     "level": 1
