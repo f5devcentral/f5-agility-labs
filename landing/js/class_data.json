@@ -118,7 +118,7 @@
             "ga_id": "",
             "classes": [
                 {
-                    "id": "class1",
+                    "id": "class01",
                     "name": "Class 1 - Programmability - Introduction to BIG-IP Rest Structure and Concepts",
                     "tags": [
                         "automation",
@@ -129,7 +129,7 @@
                     "level": 0
                 },
                 {
-                    "id": "class2",
+                    "id": "class02",
                     "name": "Class 2 - A&O Toolchain 111: BIG-IP Deployments with Declarative Onboarding (DO)",
                     "tags": [
                         "devops",
@@ -140,7 +140,7 @@
                     "level": 1
                 },
                 {
-                    "id": "class3",
+                    "id": "class03",
                     "name": "Class 3 - A&O Tool Chain - Application Deployments with BIG-IP and Application Services (AS3)",
                     "tags": [
                         "devops",
@@ -151,7 +151,7 @@
                     "level": 1
                 },
                 {
-                    "id": "class4",
+                    "id": "class04",
                     "name": "Class 4 - A&O Tool Chain - BIG-IP Service Analytics and Metrics with Telemetry Streaming (TS)",
                     "tags": [
                         "devops",
@@ -162,7 +162,7 @@
                     "level": 1
                 },
                 {
-                    "id": "class5",
+                    "id": "class05",
                     "name": "Class 5 - A&O Tool Chain - Advanced Design Patterns with AS3, DO and TS",
                     "tags": [
                         "as3",
@@ -173,7 +173,7 @@
                     "level": 2
                 },
                 {
-                    "id": "class6",
+                    "id": "class06",
                     "name": "Class 6 - Programmability - CI/CD Process Integration with BIG-IP",
                     "tags": [
                         "devops",
@@ -184,7 +184,7 @@
                     "level": 2
                 },
                 {
-                    "id": "class7",
+                    "id": "class07",
                     "name": "Class 7 - Dude Where's My Services: Introduction to Service Discovery with Consul",
                     "tags": [
                         "terraform",
@@ -195,7 +195,7 @@
                     "level": 1
                 },
                 {
-                    "id": "class9",
+                    "id": "class09",
                     "name": "Class 9 - Basic BIG-IP Configuration Management with Ansible",
                     "tags": [
                         "devops",
