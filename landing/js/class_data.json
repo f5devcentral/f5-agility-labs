@@ -102,44 +102,138 @@
                 "rest",
                 "icontrol",
                 "ansible",
+                "terraform",
+                "consul",
                 "python",
                 "api",
                 "devops",
                 "declarative",
-                "automation"
+                "imperative",
+                "automation",
+                "orchestration",
+                "as3",
+                "do"
             ],
             "sphinxname": "F5AutomationOrchestration",
             "ga_id": "",
             "classes": [
                 {
                     "id": "class1",
-                    "name": "class 1 title here",
+                    "name": "Class 1 - Programmability - Introduction to BIG-IP Rest Structure and Concepts",
                     "tags": [
                         "automation",
                         "orchestration",
                         "rest",
-                        "postman"
+                        "programmability"
                     ],
                     "level": 0
                 },
                 {
                     "id": "class2",
-                    "name": "class 2 title here",
+                    "name": "Class 2 - A&O Toolchain 111: BIG-IP Deployments with Declarative Onboarding (DO)",
+                    "tags": [
+                        "devops",
+                        "do",
+                        "declarative",
+                        "automation"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "Class 3 - A&O Tool Chain - Application Deployments with BIG-IP and Application Services (AS3)",
+                    "tags": [
+                        "devops",
+                        "as3",
+                        "automation",
+                        "declarative"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class4",
+                    "name": "Class 4 - A&O Tool Chain - BIG-IP Service Analytics and Metrics with Telemetry Streaming (TS)",
+                    "tags": [
+                        "devops",
+                        "telemetry",
+                        "automation",
+                        "analytics"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class5",
+                    "name": "Class 5 - A&O Tool Chain - Advanced Design Patterns with AS3, DO and TS",
+                    "tags": [
+                        "as3",
+                        "do",
+                        "ts",
+                        "automation"
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": "class6",
+                    "name": "Class 6 - Programmability - CI/CD Process Integration with BIG-IP",
                     "tags": [
                         "devops",
                         "ci",
                         "cd",
                         "jenkins"
                     ],
+                    "level": 2
+                },
+                {
+                    "id": "class7",
+                    "name": "Class 7 - Dude Where's My Services: Introduction to Service Discovery with Consul",
+                    "tags": [
+                        "terraform",
+                        "consul",
+                        "automation",
+                        "hashi"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class9",
+                    "name": "Class 9 - Basic BIG-IP Configuration Management with Ansible",
+                    "tags": [
+                        "devops",
+                        "ansible",
+                        "automation",
+                        "bigip"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class10",
+                    "name": "Class 10 - Advanced BIG-IP Configuration Management with Ansible",
+                    "tags": [
+                        "devops",
+                        "ansible",
+                        "automation",
+                        "bigip"
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": "class11",
+                    "name": "Class 11 - 101 of Terraform BIG-IP Provider",
+                    "tags": [
+                        "terraform",
+                        "bigip",
+                        "automation",
+                        "bigip"
+                    ],
                     "level": 1
                 },
                 {
                     "id": "class12",
-                    "name": "Dude Where's My Services: Introduction to Service Discovery with Consul",
+                    "name": "Class 12 - Cisco ACI Integration with BIG-IP",
                     "tags": [
-                        "terraform",
-                        "consul",
-                        "hashicorp",
+                        "aci",
+                        "cisco",
+                        "bigip",
                         "automation"
                     ],
                     "level": 1
