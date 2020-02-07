@@ -195,28 +195,6 @@
                     "level": 1
                 },
                 {
-                    "id": "class09",
-                    "name": "Class 9 - Basic BIG-IP Configuration Management with Ansible",
-                    "tags": [
-                        "devops",
-                        "ansible",
-                        "automation",
-                        "bigip"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "class10",
-                    "name": "Class 10 - Advanced BIG-IP Configuration Management with Ansible",
-                    "tags": [
-                        "devops",
-                        "ansible",
-                        "automation",
-                        "bigip"
-                    ],
-                    "level": 2
-                },
-                {
                     "id": "class11",
                     "name": "Class 11 - 101 of Terraform BIG-IP Provider",
                     "tags": [
