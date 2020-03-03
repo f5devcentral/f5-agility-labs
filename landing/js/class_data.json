@@ -479,31 +479,13 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Introduction to Docker",
+                    "name": "Introduction to CIS on Kubernetes",
                     "tags": [],
                     "level": 0
                 },
                 {
                     "id": "class2",
-                    "name": "Introduction to Kubernetes",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class3",
-                    "name": "Introduction to Mesos / Marathon",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class4",
-                    "name": "Introduction to RedHat OpenShift",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class5",
-                    "name": "Advanced Labs for Red Hat OpenShift Container Platform (OCP)",
+                    "name": "Introduction to CIS on OpenShift",
                     "tags": [],
                     "level": 0
                 }
