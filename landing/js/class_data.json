@@ -560,6 +560,16 @@
                         "dns",
                         "edns0"
                     ],
+                    "level": 1
+                },                
+                {
+                    "id": "class5",
+                    "name": "DNS Over HTTPS / DNS Over TLS",
+                    "tags": [
+                        "dns",
+                        "https",
+                        "tls"
+                    ],
                     "level": 2
                 }
             ]
