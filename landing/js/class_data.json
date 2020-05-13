@@ -1071,15 +1071,17 @@
                     "name": "ASM 280 - Pwn like a Hacker; Protect like a Pro",
                     "tags": [
                         "waf",
+                        "asm",
                         "security"
                     ],
                     "level": 1
                 },
                 {
                     "id": "class3",
-                    "name": "ASM 141 - Good WAF Security, Getting started with ASM",
+                    "name": "WAF 141 - Getting started with WAF, Bot Detection and Threat Campaigns",
                     "tags": [
                         "waf",
+                        "asm",
                         "security"
                     ],
                     "level": 0
@@ -1089,15 +1091,17 @@
                     "name": "ASM 241 - Elevating ASM Protection",
                     "tags": [
                         "waf",
+                        "asm",
                         "security"
                     ],
                     "level": 1
                 },
                 {
                     "id": "class5",
-                    "name": "ASM 341 - High and Maximum Security",
+                    "name": "WAF 341 - Advanced Protection and Positive Security",
                     "tags": [
                         "waf",
+                        "asm",
                         "security"
                     ],
                     "level": 2
@@ -1107,6 +1111,7 @@
                     "name": "ASM 342 - WAF Programmability",
                     "tags": [
                         "waf",
+                        "asm",
                         "security"
                     ],
                     "level": 2
@@ -1116,11 +1121,24 @@
                     "name": "API Protection with ASM",
                     "tags": [
                         "waf",
+                        "asm",
                         "api",
                         "security"
                     ],
                     "level": 0
+                },
+                {
+                    "id": "class8",
+                    "name": "F5 Advanced WAF 14.1",
+                    "tags": [
+                        "waf",
+                        "asm",
+                        "awaf",
+                        "security"
+                    ],
+                    "level": 0
                 }
+
             ]
         }
     ]
