@@ -291,28 +291,30 @@
         },
         {
             "id": "big-iq",
-            "name": "F5 BIG-IQ v6.0",
-            "description": "BIG-IQ v6.0 Centralized Management Solutions",
+            "name": "F5 BIG-IQ",
+            "description": "BIG-IQ Centralized Management Solutions",
             "tags": [
-                "big-iq"
+                "big-iq",
+                "bigiq"
             ],
             "sphinxname": "F5BIGIQ",
             "ga_id": "",
             "classes": [
                 {
                     "id": "class1",
-                    "name": "BIG-IQ Centralized Management Up And Running",
+                    "name": "BIG-IQ v6.0 Centralized Management Up And Running",
                     "tags": [
+                        "bigiq",
                         "big-iq"
                     ],
                     "level": 0
                 },
                 {
                     "id": "class2",
-                    "name": "F5 BIG-IQ - Infrastructure and Application owners reunite!",
+                    "name": "BIG-IQ v6.0 - Infrastructure and Application owners reunite!",
                     "tags": [
-                        "waf",
-                        "security"
+                        "bigiq",
+                        "big-iq"
                     ],
                     "level": 0
                 },
@@ -320,6 +322,17 @@
                     "id": "class3",
                     "name": "BIG-IQ (v5.4) CM Access Self Guided",
                     "tags": [
+                        "bigiq",
+                        "big-iq"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class4",
+                    "name": "BIG-IQ v7.1 - Security Automation with BIG-IQ",
+                    "tags": [
+                        "bigiq",
+                        "big-iq",
                         "waf",
                         "security"
                     ],
