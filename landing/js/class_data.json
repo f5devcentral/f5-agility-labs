@@ -929,6 +929,24 @@
                     "name": "SSL Orchestration v5 (Ravello)",
                     "tags": [],
                     "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "SSL Orchestration v6 (Ravello)",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class4",
+                    "name": "Agility 2020 - SSLO 101: Essential SSL Visibility with SSL Orchestrator",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class5",
+                    "name": "Agility 2020 - SSLO 201: More SSL Orchestrator Use Cases",
+                    "tags": [],
+                    "level": 1
                 }
             ]
         },
