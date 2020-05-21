@@ -741,6 +741,14 @@
                         "iruleslx"
                     ],
                     "level": 2
+                },
+                {
+                    "id": "class4",
+                    "name": "NGINX programmability",
+                    "tags": [
+                        "nginx"
+                    ],
+                    "level": 2
                 }
             ]
         },
