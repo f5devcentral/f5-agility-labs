@@ -921,39 +921,22 @@
             "tags": [
                 "ssl",
                 "security",
-                "tls"
+                "tls",
+                "sslo"
             ],
             "sphinxname": "F5SolutionsforSSLVisibility",
             "ga_id": "",
             "classes": [
                 {
                     "id": "class1",
-                    "name": "SSL Orchestration v4 (Agility)",
-                    "tags": [],
+                    "name": "SSL Orchestrator v7 - SSLO 101: Essential SSL Visibility with SSL Orchestrator",
+                    "tags": ["sslo"],
                     "level": 0
                 },
                 {
                     "id": "class2",
-                    "name": "SSL Orchestration v5 (Ravello)",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class3",
-                    "name": "SSL Orchestration v6 (Ravello)",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class4",
-                    "name": "Agility 2020 - SSLO 101: Essential SSL Visibility with SSL Orchestrator",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class5",
-                    "name": "Agility 2020 - SSLO 201: More SSL Orchestrator Use Cases",
-                    "tags": [],
+                    "name": "SSL Orchestrator v7 - SSLO 201: Real World Use Cases / Putting It to Use",
+                    "tags": ["sslo"],
                     "level": 1
                 }
             ]
