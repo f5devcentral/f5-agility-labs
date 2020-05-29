@@ -6,7 +6,7 @@ deploy:
     provider: s3
     region: us-east-1
     secret_access_key: $AWS_SECRET_ACCESS_KEY
-    cleanup: false
+    skip_cleanup: true
     on:
       repo: f5devcentral/f5-agility-labs
     upload_dir: training
@@ -28,4 +28,3 @@ os:
   - linux
 dist:
   - bionic
-sudo: required
