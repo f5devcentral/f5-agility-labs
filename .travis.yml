@@ -28,3 +28,4 @@ os:
   - linux
 dist:
   - bionic
+sudo: required
