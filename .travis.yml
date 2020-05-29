@@ -7,7 +7,7 @@ deploy:
     region: us-east-1
     secret_access_key: $AWS_SECRET_ACCESS_KEY
     skip_cleanup: true
-    on:
+    true:
       repo: f5devcentral/f5-agility-labs
     upload_dir: training
 after_deploy:
@@ -19,13 +19,9 @@ install:
   - "pip install -r requirements.txt"
 language: python
 python:
-  - "3.8"
+  - "2.7"
 script:
   - script/cibuild
 services:
   - docker
-os:
-  - linux
-dist:
-  - bionic
 sudo: required
