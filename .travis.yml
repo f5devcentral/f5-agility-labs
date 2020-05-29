@@ -25,3 +25,5 @@ script:
 services:
   - docker
 sudo: required
+os: linux
+dist: xenial
