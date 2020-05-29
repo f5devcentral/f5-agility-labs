@@ -7,7 +7,7 @@ deploy:
     region: us-east-1
     secret_access_key: $AWS_SECRET_ACCESS_KEY
     skip_cleanup: true
-    true:
+    on:
       repo: f5devcentral/f5-agility-labs
     upload_dir: training
 after_deploy:
@@ -25,5 +25,3 @@ script:
 services:
   - docker
 sudo: required
-os: linux
-dist: xenial
