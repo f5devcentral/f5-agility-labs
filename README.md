@@ -1,5 +1,8 @@
 # f5-agility-labs
 
+[![master](https://travis-ci.com/f5devcentral/f5-agility-labs.svg?branch=master)](https://travis-ci.org/f5devcentral/f5-agility-labs)
+[![Issues](https://img.shields.io/github/issues/f5devcentral/f5-agility-labs)](https://github.com/f5devcentral/f5-agility-labs/issues)
+
 This repository contains the build infrastructure used to create lab content
 for F5 Networks Agility Labs hosted at http://clouddocs.f5.com
 
