@@ -302,7 +302,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "BIG-IQ v7.1 - ADC Automation with BIG-IQ",
+                    "name": "F5 Agility 2020: ADC Automation with BIG-IQ 7.1",
                     "tags": [
                         "bigiq",
                         "big-iq"
@@ -311,7 +311,7 @@
                 },
                 {
                     "id": "class2",
-                    "name": "BIG-IQ v7.1 - Security Automation with BIG-IQ",
+                    "name": "F5 Agility 2020: Security Automation with BIG-IQ 7.1",
                     "tags": [
                         "bigiq",
                         "big-iq",
