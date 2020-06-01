@@ -767,25 +767,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "AFM - The Data Center Firewall",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class2",
                     "name": "Advanced Multi-Layer Firewall Protection",
-                    "tags": [],
-                    "level": 2
-                },
-                {
-                    "id": "class3",
-                    "name": "F5 BIG-IP DDoS and DNS DoS Protections",
-                    "tags": [],
-                    "level": 2
-                },
-                {
-                    "id": "class4",
-                    "name": "Flowmon Integrated Out-of-path DDoS Solution",
                     "tags": [],
                     "level": 2
                 }
