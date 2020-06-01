@@ -302,7 +302,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "BIG-IQ v6.0 - Centralized Management Up And Running",
+                    "name": "BIG-IQ v7.1 - ADC Automation with BIG-IQ",
                     "tags": [
                         "bigiq",
                         "big-iq"
@@ -311,24 +311,6 @@
                 },
                 {
                     "id": "class2",
-                    "name": "BIG-IQ v6.0 - Infrastructure and Application owners reunite!",
-                    "tags": [
-                        "bigiq",
-                        "big-iq"
-                    ],
-                    "level": 0
-                },
-                {
-                    "id": "class3",
-                    "name": "BIG-IQ v5.4 - CM Access Self Guided",
-                    "tags": [
-                        "bigiq",
-                        "big-iq"
-                    ],
-                    "level": 0
-                },
-                {
-                    "id": "class4",
                     "name": "BIG-IQ v7.1 - Security Automation with BIG-IQ",
                     "tags": [
                         "bigiq",
