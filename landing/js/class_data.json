@@ -1094,7 +1094,7 @@
                 },
                 {
                     "id": "class6",
-                    "name": "ASM 342 - WAF Programmability",
+                    "name": "AWAF in a CI/CD Pipeline",
                     "tags": [
                         "waf",
                         "asm",
