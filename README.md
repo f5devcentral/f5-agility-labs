@@ -8,7 +8,7 @@ for F5 Networks Agility Labs hosted at http://clouddocs.f5.com
 
 It is recommended that you use the Sphinx lab template here:
 
-https://github.com/0xHiteshPatel/f5-agility-lab-template
+https://github.com/f5devcentral/f5-agility-labs-template
 
 This repository leverages a CI/CD toolchain with full build, test and publish
 to production environment.
