@@ -15,20 +15,32 @@
             "ga_id": "",
             "classes": [
                 {
-                    "id": "lab1",
+                    "id": "class1",
                     "name": "Introduction to AVR",
                     "tags": [
                         "analytics",
+                        "visibility",
                         "avr"
                     ],
                     "level": 0
                 },
                 {
-                    "id": "lab2",
+                    "id": "class2",
                     "name": "Integration with Splunk",
                     "tags": [
                         "analytics",
+                        "visibility",
                         "splunk"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class3",
+                    "name": "F5 Telemetry Streaming",
+                    "tags": [
+                        "analytics",
+                        "visibility",
+                        "telemetry"
                     ],
                     "level": 0
                 }
@@ -758,7 +770,7 @@
         {
             "id": "nginx",
             "name": "NGINX",
-            "description": "NGINX",
+            "description": "Learn about NGINX and NGINX Plus",
             "tags": [
                 "nginx",
                 "bigip"
