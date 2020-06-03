@@ -758,7 +758,7 @@
         {
             "id": "nginx",
             "name": "NGINX",
-            "description": "NGINX",
+            "description": "Learn about NGINX and NGINX Plus",
             "tags": [
                 "nginx",
                 "bigip"
