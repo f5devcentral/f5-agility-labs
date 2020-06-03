@@ -756,6 +756,27 @@
             ]
         },
         {
+            "id": "nginx",
+            "name": "NGINX",
+            "description": "NGINX",
+            "tags": [
+                "nginx",
+                "bigip"
+            ],
+            "sphinxname": "nginx",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Introduction to NGINX Plus & Integrating with BIG-IP",
+                    "tags": [
+                        "openstack"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
             "id": "private-cloud",
             "name": "Private Cloud",
             "description": "Leverage F5 BIG-IP with Private Cloud solutions such as OpenStack and Cisco APIC",
