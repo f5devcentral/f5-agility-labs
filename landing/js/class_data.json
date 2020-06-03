@@ -638,8 +638,8 @@
             "ga_id": "",
             "classes": [
                 {
-                    "id": "class1",
-                    "name": "SAML Federation with F5",
+                    "id": "class6",
+                    "name": "Access 101: Intro to Access Foundational Concepts",
                     "tags": [
                         "federation",
                         "saml"
@@ -647,8 +647,8 @@
                     "level": 0
                 },
                 {
-                    "id": "class2",
-                    "name": "OAuth Federation with F5",
+                    "id": "class7",
+                    "name": "Access 102: Access Building Blocks",
                     "tags": [
                         "federation",
                         "oauth"
@@ -657,31 +657,31 @@
                 },
                 {
                     "id": "class3",
-                    "name": "SWG - Securing Outbound Internet Access",
+                    "name": "Access 201: Identity Aware Proxy",
                     "tags": [],
                     "level": 0
                 },
                 {
                     "id": "class4",
-                    "name": "SAML Identity Provider (IdP) Lab",
+                    "name": "Access 301: Identity and Access Federation",
+                    "tags": [],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Access 302: Ephemeral Authentication",
                     "tags": [],
                     "level": 0
                 },
                 {
                     "id": "class5",
-                    "name": "AD FS Proxy Lab",
+                    "name": "Access 303: Per Request Application Control",
                     "tags": [],
                     "level": 0
                 },
                 {
-                    "id": "class6",
-                    "name": "Federating Common Services",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class7",
-                    "name": "Introduction to Universal Access",
+                    "id": "class1",
+                    "name": "WAF/APM API Security and Management",
                     "tags": [],
                     "level": 0
                 },
@@ -692,14 +692,8 @@
                     "level": 0
                 },
                 {
-                    "id": "class9",
-                    "name": "Multi-Factor Auth for Cloud Applications",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class10",
-                    "name": "Priviledged User Authentication",
+                    "id": "archived",
+                    "name": "Archived Identity & Access Management Labs",
                     "tags": [],
                     "level": 0
                 }
