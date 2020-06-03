@@ -523,7 +523,7 @@
         },
         {
             "id": "dns",
-            "name": "GSLB & DNS",
+            "name": "F5 DNS Services",
             "description": "Use the DNS features of the F5 platform including Global Server Load Balancing, DNS Resolver/Caching, DNSSEC and other functionality",
             "tags": [
                 "adc",
@@ -576,6 +576,17 @@
                         "dns",
                         "https",
                         "tls"
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": "class6",
+                    "name": "DNS Cloud Service & DNS Load Balancer Cloud Service",
+                    "tags": [
+                        "dns",
+                        "lb",
+                        "gslb",
+                        "cloud"
                     ],
                     "level": 2
                 }
