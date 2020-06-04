@@ -919,6 +919,15 @@
                     "level": 0
                 },
                 {
+                    "id": "class8",
+                    "name": "PC221 Deploying BIG-IP with F5 Failover Extension in GCP",
+                    "tags": [
+                        "gcp",
+                        "virtual-edition"
+                    ],
+                    "level": 0
+                },
+                {
                     "id": "class12",
                     "name": "PC211 Secure Azure Computing Architecture",
                     "tags": [
