@@ -907,6 +907,16 @@
                         "virtual-edition"
                     ],
                     "level": 0
+                },
+                {
+                    "id": "class12",
+                    "name": "PC211 Secure Azure Computing Architecture",
+                    "tags": [
+                        "azure",
+                        "saca",
+                        "virtual-edition"
+                    ],
+                    "level": 0
                 }
             ]
         },
