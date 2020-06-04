@@ -781,9 +781,19 @@
                     "id": "class1",
                     "name": "Introduction to NGINX Plus & Integrating with BIG-IP",
                     "tags": [
-                        "openstack"
+                        "nginx",
+                        "bigip"
                     ],
                     "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "NGINX Plus CICD Lab",
+                    "tags": [
+                        "nginx",
+                        "cicd"
+                    ],
+                    "level": 1
                 }
             ]
         },
