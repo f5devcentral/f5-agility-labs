@@ -1165,6 +1165,17 @@
                         "security"
                     ],
                     "level": 0
+                },
+                {
+                    "id": "class9",
+                    "name": "Protecting Yourself from OWASP Top 10",
+                    "tags": [
+                        "waf",
+                        "asm",
+                        "awaf",
+                        "security"
+                    ],
+                    "level": 0
                 }
 
             ]
