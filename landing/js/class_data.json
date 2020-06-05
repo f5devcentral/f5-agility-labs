@@ -919,8 +919,8 @@
                     "level": 0
                 },
                 {
-                    "id": "class08",
-                    "name": "PC221 Deploying BIG-IP with F5 Failover Extension in GCP",
+                    "id": "class11",
+                    "name": "PC 101: Deploying F5 Solutions to AWS with CloudFormation Templates",
                     "tags": [
                         "gcp",
                         "virtual-edition"
@@ -929,10 +929,19 @@
                 },
                 {
                     "id": "class12",
-                    "name": "PC211 Secure Azure Computing Architecture",
+                    "name": "PC 211: Secure Azure Computing Architecture",
                     "tags": [
                         "azure",
                         "saca",
+                        "virtual-edition"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class08",
+                    "name": "PC 221: Deploying BIG-IP with F5 Failover Extension in GCP",
+                    "tags": [
+                        "gcp",
                         "virtual-edition"
                     ],
                     "level": 0
