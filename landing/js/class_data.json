@@ -856,7 +856,7 @@
             "ga_id": "",
             "classes": [
                 {
-                    "id": "class1",
+                    "id": "class01",
                     "name": "Deploying BIG-IP Virtual Edition in AWS",
                     "tags": [
                         "aws",
@@ -865,7 +865,7 @@
                     "level": 0
                 },
                 {
-                    "id": "class2",
+                    "id": "class02",
                     "name": "F5 in AWS Advanced Use Cases Beyond Native Tools",
                     "tags": [
                         "aws",
@@ -874,7 +874,7 @@
                     "level": 0
                 },
                 {
-                    "id": "class3",
+                    "id": "class03",
                     "name": "F5 WAF in AWS",
                     "tags": [
                         "aws",
@@ -883,7 +883,7 @@
                     "level": 0
                 },
                 {
-                    "id": "class4",
+                    "id": "class04",
                     "name": "Secure BIG-IP and Application Deployments in AWS",
                     "tags": [
                         "aws",
@@ -892,7 +892,7 @@
                     "level": 0
                 },
                 {
-                    "id": "class5",
+                    "id": "class05",
                     "name": "Protecting Cloud Native Applications",
                     "tags": [
                         "aws",
@@ -901,7 +901,7 @@
                     "level": 0
                 },
                 {
-                    "id": "class6",
+                    "id": "class06",
                     "name": "F5 Azure Automation",
                     "tags": [
                         "aws",
@@ -910,7 +910,7 @@
                     "level": 0
                 },
                 {
-                    "id": "class7",
+                    "id": "class07",
                     "name": "F5 in Google Cloud Platform",
                     "tags": [
                         "gcp",
@@ -919,7 +919,7 @@
                     "level": 0
                 },
                 {
-                    "id": "class8",
+                    "id": "class08",
                     "name": "PC221 Deploying BIG-IP with F5 Failover Extension in GCP",
                     "tags": [
                         "gcp",
