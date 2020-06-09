@@ -1123,14 +1123,15 @@
             "ga_id": "",
             "classes": [
                 {
-                    "id": "class2",
-                    "name": "ASM 280 - Pwn like a Hacker; Protect like a Pro",
+                    "id": "class9",
+                    "name": "WAF 111 - Protecting Yourself from OWASP Top 10",
                     "tags": [
                         "waf",
                         "asm",
+                        "awaf",
                         "security"
                     ],
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "id": "class3",
@@ -1144,7 +1145,17 @@
                 },
                 {
                     "id": "class4",
-                    "name": "ASM 241 - Elevating ASM Protection",
+                    "name": "WAF 241 – Learning and the Positive Security Model",
+                    "tags": [
+                        "waf",
+                        "asm",
+                        "security"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class2",
+                    "name": "WAF 280 - Pwn like a Hacker; Protect like a Pro",
                     "tags": [
                         "waf",
                         "asm",
@@ -1193,19 +1204,7 @@
                         "security"
                     ],
                     "level": 0
-                },
-                {
-                    "id": "class9",
-                    "name": "Protecting Yourself from OWASP Top 10",
-                    "tags": [
-                        "waf",
-                        "asm",
-                        "awaf",
-                        "security"
-                    ],
-                    "level": 0
                 }
-
             ]
         }
     ]
