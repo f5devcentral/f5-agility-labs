@@ -928,6 +928,19 @@
                     "level": 0
                 },
                 {
+                    "id": "class10",
+                    "name": "PC 201: Deploying F5 Solutions to AWS with Terraform and iControl LX Extensions",
+                    "tags": [
+                        "aws",
+                        "virtual-edition",
+                        "icontrol",
+                        "programmability",
+                        "automation",
+                        "orchestration"
+                    ],
+                    "level": 0
+                },
+                {
                     "id": "class12",
                     "name": "PC 211: Secure Azure Computing Architecture",
                     "tags": [
