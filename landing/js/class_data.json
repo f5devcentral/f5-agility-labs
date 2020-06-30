@@ -820,25 +820,6 @@
                         "openstack"
                     ],
                     "level": 0
-                },
-                {
-                    "id": "class2",
-                    "name": "Deploying Cisco APIC with F5 iWorkflow and BIG-IP",
-                    "tags": [
-                        "apic",
-                        "cisco"
-                    ],
-                    "level": 0
-                },
-                {
-                    "id": "class3",
-                    "name": "Automation of Cisco APIC and F5 BIG-IP using Ansible",
-                    "tags": [
-                        "apic",
-                        "cisco",
-                        "ansible"
-                    ],
-                    "level": 0
                 }
             ]
         },
