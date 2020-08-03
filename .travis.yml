@@ -1,15 +1,15 @@
 deploy:
   -
-    access_key_id: $AWS_ACCESS_KEY_ID
-    bucket: $AWS_S3_BUCKET
-    local_dir: _build/
     provider: s3
     region: us-east-1
+    access_key_id: $AWS_ACCESS_KEY_ID
     secret_access_key: $AWS_SECRET_ACCESS_KEY
-    skip_cleanup: true
+    bucket: $AWS_S3_BUCKET
+    local_dir: _build/
+    upload_dir: training
+    cleanup: false
     on:
       repo: f5devcentral/f5-agility-labs
-    upload_dir: training
 after_deploy:
     - aws cloudfront create-invalidation --distribution-id $AWS_DIST_ID --paths /training/community
 before_install:
@@ -17,6 +17,7 @@ before_install:
     - sudo apt-get install -y python3
 install:
   - "pip install -r requirements.txt"
+  - "pip install awscli --upgrade"
 language: python
 python:
   - "3.8"
