@@ -349,7 +349,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "F5 101 - App Delivery Fundamentals Study Guide",
+                    "name": "F5 101 - App Delivery Fundamentals Exam Study Guide",
                     "tags": [
                         "101",
                         "cert",
@@ -358,50 +358,39 @@
                     "level": 1
                 },
                 {
-                    "id": "class2",
-                    "name": "F5 201 - TMOS Administration Study Guide",
-                    "tags": [
-                        "201",
-                        "cert",
-                        "tmos"
-                    ],
-                    "level": 2
-                },
-                {
                     "id": "class3",
-                    "name": "F5 201 - TMOS Administration Labs",
+                    "name": "F5 201 - TMOS Administration Exam Study Guide - NOT CREATED",
                     "tags": [
                         "201",
                         "cert",
                         "tmos"
-                    ],
-                    "level": 2
-                },
-                {
-                    "id": "class4",
-                    "name": "F5 202 - Pre-Sales Fundamentals Study Guide",
-                    "tags": [
-                        "202",
-                        "cert",
-                        "adc",
-                        "tmos",
-                        "ltm"
                     ],
                     "level": 2
                 },
                 {
                     "id": "class5",
-                    "name": "F5 301A - BIG-IP LTM Specialist: Architect, Set-Up & Deploy Study Guide",
+                    "name": "F5 202 - Pre-Sales Fundamentals Exam Study Guide",
+                    "tags": [
+                        "202",
+                        "cert",
+                        "tmos"
+                    ],
+                    "level": 2
+                },
+                {
+                    "id": "class7",
+                    "name": "F5 301A - BIG-IP LTM Specialist: Architect, Set-Up & Deploy Exam Study Guide",
                     "tags": [
                         "301A",
                         "cert",
+                        "adc",
                         "tmos",
                         "ltm"
                     ],
                     "level": 3
                 },
                 {
-                    "id": "class6",
+                    "id": "class8",
                     "name": "F5 301A - BIG-IP LTM Specialist Labs",
                     "tags": [
                         "301A",
@@ -412,8 +401,8 @@
                     "level": 3
                 },
                 {
-                    "id": "class7",
-                    "name": "F5 301B - BIG-IP LTM Specialist: Maintain and Troubleshoot Study Guide",
+                    "id": "class9",
+                    "name": "F5 301B - BIG-IP LTM Specialist: Maintain and Troubleshoot Exam Study Guide",
                     "tags": [
                         "301B",
                         "cert",
@@ -423,8 +412,8 @@
                     "level": 3
                 },
                 {
-                    "id": "class9",
-                    "name": "F5 302 - BIG-IP DNS Specialist Study Guide",
+                    "id": "class11",
+                    "name": "F5 302 - BIG-IP DNS Specialist Exam Study Guide - NOT CREATED",
                     "tags": [
                         "302",
                         "cert",
@@ -434,7 +423,7 @@
                     "level": 3
                 },
                 {
-                    "id": "class11",
+                    "id": "class13",
                     "name": "F5 303 - BIG-IP ASM Specialist Study Guide",
                     "tags": [
                         "303",
@@ -445,8 +434,8 @@
                     "level": 3
                 },
                 {
-                    "id": "class13",
-                    "name": "F5 304 - BIG-IP APM Specialist Study Guide",
+                    "id": "class15",
+                    "name": "F5 304 - BIG-IP APM Specialist Study Guide - NOT CREATED",
                     "tags": [
                         "304",
                         "cert",
@@ -456,13 +445,24 @@
                     "level": 3
                 },
                 {
-                    "id": "class15",
+                    "id": "class17",
                     "name": "F5 401 - Security Solution Expert Study Guide",
                     "tags": [
                         "401",
                         "cert",
                         "tmos",
                         "security"
+                    ],
+                    "level": 4
+                },
+                {
+                    "id": "class19",
+                    "name": "F5 402 - Cloud Solutions Study Guide - NOT CREATED",
+                    "tags": [
+                        "402",
+                        "cert",
+                        "tmos",
+                        "cloud"
                     ],
                     "level": 4
                 }
