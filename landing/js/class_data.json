@@ -102,6 +102,25 @@
                         "architecture"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class7",
+                    "name": "NEW: Introduction to the F5 LTM Essentials Lab",
+                    "tags": [
+                        "ltm",
+                        "architecture"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class8",
+                    "name": "NEW: Troubleshooting with tcpdump and Wireshark",
+                    "tags": [
+                        "ltm",
+                        "tcpdump",
+                        "wireshark"
+                    ],
+                    "level": 1
                 }
             ]
         },
