@@ -61,49 +61,6 @@
             "ga_id": "",
             "classes": [
                 {
-                    "id": "class1",
-                    "name": "Introduction to ADC Deployments with BIG-IP LTM",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class2",
-                    "name": "Building the F5 Fabric",
-                    "tags": [
-                        "high-availability",
-                        "dsc",
-                        "clustering"
-                    ],
-                    "level": 2
-                },
-                {
-                    "id": "class3",
-                    "name": "BIG-IP Local Traffic Manager (LTM) - v13.1 Lab Guide",
-                    "tags": [
-                        "BIG-IP",
-                        "ltm"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "class4",
-                    "name": "Troubleshoot with tcpdump and Wireshark",
-                    "tags": [
-                        "tcpdump",
-                        "wireshark"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "class5",
-                    "name": "Resilient Data Center Architectures with F5 BIG-IP",
-                    "tags": [
-                        "ltm",
-                        "architecture"
-                    ],
-                    "level": 1
-                },
-                {
                     "id": "class7",
                     "name": "NEW: Introduction to the F5 LTM Essentials Lab",
                     "tags": [
