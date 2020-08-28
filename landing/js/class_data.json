@@ -344,6 +344,17 @@
                     "level": 2
                 },
                 {
+                    "id": "class4",
+                    "name": "F5 201 - TMOS Administration Labs",
+                    "tags": [
+                        "201",
+                        "cert",
+                        "tmos",
+                        "admin"
+                    ],
+                    "level": 2
+                },
+                {
                     "id": "class5",
                     "name": "F5 202 - Pre-Sales Fundamentals Exam Study Guide",
                     "tags": [
