@@ -7,7 +7,7 @@ deploy:
     bucket: $AWS_S3_BUCKET
     local_dir: _build/
     upload_dir: training
-    skip_cleanup: true
+    cleanup: false
     on:
       repo: f5devcentral/f5-agility-labs
 after_deploy:
