@@ -28,8 +28,7 @@ to production environment.
 
 To add your lab to this repository please email:
 
- - Hitesh Patel
- - Nicolas Menant
+ - *AgilityLabsRTD
 
 Be sure to include your lab repository URL.
 
