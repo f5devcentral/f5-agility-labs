@@ -2,8 +2,8 @@ deploy:
   # DEPLOY to STAGING
   - provider: s3
     region: us-east-1
-    access_key_id: $AWS_ACCESS_KEY_ID
-    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    access_key_id: $AWS_ACCESS_KEY_ID_NEW
+    secret_access_key: $AWS_SECRET_ACCESS_KEY_NEW
     bucket: $AWS_S3_STAGING
     local_dir: _build/
     upload_dir: training
@@ -15,8 +15,8 @@ deploy:
   # DEPLOY to PRODUCTION
   - provider: s3
     region: us-east-1
-    access_key_id: $AWS_ACCESS_KEY_ID
-    secret_access_key: $AWS_SECRET_ACCESS_KEY
+    access_key_id: $AWS_ACCESS_KEY_ID_NEW
+    secret_access_key: $AWS_SECRET_ACCESS_KEY_NEW
     bucket: $AWS_S3_BUCKET
     local_dir: _build/
     upload_dir: training
