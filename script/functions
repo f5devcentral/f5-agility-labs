@@ -61,16 +61,16 @@ function buildlabs {
         run rm $l
         run cd $REPOROOT
 
-        if [ "$TRAVIS_BRANCH" = "develop" && "$TRAVIS_PULL_REQUEST" = "false" ]; then 
-            run aws s3 sync --delete _build/community/$l s3://$AWS_S3_STAGING/training/community/$l
-            #run aws s3 rm --recursive s3://$AWS_S3_STAGING/training/community/$l
+        if [[ ! -z "$AWS_S3_RM_DIR" ]]; then
+            if [ "$TRAVIS_BRANCH" = "develop" && "$TRAVIS_PULL_REQUEST" = "false" ]; then 
+                #run aws s3 sync --delete _build/community/$l s3://$AWS_S3_STAGING/training/community/$l
+                run aws s3 rm --recursive s3://$AWS_S3_STAGING/training/community/$l
+            fi
+            if [ "$TRAVIS_BRANCH" = "master"  && "$TRAVIS_PULL_REQUEST" = "false" ]; then 
+                #run aws s3 sync --delete _build/community/$l s3://$AWS_S3_BUCKET/training/community/$l
+                run aws s3 rm --recursive s3://$AWS_S3_BUCKET/training/community/$l
+            fi
         fi
-
-        if [ "$TRAVIS_BRANCH" = "master"  && "$TRAVIS_PULL_REQUEST" = "false" ]; then 
-            run aws s3 sync --delete _build/community/$l s3://$AWS_S3_BUCKET/training/community/$l
-            #run aws s3 rm --recursive s3://$AWS_S3_BUCKET/training/community/$l
-        fi
-
     done
 }
 
