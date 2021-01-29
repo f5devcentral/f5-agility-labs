@@ -62,9 +62,15 @@ function buildlabs {
         run cd $REPOROOT
 
         if [ "$TRAVIS_BRANCH" = "develop" ]; then 
-            #run aws s3 sync --delete _build/community/$l s3://$AWS_S3_STAGING/training/community/$l
-            run aws s3 rm --recursive s3://$AWS_S3_STAGING/training/community/$l
+            run aws s3 sync --delete _build/community/$l s3://$AWS_S3_STAGING/training/community/$l
+            #run aws s3 rm --recursive s3://$AWS_S3_STAGING/training/community/$l
         fi
+
+        if [ "$TRAVIS_BRANCH" = "master" ]; then 
+            run aws s3 sync --delete _build/community/$l s3://$AWS_S3_BUCKET/training/community/$l
+            #run aws s3 rm --recursive s3://$AWS_S3_BUCKET/training/community/$l
+        fi
+
     done
 }
 
