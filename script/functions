@@ -60,6 +60,10 @@ function buildlabs {
         run zip -rq9 $l.zip $l/*
         run rm $l
         run cd $REPOROOT
+
+        if [ "$TRAVIS_BRANCH" = "develop" ]; then 
+            run aws s3 sync --delete _build/community/$l s3://$AWS_S3_STAGING/training/community/$l
+        fi
     done
 }
 
