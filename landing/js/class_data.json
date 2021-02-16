@@ -1037,7 +1037,7 @@
                     "level": 0
                 },
                 {
-                    "id": "class3",
+                    "id": "waf141",
                     "name": "WAF 141 - Getting started with WAF, Bot Detection and Threat Campaigns",
                     "tags": [
                         "waf",
@@ -1047,8 +1047,8 @@
                     "level": 0
                 },
                 {
-                    "id": "class4",
-                    "name": "WAF 241 – Learning and the Positive Security Model",
+                    "id": "waf241",
+                    "name": "WAF 241 – Elevated WAF Protection",
                     "tags": [
                         "waf",
                         "asm",
