@@ -61,8 +61,8 @@
             "ga_id": "",
             "classes": [
                 {
-                    "id": "class7",
-                    "name": "NEW: Introduction to the F5 LTM Essentials Lab",
+                    "id": "class1",
+                    "name": "Introduction to ADC Deployments with BIG-IP LTM",
                     "tags": [
                         "ltm",
                         "architecture"
@@ -70,8 +70,18 @@
                     "level": 1
                 },
                 {
-                    "id": "class8",
-                    "name": "NEW: Troubleshooting with tcpdump and Wireshark",
+                    "id": "class2",
+                    "name": "Building the F5 Fabric",
+                    "tags": [
+                        "ltm",
+                        "tcpdump",
+                        "wireshark"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class4",
+                    "name": "Troubleshoot with tcpdump and Wireshark",
                     "tags": [
                         "ltm",
                         "tcpdump",
