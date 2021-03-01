@@ -213,7 +213,20 @@
                         "automation"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class13",
+                    "name": "Class 13: ADC Performance Monitoring and Autoscaling Lab",
+                    "tags": [
+                        "adc",
+                        "autoscale",
+                        "monitor",
+                        "bigip",
+                        "automation"
+                    ],
+                    "level": 1
                 }
+
             ]
         },
         {
