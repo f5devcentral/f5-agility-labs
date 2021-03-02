@@ -139,7 +139,7 @@
                 },
                 {
                     "id": "class03",
-                    "name": "Class 3 - A&O Tool Chain - Application Deployments with BIG-IP and Application Services (AS3)",
+                    "name": "Class 3- Deploy apps with AS3, FAST, and ACC",
                     "tags": [
                         "devops",
                         "as3",
