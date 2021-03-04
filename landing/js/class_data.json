@@ -721,7 +721,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Cooking with iRules - HTTP",
+                    "name": "Application Flow Control with iRules",
                     "tags": [
                         "irules"
                     ],
@@ -729,7 +729,7 @@
                 },
                 {
                     "id": "class2",
-                    "name": "Cooking with iRules - Security/SSL",
+                    "name": "Securing your application with iRules",
                     "tags": [
                         "irules",
                         "security",
