@@ -56,6 +56,8 @@ branch.  PR's will be tested before merge.  Repo admins will then merge
 
 # Update Lab Submodule
 
+First be sure to do a `git pull`
+
 To `pull` the latest commits for **ALL** submodules:
 
 `git submodule update --recursive --remote`
