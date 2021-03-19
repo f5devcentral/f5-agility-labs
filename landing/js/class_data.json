@@ -642,14 +642,16 @@
                 "identity",
                 "saml",
                 "oauth",
-                "active-directory"
+                "active-directory",
+                "zero trust",
+                "zerotrust"
             ],
             "sphinxname": "F5IdentityandAccessManagementSolutions",
             "ga_id": "",
             "classes": [
                 {
-                    "id": "class6",
-                    "name": "Access 101: Intro to Access Foundational Concepts",
+                    "id": "class1",
+                    "name": "100 Series: Access Foundational Concepts",
                     "tags": [
                         "federation",
                         "saml"
@@ -657,8 +659,8 @@
                     "level": 0
                 },
                 {
-                    "id": "class7",
-                    "name": "Access 102: Access Building Blocks",
+                    "id": "class2",
+                    "name": "200 Series: Assisted Deployment Use Cases",
                     "tags": [
                         "federation",
                         "oauth"
@@ -667,19 +669,19 @@
                 },
                 {
                     "id": "class3",
-                    "name": "Access 201: Identity Aware Proxy",
+                    "name": "300 Series: Advanced Use Cases & Solutions",
                     "tags": [],
                     "level": 0
                 },
                 {
                     "id": "class4",
-                    "name": "Access 301: Identity and Access Federation",
+                    "name": "400 Series: APM Automation Labs",
                     "tags": [],
                     "level": 0
                 },
                 {
-                    "id": "class2",
-                    "name": "Access 302: Ephemeral Authentication",
+                    "id": "class5",
+                    "name": "500 Series: Troubleshooting",
                     "tags": [],
                     "level": 0
                 },
