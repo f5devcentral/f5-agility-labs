@@ -762,16 +762,19 @@
             "description": "Learn about NGINX and NGINX Plus",
             "tags": [
                 "nginx",
-                "bigip"
+                "nginx+",
+                "cicd",
+                "waf",
+                "scripting"
             ],
             "sphinxname": "nginx",
             "ga_id": "",
             "classes": [{
                     "id": "class1",
-                    "name": "Introduction to NGINX Plus & Integrating with BIG-IP",
+                    "name": "Introduction to NGINX Plus",
                     "tags": [
                         "nginx",
-                        "bigip"
+                        "nginx+"
                     ],
                     "level": 0
                 },
@@ -781,6 +784,33 @@
                     "tags": [
                         "nginx",
                         "cicd"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "NGINX Dataplane Scripting",
+                    "tags": [
+                        "nginx",
+                        "scripting"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class4",
+                    "name": "NGINX Instance Manager Introduction",
+                    "tags": [
+                        "nginx",
+                        "cicd"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class5",
+                    "name": "NGINX APP Protect",
+                    "tags": [
+                        "nginx",
+                        "waf"
                     ],
                     "level": 1
                 }
