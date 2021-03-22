@@ -1,6 +1,5 @@
 {
-    "groups": [
-        {
+    "groups": [{
             "id": "analytics",
             "name": "Analytics and Visibility",
             "description": "Gain Visiblity and Insights into your application traffic",
@@ -13,8 +12,7 @@
             ],
             "sphinxname": "F5AnalyticsandVisibilitySolutions",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "Introduction to AVR",
                     "tags": [
@@ -59,8 +57,7 @@
             ],
             "sphinxname": "F5ApplicationDeliveryControllerSolutions",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "Introduction to ADC Deployments with BIG-IP LTM",
                     "tags": [
@@ -114,8 +111,7 @@
             ],
             "sphinxname": "F5AutomationOrchestration",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class01",
                     "name": "Class 1 - Programmability - Introduction to BIG-IP Rest Structure and Concepts",
                     "tags": [
@@ -241,8 +237,7 @@
             ],
             "sphinxname": "F5SolutionsforDDoS",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "Introduction to DDoS with F5 Herculon",
                     "tags": [
@@ -310,8 +305,7 @@
             ],
             "sphinxname": "F5BIGIQ",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "F5 Agility 2020: ADC Automation with BIG-IQ 7.1",
                     "tags": [
@@ -345,8 +339,7 @@
             ],
             "sphinxname": "F5certlabs",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "F5 101 - App Delivery Fundamentals Exam Study Guide",
                     "tags": [
@@ -493,8 +486,7 @@
             ],
             "sphinxname": "F5SolutionsforContainers",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "Introduction to CIS on Kubernetes",
                     "tags": [],
@@ -522,14 +514,12 @@
             ],
             "sphinxname": "F5FraudProtectionSolutions",
             "ga_id": "",
-            "classes": [
-                {
-                    "id": "class1",
-                    "name": "Introduction to Fraud and F5 WebSafe",
-                    "tags": [],
-                    "level": 0
-                }
-            ]
+            "classes": [{
+                "id": "class1",
+                "name": "Introduction to Fraud and F5 WebSafe",
+                "tags": [],
+                "level": 0
+            }]
         },
         {
             "id": "dns",
@@ -545,8 +535,7 @@
             ],
             "sphinxname": "DNSServices",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "Intro to GSLB",
                     "tags": [
@@ -578,7 +567,7 @@
                         "edns0"
                     ],
                     "level": 1
-                },                
+                },
                 {
                     "id": "class5",
                     "name": "DNS Over HTTPS / DNS Over TLS",
@@ -619,19 +608,17 @@
             ],
             "sphinxname": "F5iControlLX",
             "ga_id": "",
-            "classes": [
-                {
-                    "id": "class1",
-                    "name": "Single Call Security iControlLX REST Extension",
-                    "tags": [
-                        "automation",
-                        "orchestration",
-                        "rest",
-                        "postman"
-                    ],
-                    "level": 0
-                }
-            ]
+            "classes": [{
+                "id": "class1",
+                "name": "Single Call Security iControlLX REST Extension",
+                "tags": [
+                    "automation",
+                    "orchestration",
+                    "rest",
+                    "postman"
+                ],
+                "level": 0
+            }]
         },
         {
             "id": "iam",
@@ -642,14 +629,15 @@
                 "identity",
                 "saml",
                 "oauth",
-                "active-directory"
+                "active-directory",
+                "zero trust",
+                "zerotrust"
             ],
             "sphinxname": "F5IdentityandAccessManagementSolutions",
             "ga_id": "",
-            "classes": [
-                {
-                    "id": "class6",
-                    "name": "Access 101: Intro to Access Foundational Concepts",
+            "classes": [{
+                    "id": "class1",
+                    "name": "100 Series: Access Foundational Concepts",
                     "tags": [
                         "federation",
                         "saml"
@@ -657,8 +645,8 @@
                     "level": 0
                 },
                 {
-                    "id": "class7",
-                    "name": "Access 102: Access Building Blocks",
+                    "id": "class2",
+                    "name": "200 Series: Assisted Deployment Use Cases",
                     "tags": [
                         "federation",
                         "oauth"
@@ -667,31 +655,19 @@
                 },
                 {
                     "id": "class3",
-                    "name": "Access 201: Identity Aware Proxy",
+                    "name": "300 Series: Advanced Use Cases & Solutions",
                     "tags": [],
                     "level": 0
                 },
                 {
                     "id": "class4",
-                    "name": "Access 301: Identity and Access Federation",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class2",
-                    "name": "Access 302: Ephemeral Authentication",
+                    "name": "400 Series: APM Automation Labs",
                     "tags": [],
                     "level": 0
                 },
                 {
                     "id": "class5",
-                    "name": "Access 303: Per Request Application Control",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class1",
-                    "name": "WAF/APM API Security and Management",
+                    "name": "500 Series: Troubleshooting",
                     "tags": [],
                     "level": 0
                 },
@@ -718,8 +694,7 @@
             ],
             "sphinxname": "F5iRulesDataPlaneProgrammability",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "Application Flow Control with iRules",
                     "tags": [
@@ -767,8 +742,7 @@
             ],
             "sphinxname": "F5FirewallSolutions",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "Advanced Multi-Layer Firewall Protection",
                     "tags": [],
@@ -788,17 +762,19 @@
             "description": "Learn about NGINX and NGINX Plus",
             "tags": [
                 "nginx",
-                "bigip"
+                "nginx+",
+                "cicd",
+                "waf",
+                "scripting"
             ],
             "sphinxname": "nginx",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
-                    "name": "Introduction to NGINX Plus & Integrating with BIG-IP",
+                    "name": "Introduction to NGINX Plus",
                     "tags": [
                         "nginx",
-                        "bigip"
+                        "nginx+"
                     ],
                     "level": 0
                 },
@@ -808,6 +784,33 @@
                     "tags": [
                         "nginx",
                         "cicd"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "NGINX Dataplane Scripting",
+                    "tags": [
+                        "nginx",
+                        "scripting"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class4",
+                    "name": "NGINX Instance Manager Introduction",
+                    "tags": [
+                        "nginx",
+                        "cicd"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class5",
+                    "name": "NGINX APP Protect",
+                    "tags": [
+                        "nginx",
+                        "waf"
                     ],
                     "level": 1
                 }
@@ -828,16 +831,14 @@
             ],
             "sphinxname": "F5PrivateCloudSolutions",
             "ga_id": "",
-            "classes": [
-                {
-                    "id": "class1",
-                    "name": "F5 Private Cloud Solutions for OpenStack",
-                    "tags": [
-                        "openstack"
-                    ],
-                    "level": 0
-                }
-            ]
+            "classes": [{
+                "id": "class1",
+                "name": "F5 Private Cloud Solutions for OpenStack",
+                "tags": [
+                    "openstack"
+                ],
+                "level": 0
+            }]
         },
         {
             "id": "public-cloud",
@@ -851,8 +852,7 @@
             ],
             "sphinxname": "F5PublicCloudSolutions",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class01",
                     "name": "Deploying BIG-IP Virtual Edition in AWS",
                     "tags": [
@@ -981,8 +981,7 @@
             ],
             "sphinxname": "F5SolutionsforSSLVisibility",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "class1",
                     "name": "SSL Orchestrator v7 - SSLO 101: Essential SSL Visibility with SSL Orchestrator",
                     "tags": ["sslo"],
@@ -1010,8 +1009,7 @@
             ],
             "sphinxname": "F5SolutionsforVDI",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "lab1",
                     "name": "VDI the F5 Way",
                     "tags": [],
@@ -1053,8 +1051,7 @@
             ],
             "sphinxname": "F5WebApplicationFirewallSolutions",
             "ga_id": "",
-            "classes": [
-                {
+            "classes": [{
                     "id": "waf111",
                     "name": "WAF 111 - Protecting Yourself from OWASP Top 10",
                     "tags": [
