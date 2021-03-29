@@ -903,6 +903,8 @@
             "description": "Protect your web based applications using F5 Web Application Firewalling solutions",
             "tags": [
                 "waf",
+                "awaf",
+                "asm",
                 "security"
             ],
             "sphinxname": "F5WebApplicationFirewallSolutions",
@@ -912,8 +914,8 @@
                     "name": "WAF 111 - Protecting Yourself from OWASP Top 10",
                     "tags": [
                         "waf",
-                        "asm",
                         "awaf",
+                        "asm",
                         "security"
                     ],
                     "level": 0
@@ -923,6 +925,7 @@
                     "name": "WAF 141 - Getting started with WAF, Bot Detection and Threat Campaigns",
                     "tags": [
                         "waf",
+                        "awaf",
                         "asm",
                         "security"
                     ],
@@ -933,62 +936,33 @@
                     "name": "WAF 241 – Elevated WAF Protection",
                     "tags": [
                         "waf",
+                        "awaf",
                         "asm",
                         "security"
                     ],
                     "level": 1
                 },
                 {
-                    "id": "class2",
-                    "name": "WAF 280 - Pwn like a Hacker; Protect like a Pro",
-                    "tags": [
-                        "waf",
-                        "asm",
-                        "security"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "class5",
+                    "id": "waf341",
                     "name": "WAF 341 - Advanced Protection and Positive Security",
                     "tags": [
                         "waf",
-                        "asm",
-                        "security"
-                    ],
-                    "level": 2
-                },
-                {
-                    "id": "class6",
-                    "name": "AWAF in a CI/CD Pipeline",
-                    "tags": [
-                        "waf",
-                        "asm",
-                        "security"
-                    ],
-                    "level": 2
-                },
-                {
-                    "id": "class7",
-                    "name": "API Protection with ASM",
-                    "tags": [
-                        "waf",
-                        "asm",
-                        "api",
-                        "security"
-                    ],
-                    "level": 0
-                },
-                {
-                    "id": "class8",
-                    "name": "F5 Advanced WAF 14.1",
-                    "tags": [
-                        "waf",
-                        "asm",
                         "awaf",
+                        "asm",
                         "security"
                     ],
-                    "level": 0
+                    "level": 2
+                },
+                {
+                    "id": "waf342",
+                    "name": "WAF 342 - AWAF in a CI/CD Pipeline",
+                    "tags": [
+                        "waf",
+                        "awaf",
+                        "asm",
+                        "security"
+                    ],
+                    "level": 2
                 }
             ]
         }
