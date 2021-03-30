@@ -943,7 +943,7 @@
                     "level": 1
                 },
                 {
-                    "id": "class5",
+                    "id": "waf341",
                     "name": "WAF 341 - Advanced Protection and Positive Security",
                     "tags": [
                         "waf",
@@ -954,7 +954,7 @@
                     "level": 2
                 },
                 {
-                    "id": "class6",
+                    "id": "waf342",
                     "name": "WAF 342 - AWAF in a CI/CD Pipeline",
                     "tags": [
                         "waf",
