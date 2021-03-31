@@ -654,12 +654,12 @@
                 },
                 {
                     "id": "class4",
-                    "name": "NGINX Instance Manager Introduction",
+                    "name": "Introduction to NGINX Instance Manager",
                     "tags": [
                         "nginx",
                         "cicd"
                     ],
-                    "level": 1
+                    "level": 0
                 },
                 {
                     "id": "class5",
@@ -667,6 +667,15 @@
                     "tags": [
                         "nginx",
                         "waf"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class6",
+                    "name": "NGINX API Management and Security",
+                    "tags": [
+                        "nginx",
+                        "api"
                     ],
                     "level": 1
                 }
