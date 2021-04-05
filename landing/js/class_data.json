@@ -848,13 +848,13 @@
             "ga_id": "",
             "classes": [{
                     "id": "class1",
-                    "name": "SSL Orchestrator v7 - SSLO 101: Essential SSL Visibility with SSL Orchestrator",
+                    "name": "[v8] SSLO 101: Essential SSL Visibility with SSL Orchestrator (Agility 2021 | 2 hours)",
                     "tags": ["sslo"],
                     "level": 0
                 },
                 {
                     "id": "class2",
-                    "name": "SSL Orchestrator v7 - SSLO 201: Real World Use Cases / Putting It to Use",
+                    "name": "[v8] SSLO 201: Advanced Use Cases with SSL Orchestrator (Agility 2021 | 2 hours)",
                     "tags": ["sslo"],
                     "level": 1
                 }
