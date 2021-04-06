@@ -678,6 +678,16 @@
                         "api"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class7",
+                    "name": "NGINX Kubernetes Ingress Controller and Rancher",
+                    "tags": [
+                        "nginx",
+                        "kubernetes",
+                        "rancher"
+                    ],
+                    "level": 1
                 }
             ]
         },
