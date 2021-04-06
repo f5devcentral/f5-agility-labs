@@ -678,6 +678,16 @@
                         "api"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class7",
+                    "name": "NGINX Kubernetes Ingress Controller and Rancher",
+                    "tags": [
+                        "nginx",
+                        "kubernetes",
+                        "rancher"
+                    ],
+                    "level": 1
                 }
             ]
         },
@@ -848,13 +858,13 @@
             "ga_id": "",
             "classes": [{
                     "id": "class1",
-                    "name": "[v8] SSLO 101: Essential SSL Visibility with SSL Orchestrator (Agility 2021 | 2 hours)",
+                    "name": "SSLO 101: Essential SSL Visibility with SSL Orchestrator (Agility 2021 | 2 hours)",
                     "tags": ["sslo"],
                     "level": 0
                 },
                 {
                     "id": "class2",
-                    "name": "[v8] SSLO 201: Advanced Use Cases with SSL Orchestrator (Agility 2021 | 2 hours)",
+                    "name": "SSLO 201: Advanced Use Cases with SSL Orchestrator (Agility 2021 | 2 hours)",
                     "tags": ["sslo"],
                     "level": 1
                 }
