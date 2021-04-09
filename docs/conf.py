@@ -10,9 +10,6 @@ classname = "F5 Agility Labs"
 # OPTIONAL: The URL to the GitHub Repository for this class
 github_repo = "https://github.com/f5devcentral/f5-agility-labs"
 
-# OPTIONAL: Google Analytics
-# googleanalytics_id = 'UA-85156643-4'
-
 #
 # END CONFIG
 # ----------
@@ -88,10 +85,6 @@ extensions = [
   'sphinx.ext.autosectionlabel'
 ]
 
-if 'googleanalytics_id' in locals() and len(googleanalytics_id) > 0:
-  extensions += ['sphinxcontrib.googleanalytics']
-  googleanalytics_enabled = True
-
 eggs_loader = pkgutil.find_loader('sphinxcontrib.spelling')
 found = eggs_loader is not None
 
@@ -163,7 +156,7 @@ todo_include_todos = True
 html4_writer = True
 html_theme = 'f5_sphinx_theme'
 html_theme_path = f5_sphinx_theme.get_html_theme_path()
-html_sidebars = {'**': ['searchbox.html', 'localtoc.html', 'globaltoc.html','relations.html']}
+html_sidebars = {'**': ['searchbox.html', 'localtoc.html', 'globaltoc.html']}
 html_theme_options = {
                         'site_name': 'Community Training Classes & Labs',
                         'next_prev_link': True
