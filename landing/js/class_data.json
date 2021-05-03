@@ -836,8 +836,8 @@
         },
         {
             "id": "sslviz",
-            "name": "SSL/TLS Visiblity",
-            "description": "Gain security visibility into SSL/TLS Encrypted Traffic with F5 SSL Visibility solutions",
+            "name": "SSL/TLS Visibility",
+            "description": "Learn how to implement F5 SSL/TLS visibility solutions to mitigate encrypted security threats",
             "tags": [
                 "ssl",
                 "security",
