@@ -81,6 +81,8 @@ function buildroot {
     run aws s3 sync --delete _build/community/js s3://$S3_BUCKET/training/community/js
     run aws s3 cp _build/community/index.html s3://$S3_BUCKET/training/community/index.html
     run aws s3 cp _build/community/github_search.html s3://$S3_BUCKET/training/community/github_search.html
+
+    run aws cloudfront create-invalidation --distribution-id $AWS_DIST_ID --paths /training/community
 }
 
 # Clean up the _build directory
