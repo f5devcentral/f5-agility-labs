@@ -12,6 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - run: export BUILD_ALL=${{ secrets.BUILD_ALL }}
     - run: ./script/setup
 
     - name: Configure AWS credentials
