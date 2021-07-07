@@ -17,7 +17,7 @@ to production environment.
 
 - `git clone https://github.com/f5devcentral/f5-agility-labs.git`
 - `cd f5-agility-labs`
-- `script/setup`
+- `script/cibuild`
 - Built content will be in the `_build` directory
 - `script/server` will start a python SimpleHTTPServer in `_build`
 - Browse to `http://localhost:8000`

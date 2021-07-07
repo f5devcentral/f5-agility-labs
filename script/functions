@@ -42,6 +42,8 @@ function buildlabs {
 
     for l in ${BUILD_LIST}
     do
+        git submodule update --init --remote labs/$l
+        
         REPOROOT=$PWD
         LABREPOROOT="$PWD/labs/$l"
         DOCROOT="$LABREPOROOT/docs"
