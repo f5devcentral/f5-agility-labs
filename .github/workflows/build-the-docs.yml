@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       S3_DIR: containers
-      BUILD_ALL: ${{ secrets.BUILD_ALL }}
+      #BUILD_ALL: ${{ secrets.BUILD_ALL }}
 
     steps:
     - uses: actions/checkout@v2
