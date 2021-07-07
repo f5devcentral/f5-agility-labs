@@ -61,6 +61,10 @@ function buildlabs {
         run rm $l
         run cd $REPOROOT
 
+        if [ "$GITHUB_REF" == "refs/heads/develop" ]
+            run aws s3 sync --delete _build/community/$l s3://$AWS_S3_STAGING/training/community/$l
+        fi
+        
         if [[ ! -z "$AWS_S3_RM_DIR" ]]; then
             if [ "$TRAVIS_BRANCH" = "develop" ] && [ "$TRAVIS_PULL_REQUEST" = "false" ]; then 
                 #run aws s3 sync --delete --quiet _build/community/$l s3://$AWS_S3_STAGING/training/community/$l

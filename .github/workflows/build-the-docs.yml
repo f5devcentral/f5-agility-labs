@@ -22,8 +22,8 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: us-east-1
 
-    - name: Copy files to s3 (Staging Clouddocs)
-      if:
-        github.ref == 'refs/heads/develop'
-      run: |
-        aws s3 sync --delete $PWD/_build/ s3://clouddocs.f5networks.net/training/
+    #- name: Copy files to s3 (Staging Clouddocs)
+      #if:
+        #github.ref == 'refs/heads/develop'
+      #run: |
+        #aws s3 sync --delete $PWD/_build/ s3://clouddocs.f5networks.net/training/
