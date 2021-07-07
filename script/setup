@@ -4,9 +4,7 @@
 
 set -x
 
-script/bootstrap
-
-MAKE_OPT='clean'
+git submodule update --init --recursive
 
 cleanbuild
 
