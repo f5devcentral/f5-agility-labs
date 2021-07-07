@@ -67,9 +67,7 @@ function buildlabs {
         run rm $l
         run cd $REPOROOT
 
-        if [ "$GITHUB_REF" == "refs/heads/develop" ]; then
-            run aws s3 sync --delete _build/community/$l s3://$S3_BUCKET/training/community/$l
-        fi        
+        run aws s3 sync --delete _build/community/$l s3://$S3_BUCKET/training/community/$l
     done
 }
 
@@ -79,12 +77,10 @@ function buildroot {
     run cp -Rf landing/* _build/community/
     run script/containthedocs script/genindex.py landing/js/class_data.json landing/index.html _build/community/index.html
 
-    if [ "$GITHUB_REF" == "refs/heads/develop" ]; then
-        run aws s3 sync --delete _build/community/css s3://$S3_BUCKET/training/community/css
-        run aws s3 sync --delete _build/community/js s3://$S3_BUCKET/training/community/js
-        run aws s3 cp _build/community/index.html s3://$S3_BUCKET/training/community/index.html
-        run aws s3 cp _build/community/github_search.html s3://$S3_BUCKET/training/community/github_search.html
-    fi
+    run aws s3 sync --delete _build/community/css s3://$S3_BUCKET/training/community/css
+    run aws s3 sync --delete _build/community/js s3://$S3_BUCKET/training/community/js
+    run aws s3 cp _build/community/index.html s3://$S3_BUCKET/training/community/index.html
+    run aws s3 cp _build/community/github_search.html s3://$S3_BUCKET/training/community/github_search.html
 }
 
 # Clean up the _build directory
