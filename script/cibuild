@@ -4,6 +4,8 @@
 
 set -x
 
+git submodule update --init --recursive
+
 cleanbuild
 
 buildlabs
