@@ -62,7 +62,7 @@ function buildlabs {
         run cd $REPOROOT
 
         if [ "$GITHUB_REF" == "refs/heads/develop" ]; then
-            run aws s3 sync --delete _build/community/$l s3://$AWS_S3_STAGING/training/community/$l
+            run aws s3 sync --delete _build/community/$l s3://clouddocs.f5networks.net/training/community/$l
         fi
         
         if [[ ! -z "$AWS_S3_RM_DIR" ]]; then
