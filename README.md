@@ -87,7 +87,7 @@ Push new commit hashes for submodules:
 
 The following environment variables can be used to modify what is built:
 
-- ``SKIP_BUILDLABS``: Presense of the variable will cause lab content 
+- ``SKIP_BUILDLABS``: Presence of the variable will cause lab content 
   build to be skipped.  Landing page will still be built
 
   - Example: ``export SKIP_BUILDLABS=1``
