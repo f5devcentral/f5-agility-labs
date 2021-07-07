@@ -22,7 +22,7 @@ jobs:
         python -m pip install -U pip
         pip install -r requirements.txt
 
-    - run: ./script/setup
+    - run: ./script/cibuild
 
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
