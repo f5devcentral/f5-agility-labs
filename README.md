@@ -101,7 +101,3 @@ The following environment variables can be used to modify what is built:
 - ``BUILD_ALL``: Force a build of all submodules in ``BUILD_LIST``
 
   - Example: ``export BUILD_ALL=1``
-
-- ``AWS_S3_RM_DIR``: Removes the corresponding Lab directory from S3 bucket.
-
-  - Example: ``export AWS_S3_RM_DIR=1``
