@@ -50,7 +50,7 @@ function buildlabs {
         fi
 
         run mkdir -p "_build/community/$l/html"
-        run script/containthedocs sudo pip install -U sphinx ; make -C "$DOCROOT" $MAKE_OPT html
+        run script/containthedocs ; make -C "$DOCROOT" $MAKE_OPT html
         run cd $LABREPOROOT
         run git rev-parse HEAD >> "$REPOROOT/_build/community/$l/buildhash.sha1"
         run cd $REPOROOT
