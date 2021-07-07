@@ -1,6 +1,12 @@
 #!/bin/bash
 
-CD_BASEURL="https://clouddocs.f5.com/training/community"
+if [ "$GITHUB_REF" == "refs/heads/develop" ]; then
+    CD_BASEURL="https://clouddocs.f5networks.net/training/community"
+    S3_BUCKET="clouddocs.f5networks.net"
+elif [ "$GITHUB_REF" == "refs/heads/master" ]; then
+    CD_BASEURL="https://clouddocs.f5.com/training/community"
+    S3_BUCKET="clouddocs.f5.com"
+fi
 
 # Run a command.  Print error and exit if exitcode > 0
 function run {
@@ -62,7 +68,7 @@ function buildlabs {
         run cd $REPOROOT
 
         if [ "$GITHUB_REF" == "refs/heads/develop" ]; then
-            run aws s3 sync --delete _build/community/$l s3://clouddocs.f5networks.net/training/community/$l
+            run aws s3 sync --delete _build/community/$l s3://$S3_BUCKET/training/community/$l
         fi        
     done
 }
@@ -74,10 +80,10 @@ function buildroot {
     run script/containthedocs script/genindex.py landing/js/class_data.json landing/index.html _build/community/index.html
 
     if [ "$GITHUB_REF" == "refs/heads/develop" ]; then
-        run aws s3 sync --delete _build/community/css s3://clouddocs.f5networks.net/training/community/css
-        run aws s3 sync --delete _build/community/js s3://clouddocs.f5networks.net/training/community/js
-        run aws s3 cp _build/community/index.html s3://clouddocs.f5networks.net/training/community/index.html
-        run aws s3 cp _build/community/github_search.html s3://clouddocs.f5networks.net/training/community/github_search.html
+        run aws s3 sync --delete _build/community/css s3://$S3_BUCKET/training/community/css
+        run aws s3 sync --delete _build/community/js s3://$S3_BUCKET/training/community/js
+        run aws s3 cp _build/community/index.html s3://$S3_BUCKET/training/community/index.html
+        run aws s3 cp _build/community/github_search.html s3://$S3_BUCKET/training/community/github_search.html
     fi
 }
 
