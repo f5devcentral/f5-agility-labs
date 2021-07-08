@@ -1,6 +1,13 @@
 #!/bin/bash
 
+. script/functions
+
 set -x
 
-script/setup
+git submodule update --init --recursive
 
+cleanbuild
+
+buildlabs
+
+buildroot

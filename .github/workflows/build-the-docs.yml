@@ -1,0 +1,41 @@
+name: Build the Docs
+on:
+  push:
+    branches:
+      - develop
+      - master
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDDOCS_PASSWD: ${{ secrets.CLOUDDOCS_PASSWD }}
+      BUILD_ALL: ""
+      SKIP_BUILDLABS: ""
+      BUILD_LIST: ""
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DIST_ID: ${{ secrets.AWS_DIST_ID }}
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+
+    - name: Install Dependencies
+      run: |
+        python -m pip install -U pip
+        pip install -r requirements.txt
+
+    - run: ./script/cibuild
+
+    #- name: Configure AWS credentials
+      #uses: aws-actions/configure-aws-credentials@v1
+      #with:
+        #aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        #aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        #aws-region: us-east-1
+
+    #- name: Copy files to s3 (Staging Clouddocs)
+      #if:
+        #github.ref == 'refs/heads/develop'
+      #run: |
+        #aws s3 sync --delete $PWD/_build/ s3://clouddocs.f5networks.net/training/

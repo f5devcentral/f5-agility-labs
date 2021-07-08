@@ -17,10 +17,8 @@ to production environment.
 
 - `git clone https://github.com/f5devcentral/f5-agility-labs.git`
 - `cd f5-agility-labs`
-- `script/setup`
-- Built content will be in the `_build` directory
-- `script/server` will start a python SimpleHTTPServer in `_build`
-- Browse to `http://localhost:8000`
+- `git submodule update --init --recursive`
+- `script/build`
 
 # Adding your Lab
 
@@ -87,7 +85,7 @@ Push new commit hashes for submodules:
 
 The following environment variables can be used to modify what is built:
 
-- ``SKIP_BUILDLABS``: Presense of the variable will cause lab content 
+- ``SKIP_BUILDLABS``: Presence of the variable will cause lab content 
   build to be skipped.  Landing page will still be built
 
   - Example: ``export SKIP_BUILDLABS=1``
@@ -101,7 +99,3 @@ The following environment variables can be used to modify what is built:
 - ``BUILD_ALL``: Force a build of all submodules in ``BUILD_LIST``
 
   - Example: ``export BUILD_ALL=1``
-
-- ``AWS_S3_RM_DIR``: Removes the corresponding Lab directory from S3 bucket.
-
-  - Example: ``export AWS_S3_RM_DIR=1``
