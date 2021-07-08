@@ -18,6 +18,7 @@ to production environment.
 - `git clone https://github.com/f5devcentral/f5-agility-labs.git`
 - `cd f5-agility-labs`
 - `git submodule update --init --recursive`
+- `script/build`
 
 # Adding your Lab
 
