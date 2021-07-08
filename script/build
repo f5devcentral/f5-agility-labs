@@ -1,0 +1,26 @@
+#!/bin/bash
+
+set -x
+
+git submodule update --recursive --remote
+
+BUILD_LIST=`ls labs`
+
+for l in ${BUILD_LIST}
+do
+    REPOROOT=$PWD
+    LABREPOROOT="$PWD/labs/$l"
+    DOCROOT="$LABREPOROOT/docs"
+
+    mkdir -p "_build/community/$l/html"
+    script/containthedocs sudo pip install -U sphinx ; make -C "$DOCROOT" clean html
+    cd $LABREPOROOT
+    git rev-parse HEAD >> "$REPOROOT/_build/community/$l/buildhash.sha1"
+    cd $REPOROOT
+    cp -Rf "$DOCROOT"/_build/html/* "_build/community/$l/html"
+    cd "_build/community/$l"
+    ln -s html $l
+    zip -rq9 $l.zip $l/*
+    rm $l
+    cd $REPOROOT
+done

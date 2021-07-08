@@ -7,7 +7,8 @@ https://githubengineering.com/scripts-to-rule-them-all/
 
 # Script Descriptions
 
-- `cibuild`: Build all docs
+- `build`: Build all the labs locally
+- `cibuild`: Build all the labs on clouddocs (staging and/or prodcuction)
 - `containthedocs`: Wrapper script to run the build container
 - `containthedocs-image`: Specifies which container image to use
 - `containthedocs-wget`: Server script uses this to grab container image
