@@ -45,8 +45,7 @@ generated index is then copied to the `_build` directory.
 # Branches
 
 - `master`: Protected branch; **HEAD publishes to production**; No push access
-- `develop`: Protected branch; Pull Requests are tested through Travis CI
-  before merge
+- `develop`: Protected branch; Pull Requests are tested through Github Actions
 
 All modifications to this repo should be via a Pull Request to the `develop`
 branch.  PR's will be tested before merge.  Repo admins will then merge
