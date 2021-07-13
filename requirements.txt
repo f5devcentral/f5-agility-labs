@@ -5,4 +5,4 @@ sphinx
 sphinx-copybutton
 sphinxcontrib-blockdiag
 sphinxcontrib-nwdiag
-awscli
+sphinxcontrib-serializinghtml
