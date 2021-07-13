@@ -13,7 +13,7 @@ do
     DOCROOT="$LABREPOROOT/docs"
 
     mkdir -p "_build/community/$l/html"
-    script/containthedocs sudo pip install -U sphinx ; make -C "$DOCROOT" clean html
+    script/containthedocs sudo pip install -r $LABREPOROOT/requirements.txt -U ; make -C "$DOCROOT" clean html
     cd $LABREPOROOT
     git rev-parse HEAD >> "$REPOROOT/_build/community/$l/buildhash.sha1"
     cd $REPOROOT
