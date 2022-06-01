@@ -680,6 +680,17 @@
                         "rancher"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class8",
+                    "name": "NGINX App Protect Denial of Service (NAP DoS)",
+                    "tags": [
+                        "nginx",
+                        "waf",
+                        "dos",
+                        "security"
+                    ],
+                    "level": 1
                 }
             ]
         },
