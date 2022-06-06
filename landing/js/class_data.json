@@ -952,8 +952,8 @@
                     "level": 0
                 },
                 {
-                    "id": "waf241",
-                    "name": "WAF 241 – Elevated WAF Protection",
+                    "id": "waf201",
+                    "name": "WAF 201 – Elevated WAF Protection",
                     "tags": [
                         "waf",
                         "awaf",
