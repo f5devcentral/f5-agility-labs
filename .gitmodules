@@ -58,3 +58,6 @@
 [submodule "labs/template"]
 	path = labs/template
 	url = https://github.com/f5devcentral/f5-agility-labs-template.git
+[submodule "labs/f5xc"]
+	path = labs/f5xc
+	url = https://github.com/f5devcentral/f5-agility-labs-xc.git
