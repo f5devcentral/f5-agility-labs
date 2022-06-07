@@ -842,7 +842,7 @@
                         "icontrol"
                     ],
                     "level": 1
-                }                
+                }
             ]
         },
         {
@@ -868,6 +868,12 @@
                     "name": "SSLO 201: Advanced Use Cases with SSL Orchestrator",
                     "tags": ["sslo"],
                     "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "SSLO 301: Automating SSL Orchestrator Deployments in Public Cloud",
+                    "tags": ["sslo"],
+                    "level": 2
                 }
             ]
         },
