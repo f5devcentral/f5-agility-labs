@@ -615,6 +615,39 @@
             ]
         },
         {
+            "id": "threat-stack",
+            "name": "Threat Stack",
+            "description": "Protect cloud based workloads with F5 Threat Stack",
+            "tags": [
+                "containers",
+                "container security",
+                "Threat Stack"
+            ],
+            "sphinxname": "threat-stack",
+            "ga_id": "",
+            "classes": [{
+                    "id": "class1",
+                    "name": "Threatstack 201: Getting Started with Cloud Workload Protection",
+                    "tags": [
+                        "public-cloud",
+                        "cloud",
+                        "Threat Stack"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Threatstack 301: Advanced Cloud Workload Protection",
+                    "tags": [
+                        "public-cloud",
+                        "cloud",
+                        "Threat Stack"
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
             "id": "nginx",
             "name": "NGINX",
             "description": "Learn about NGINX and NGINX Plus",
