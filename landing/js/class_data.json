@@ -615,6 +615,65 @@
             ]
         },
         {
+            "id": "f5xc",
+            "name": "F5 Distributed Cloud",
+            "description": "Learn about F5 Distributed Cloud SaaS which includes security, networking, and application management services.",
+            "tags": [
+                "public-cloud",
+                "waf",
+                "waap",
+                "saas"
+            ],
+            "sphinxname": "F5XC",
+            "ga_id": "",
+            "classes": [{
+                    "id": "class1",
+                    "name": "F5 Distributed Cloud WAF 101",
+                    "tags": [],
+                    "level": 1
+                },
+                {
+                    "id": "class2",
+                    "name": "F5 Distributed Cloud Lab 102 - WAF/WAAP Deeper Dive",
+                    "tags": [],
+                    "level": 2
+                }
+            ]
+        },
+        {
+            "id": "threat-stack",
+            "name": "Threat Stack",
+            "description": "Protect cloud based workloads with F5 Threat Stack",
+            "tags": [
+                "containers",
+                "container security",
+                "Threat Stack"
+            ],
+            "sphinxname": "threat-stack",
+            "ga_id": "",
+            "classes": [{
+                    "id": "class1",
+                    "name": "Threatstack 201: Getting Started with Cloud Workload Protection",
+                    "tags": [
+                        "public-cloud",
+                        "cloud",
+                        "Threat Stack"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class2",
+                    "name": "Threatstack 301: Advanced Cloud Workload Protection",
+                    "tags": [
+                        "public-cloud",
+                        "cloud",
+                        "Threat Stack"
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
             "id": "nginx",
             "name": "NGINX",
             "description": "Learn about NGINX and NGINX Plus",
@@ -699,6 +758,15 @@
                         "waf",
                         "dos",
                         "security"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class9",
+                    "name": "Access on NGINX+ - Authentication for Web Access",
+                    "tags": [
+                        "nginx",
+                        "authentication"
                     ],
                     "level": 1
                 }
@@ -946,6 +1014,17 @@
             "sphinxname": "F5WebApplicationFirewallSolutions",
             "ga_id": "",
             "classes": [{
+                    "id": "waf102",
+                    "name": "WAF 102 - Getting started with WAF, Bot Detection and Threat Campaigns",
+                    "tags": [
+                        "waf",
+                        "awaf",
+                        "asm",
+                        "security"
+                    ],
+                    "level": 0
+                },
+                {
                     "id": "waf111",
                     "name": "WAF 111 - Protecting Yourself from OWASP Top 10",
                     "tags": [
@@ -956,17 +1035,7 @@
                     ],
                     "level": 0
                 },
-                {
-                    "id": "waf141",
-                    "name": "WAF 141 - Getting started with WAF, Bot Detection and Threat Campaigns",
-                    "tags": [
-                        "waf",
-                        "awaf",
-                        "asm",
-                        "security"
-                    ],
-                    "level": 0
-                },
+
                 {
                     "id": "waf201",
                     "name": "WAF 201 – Elevated WAF Protection",
@@ -979,8 +1048,8 @@
                     "level": 1
                 },
                 {
-                    "id": "waf341",
-                    "name": "WAF 341 - Advanced Protection and Positive Security",
+                    "id": "waf301",
+                    "name": "WAF 301 - AWAF in a CI/CD Pipeline (Self Guided)",
                     "tags": [
                         "waf",
                         "awaf",
@@ -990,8 +1059,8 @@
                     "level": 2
                 },
                 {
-                    "id": "waf342",
-                    "name": "WAF 342 - AWAF in a CI/CD Pipeline",
+                    "id": "waf341",
+                    "name": "WAF 341 - Advanced Protection and Positive Security",
                     "tags": [
                         "waf",
                         "awaf",
