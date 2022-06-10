@@ -734,6 +734,15 @@
                         "security"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class9",
+                    "name": "Access on NGINX+ - Authentication for Web Access",
+                    "tags": [
+                        "nginx",
+                        "authentication"
+                    ],
+                    "level": 1
                 }
             ]
         },
