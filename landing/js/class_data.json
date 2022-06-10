@@ -1022,8 +1022,8 @@
                     "level": 1
                 },
                 {
-                    "id": "waf341",
-                    "name": "WAF 341 - Advanced Protection and Positive Security",
+                    "id": "waf301",
+                    "name": "WAF 301 - AWAF in a CI/CD Pipeline (Self Guided)",
                     "tags": [
                         "waf",
                         "awaf",
@@ -1033,8 +1033,8 @@
                     "level": 2
                 },
                 {
-                    "id": "waf342",
-                    "name": "WAF 342 - AWAF in a CI/CD Pipeline",
+                    "id": "waf341",
+                    "name": "WAF 341 - Advanced Protection and Positive Security",
                     "tags": [
                         "waf",
                         "awaf",
