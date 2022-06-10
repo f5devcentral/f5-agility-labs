@@ -615,6 +615,32 @@
             ]
         },
         {
+            "id": "f5xc",
+            "name": "F5 Distributed Cloud",
+            "description": "Learn about F5 Distributed Cloud SaaS which includes security, networking, and application management services.",
+            "tags": [
+                "public-cloud",
+                "waf",
+                "waap",
+                "saas"
+            ],
+            "sphinxname": "F5XC",
+            "ga_id": "",
+            "classes": [{
+                    "id": "class1",
+                    "name": "F5 Distributed Cloud WAF 101",
+                    "tags": [],
+                    "level": 1
+                },
+                {
+                    "id": "class2",
+                    "name": "F5 Distributed Cloud Lab 102 - WAF/WAAP Deeper Dive",
+                    "tags": [],
+                    "level": 2
+                }
+            ]
+        },
+        {
             "id": "threat-stack",
             "name": "Threat Stack",
             "description": "Protect cloud based workloads with F5 Threat Stack",
