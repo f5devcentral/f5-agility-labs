@@ -85,6 +85,15 @@
                         "wireshark"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class6",
+                    "name": "BIG-IP HA - Do it the Proper Way",
+                    "tags": [
+                        "ltm",
+                        "ha"
+                    ],
+                    "level": 1
                 }
             ]
         },
