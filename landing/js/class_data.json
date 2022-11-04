@@ -791,6 +791,16 @@
                         "authentication"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class10",
+                    "name": "NMS API Connectivity Manager",
+                    "tags": [
+                        "nginx",
+                        "API",
+                        "NMS"
+                    ],
+                    "level": 1
                 }
             ]
         },
