@@ -1046,16 +1046,28 @@
             "sphinxname": "F5WebApplicationFirewallSolutions",
             "ga_id": "",
             "classes": [{
-                    "id": "waf102",
-                    "name": "WAF 102 - Getting started with WAF, Bot Detection and Threat Campaigns",
-                    "tags": [
-                        "waf",
-                        "awaf",
-                        "asm",
-                        "security"
-                    ],
-                    "level": 0
-                },
+                "id": "waf101",
+                "name": "WAF 101 - Protect yourself against the OWASP Top 10",
+                "tags": [
+                    "waf",
+                    "awaf",
+                    "asm",
+                    "security",
+                    "owasp"
+                ],
+                "level": 0
+            },
+            {
+                "id": "waf102",
+                "name": "WAF 102 - Getting started with WAF, Bot Detection and Threat Campaigns",
+                "tags": [
+                    "waf",
+                    "awaf",
+                    "asm",
+                    "security"
+                ],
+                "level": 0
+            },
                 {
                     "id": "waf111",
                     "name": "WAF 111 - Protecting Yourself from OWASP Top 10",

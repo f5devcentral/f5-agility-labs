@@ -56,7 +56,10 @@ function buildlabs {
         fi
 
         run mkdir -p "_build/community/$l/html"
-        run script/containthedocs sudo pip install -r $LABREPOROOT/requirements.txt -U ; make -C "$DOCROOT" clean html
+        run script/containthedocs sudo pip install --upgrade pip
+        run script/containthedocs sudo pip install -r $REPOROOT/requirements.txt
+        run script/containthedocs make -C "$DOCROOT" clean html
+        #run script/containthedocs sudo pip install -r $LABREPOROOT/requirements.txt -U ; make -C "$DOCROOT" clean html
         run cd $LABREPOROOT
         run git rev-parse HEAD >> "$REPOROOT/_build/community/$l/buildhash.sha1"
         run cd $REPOROOT
