@@ -1046,8 +1046,8 @@
             "sphinxname": "F5WebApplicationFirewallSolutions",
             "ga_id": "",
             "classes": [{
-                "id": "waf101",
-                "name": "WAF 101 - Protect yourself against the OWASP Top 10",
+                "id": "waf2023",
+                "name": "WAF 101 - BIG-IP Security: Mitigating App Vulnerabilities with AWAF",
                 "tags": [
                     "waf",
                     "awaf",
