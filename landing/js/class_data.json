@@ -1,5 +1,24 @@
 {
     "groups": [{
+            "id": "Next",
+            "name": "BIG-IP NEXT",
+            "description": "Next generation of BIG-IP software",
+            "tags": [
+                "next"
+            ],
+            "sphinxname": "F5BIGIPNext",
+            "ga_id": "",
+            "classes": [{
+                    "id": "class1",
+                    "name": "Class 1: Introduction to BIG-IP Next",
+                    "tags": [
+                        "next"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
             "id": "analytics",
             "name": "Analytics and Visibility",
             "description": "Gain Visiblity and Insights into your application traffic",
@@ -1046,8 +1065,8 @@
             "sphinxname": "F5WebApplicationFirewallSolutions",
             "ga_id": "",
             "classes": [{
-                "id": "waf101",
-                "name": "WAF 101 - Protect yourself against the OWASP Top 10",
+                "id": "waf2023",
+                "name": "WAF 101 - BIG-IP Security: Mitigating App Vulnerabilities with AWAF",
                 "tags": [
                     "waf",
                     "awaf",
