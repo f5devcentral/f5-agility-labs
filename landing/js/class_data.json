@@ -1,6 +1,6 @@
 {
     "groups": [{
-            "id": "next",
+            "id": "Next",
             "name": "BIG-IP NEXT",
             "description": "Next generation of BIG-IP software",
             "tags": [
