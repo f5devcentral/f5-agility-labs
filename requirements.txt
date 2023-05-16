@@ -8,7 +8,7 @@ jinja2==2.8
 sphinx-copybutton
 sphinxcontrib-blockdiag
 sphinxcontrib-nwdiag
-sphinxcontrib-serializinghtml
+sphinxcontrib-serializinghtml>=1.1.5
 awscli
 boto3
 s3transfer
