@@ -1,5 +1,24 @@
 {
     "groups": [{
+            "id": "next",
+            "name": "BIG-IP NEXT",
+            "description": "Next generation of BIG-IP software",
+            "tags": [
+                "next"
+            ],
+            "sphinxname": "F5BIGIPNext",
+            "ga_id": "",
+            "classes": [{
+                    "id": "class1",
+                    "name": "Class 1: Introduction to BIG-IP Next",
+                    "tags": [
+                        "next"
+                    ],
+                    "level": 0
+                }
+            ]
+        },
+        {
             "id": "analytics",
             "name": "Analytics and Visibility",
             "description": "Gain Visiblity and Insights into your application traffic",

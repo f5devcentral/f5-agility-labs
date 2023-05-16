@@ -64,3 +64,6 @@
 [submodule "labs/threat-stack"]
 	path = labs/threat-stack
 	url = https://github.com/f5devcentral/f5-agility-labs-threat-stack.git
+[submodule "labs/next"]
+	path = labs/next
+	url = https://github.com/f5devcentral/f5-agility-labs-Next
