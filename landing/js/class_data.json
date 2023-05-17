@@ -942,7 +942,7 @@
                 },
                 {
                     "id": "class13",
-                    "name": "PC201: Deploying F5 Solutions to AWS with Terraform and iControl LX Extensions (2021)",
+                    "name": "A&O Toolchain: BIG-IP HA in Public Cloud with Terraform",
                     "tags": [
                         "aws",
                         "virtual-edition",
