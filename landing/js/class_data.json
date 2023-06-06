@@ -227,17 +227,6 @@
                     "level": 1
                 },
                 {
-                    "id": "class12",
-                    "name": "Class 12 - Cisco ACI Integration with BIG-IP",
-                    "tags": [
-                        "aci",
-                        "cisco",
-                        "bigip",
-                        "automation"
-                    ],
-                    "level": 1
-                },
-                {
                     "id": "class13",
                     "name": "Class 13: ADC Performance Monitoring and Autoscaling Lab",
                     "tags": [
