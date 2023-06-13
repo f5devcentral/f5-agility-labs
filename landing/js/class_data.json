@@ -237,16 +237,6 @@
                     "level": 1
                 },
                 {
-                    "id": "class11",
-                    "name": "Class 11: Terraform BIG-IP Provider",
-                    "tags": [
-                        "terraform",
-                        "bigip",
-                        "automation"
-                    ],
-                    "level": 1
-                },
-                {
                     "id": "class13",
                     "name": "Class 13: ADC Performance Monitoring and Autoscaling Lab",
                     "tags": [
