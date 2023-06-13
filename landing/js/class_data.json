@@ -141,7 +141,7 @@
             "ga_id": "",
             "classes": [{
                     "id": "class01",
-                    "name": "Class 1 - Programmability - Introduction to BIG-IP Rest Structure and Concepts",
+                    "name": "Class 1: Programmability BIG-IP Rest Structure and Concepts Documentation!",
                     "tags": [
                         "automation",
                         "orchestration",
@@ -152,7 +152,7 @@
                 },
                 {
                     "id": "class02",
-                    "name": "Class 2 - A&O Toolchain 111: BIG-IP Deployments with Declarative Onboarding (DO)",
+                    "name": "Class 2: A&O Toolchain 211: BIG-IP Deployments with Declarative Onboarding (DO)",
                     "tags": [
                         "devops",
                         "do",
@@ -163,7 +163,7 @@
                 },
                 {
                     "id": "class03",
-                    "name": "Class 3- Deploy apps with AS3, FAST, and ACC",
+                    "name": "Class 3: Deploy apps with AS3, FAST, and ACC",
                     "tags": [
                         "devops",
                         "as3",
@@ -174,7 +174,7 @@
                 },
                 {
                     "id": "class04",
-                    "name": "Class 4 - A&O Tool Chain - BIG-IP Service Analytics and Metrics with Telemetry Streaming (TS)",
+                    "name": "Class 4: A&O Tool Chain - BIG-IP Service Analytics and Metrics with Telemetry Streaming (TS)",
                     "tags": [
                         "devops",
                         "telemetry",
@@ -185,7 +185,7 @@
                 },
                 {
                     "id": "class06",
-                    "name": "Class 6 - Programmability - CI/CD Process Integration with BIG-IP",
+                    "name": "Class 6: Programmability - CI/CD Process Integration with BIG-IP",
                     "tags": [
                         "devops",
                         "ci",
@@ -196,7 +196,7 @@
                 },
                 {
                     "id": "class07",
-                    "name": "Class 7 - Dude Where's My Services: Introduction to Service Discovery with Consul",
+                    "name": "Class 7: Dude Where's My Services: Introduction to Service Discovery with Consul",
                     "tags": [
                         "terraform",
                         "consul",
@@ -206,8 +206,29 @@
                     "level": 1
                 },
                 {
+                    "id": "class08",
+                    "name": "Class 8: Containers - Kubernetes & OpenShift Integration with BIG-IP",
+                    "tags": [
+                        "automation",
+                        "bigip",
+                        "openshift",
+                        "k8s"
+                    ],
+                    "level": 1
+                },
+                {
                     "id": "class09",
-                    "name": "Class 9 - Basic BIG-IP Configuration Management with Ansible",
+                    "name": "Class 9: Basic BIG-IP Configuration Management with Ansible",
+                    "tags": [
+                        "automation",
+                        "bigip",
+                        "ansible"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class10",
+                    "name": "Class 10: Advanced BIG-IP Configuration Management with Ansible",
                     "tags": [
                         "automation",
                         "bigip",
@@ -217,21 +238,9 @@
                 },
                 {
                     "id": "class11",
-                    "name": "Class 11 - 101 of Terraform BIG-IP Provider",
+                    "name": "Class 11: Terraform BIG-IP Provider",
                     "tags": [
                         "terraform",
-                        "bigip",
-                        "automation",
-                        "bigip"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "class12",
-                    "name": "Class 12 - Cisco ACI Integration with BIG-IP",
-                    "tags": [
-                        "aci",
-                        "cisco",
                         "bigip",
                         "automation"
                     ],
