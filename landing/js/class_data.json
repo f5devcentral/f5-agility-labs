@@ -769,12 +769,11 @@
                 },
                 {
                     "id": "class8",
-                    "name": "NGINX App Protect Denial of Service (NAP DoS)",
+                    "name": "NGINX Performance Tuning NGINX Plus",
                     "tags": [
                         "nginx",
-                        "waf",
-                        "dos",
-                        "security"
+                        "performance",
+                        "tuning"
                     ],
                     "level": 1
                 },
