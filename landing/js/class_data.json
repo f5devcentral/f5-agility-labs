@@ -257,8 +257,17 @@
                         "automation"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class14",
+                    "name": "Class 14: Basic BIG-IP Configuration Management with Ansible",
+                    "tags": [
+                        "ansible",
+                        "bigip",
+                        "automation"
+                    ],
+                    "level": 1
                 }
-
             ]
         },
         {
