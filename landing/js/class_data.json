@@ -741,7 +741,7 @@
                 },
                 {
                     "id": "class5",
-                    "name": "NGINX APP Protect",
+                    "name": "NGINX App Protect WAF & DoS",
                     "tags": [
                         "nginx",
                         "waf"
@@ -750,7 +750,7 @@
                 },
                 {
                     "id": "class6",
-                    "name": "NGINX API Management and Security",
+                    "name": "NGINX API Management",
                     "tags": [
                         "nginx",
                         "api"
@@ -779,7 +779,7 @@
                 },
                 {
                     "id": "class9",
-                    "name": "Access on NGINX+ - Authentication for Web Access",
+                    "name": "Access on NGINX Plus - Authentication for Web Access",
                     "tags": [
                         "nginx",
                         "authentication"
@@ -793,6 +793,36 @@
                         "nginx",
                         "API",
                         "NMS"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class11",
+                    "name": "NGINX Plus Ingress Controller as an API Gateway for Kubernetes",
+                    "tags": [
+                        "nginx",
+                        "API",
+                        "k8s"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class12",
+                    "name": "The Path to Understanding Kubernetes and Containers",
+                    "tags": [
+                        "nginx",
+                        "API",
+                        "k8s"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class13",
+                    "name": "Maximize ROI with F5 NGINX App Protect(NAP) using Observability",
+                    "tags": [
+                        "nginx",
+                        "NAP",
+                        "WAF"
                     ],
                     "level": 1
                 }
