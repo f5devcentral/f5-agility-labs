@@ -257,8 +257,17 @@
                         "automation"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class14",
+                    "name": "Class 14: Basic BIG-IP Configuration Management with Ansible",
+                    "tags": [
+                        "ansible",
+                        "bigip",
+                        "automation"
+                    ],
+                    "level": 1
                 }
-
             ]
         },
         {
@@ -643,7 +652,7 @@
         {
             "id": "f5xc",
             "name": "F5 Distributed Cloud",
-            "description": "Learn about F5 Distributed Cloud SaaS which includes security, networking, and application management services.",
+            "description": "Learn about F5 Distributed Cloud, F5's SaaS-based services providing multi-cloud networking, security and application delivery.",
             "tags": [
                 "public-cloud",
                 "waf",
@@ -660,31 +669,49 @@
                 },
                 {
                     "id": "class2",
-                    "name": "F5 Distributed Cloud - WAF/WAAP Deeper Dive",
+                    "name": "F5 Distributed Cloud: Application Firewall & Services",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class3",
-                    "name": "F5 Distributed Cloud - Advanced Bot Security",
+                    "name": "F5 Distributed Cloud - Service Policies & Rate Limiting",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class4",
-                    "name": "F5 Distributed Cloud - Intro to Multi-Cloud Networking",
+                    "name": "F5 Distributed Cloud: API Discovery & Protection",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class5",
+                    "name": "F5 Distributed Cloud - Advanced Bot Security",
+                    "tags": [],
+                    "level": 1
+                },
+                {
+                    "id": "class6",
+                    "name": "F5 Distributed Cloud - Intro to Multi-Cloud Networking",
+                    "tags": [],
+                    "level": 1
+                },
+                {
+                    "id": "class7",
                     "name": "F5 Distributed Cloud - AppStack CaaS & K8s Delivery Options",
                     "tags": [],
                     "level": 1
                 },
                 {
-                    "id": "archive",
-                    "name": "Archived F5 Distributed Cloud Labs",
+                    "id": "class8",
+                    "name": "F5 Distributed Cloud Automation - NetOps, DevOps, SecOps and Beyond",
+                    "tags": [],
+                    "level": 1
+                },
+                {
+                    "id": "class9",
+                    "name": "F5 Distributed Cloud - WAF Policy Supervisor",
                     "tags": [],
                     "level": 1
                 }
@@ -741,7 +768,7 @@
                 },
                 {
                     "id": "class5",
-                    "name": "NGINX APP Protect",
+                    "name": "NGINX App Protect WAF & DoS",
                     "tags": [
                         "nginx",
                         "waf"
@@ -750,7 +777,7 @@
                 },
                 {
                     "id": "class6",
-                    "name": "NGINX API Management and Security",
+                    "name": "NGINX API Management",
                     "tags": [
                         "nginx",
                         "api"
@@ -769,18 +796,17 @@
                 },
                 {
                     "id": "class8",
-                    "name": "NGINX App Protect Denial of Service (NAP DoS)",
+                    "name": "NGINX Performance Tuning NGINX Plus",
                     "tags": [
                         "nginx",
-                        "waf",
-                        "dos",
-                        "security"
+                        "performance",
+                        "tuning"
                     ],
                     "level": 1
                 },
                 {
                     "id": "class9",
-                    "name": "Access on NGINX+ - Authentication for Web Access",
+                    "name": "Access on NGINX Plus - Authentication for Web Access",
                     "tags": [
                         "nginx",
                         "authentication"
@@ -794,6 +820,36 @@
                         "nginx",
                         "API",
                         "NMS"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class11",
+                    "name": "NGINX Plus Ingress Controller as an API Gateway for Kubernetes",
+                    "tags": [
+                        "nginx",
+                        "API",
+                        "k8s"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class12",
+                    "name": "The Path to Understanding Kubernetes and Containers",
+                    "tags": [
+                        "nginx",
+                        "API",
+                        "k8s"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class13",
+                    "name": "Maximize ROI with F5 NGINX App Protect(NAP) using Observability",
+                    "tags": [
+                        "nginx",
+                        "NAP",
+                        "WAF"
                     ],
                     "level": 1
                 }
