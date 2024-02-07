@@ -10,8 +10,8 @@ jobs:
     env:
       CLOUDDOCS_PASSWD: ${{ secrets.CLOUDDOCS_PASSWD }}
       BUILD_ALL: ""
-      SKIP_BUILDLABS: ""
-      BUILD_LIST: ""
+      SKIP_BUILDLABS: ${{ vars.SKIP_BUILDLABS }}
+      BUILD_LIST: ${{ vars.BUILD_LIST }}
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_DIST_ID: ${{ secrets.AWS_DIST_ID }}
