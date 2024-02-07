@@ -43,6 +43,28 @@
             ]
         },
         {
+            "id": "Next-DNS",
+            "name": "BIG-IP NEXT DNS",
+            "description": "Next generation of BIG-IP DNS software",
+            "tags": [
+                "next",
+                "DNS"
+            ],
+            "sphinxname": "F5BIGIPNextDNS",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Class 1: Introduction to BIG-IP Next DNS",
+                    "tags": [
+                        "next",
+                        "dns"
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
             "id": "Next-WAF",
             "name": "BIG-IP NEXT WAF",
             "description": "Next generation of BIG-IP WAF software",
