@@ -16,7 +16,51 @@
                     "tags": [
                         "next"
                     ],
-                    "level": 0
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "Next-Access",
+            "name": "BIG-IP NEXT Access",
+            "description": "Next generation of BIG-IP Access software",
+            "tags": [
+                "next",
+                "access"
+            ],
+            "sphinxname": "F5BIGIPNextAccess",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "F5 BIG-IP Next Access - Introduction",
+                    "tags": [
+                        "next",
+                        "access"
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "id": "Next-WAF",
+            "name": "BIG-IP NEXT WAF",
+            "description": "Next generation of BIG-IP WAF software",
+            "tags": [
+                "next",
+                "waf"
+            ],
+            "sphinxname": "F5BIGIPNextWAF",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "labs",
+                    "name": "Class 1: Introduction to BIG-IP Next",
+                    "tags": [
+                        "next",
+                        "waf"
+                    ],
+                    "level": 1
                 }
             ]
         },
