@@ -2,7 +2,7 @@
     "groups": [
         {
             "id": "Next",
-            "name": "BIG-IP NEXT",
+            "name": "BIG-IP Next",
             "description": "Next generation of BIG-IP software",
             "tags": [
                 "next"
@@ -22,7 +22,7 @@
         },
         {
             "id": "Next-Access",
-            "name": "BIG-IP NEXT Access",
+            "name": "BIG-IP Next Access",
             "description": "Next generation of BIG-IP Access software",
             "tags": [
                 "next",
@@ -44,7 +44,7 @@
         },
         {
             "id": "Next-WAF",
-            "name": "BIG-IP NEXT WAF",
+            "name": "BIG-IP Next WAF",
             "description": "Next generation of BIG-IP WAF software",
             "tags": [
                 "next",
