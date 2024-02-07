@@ -11,7 +11,7 @@ jobs:
       CLOUDDOCS_PASSWD: ${{ secrets.CLOUDDOCS_PASSWD }}
       BUILD_ALL: ""
       SKIP_BUILDLABS: ${{ env.SKIP_BUILDLABS }}
-      BUILD_LIST: ""
+      BUILD_LIST: ${{ env.BUILD_LIST }}
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       AWS_DIST_ID: ${{ secrets.AWS_DIST_ID }}
