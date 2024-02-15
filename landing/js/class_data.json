@@ -44,7 +44,7 @@
         },
         {
             "id": "Next-DNS",
-            "name": "BIG-IP NEXT DNS",
+            "name": "BIG-IP Next DNS",
             "description": "Next generation of BIG-IP DNS software",
             "tags": [
                 "next",
