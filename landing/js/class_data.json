@@ -17,6 +17,14 @@
                         "next"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class2",
+                    "name": "Class 2: Introduction to BIG-IP Next Operations",
+                    "tags": [
+                        "next"
+                    ],
+                    "level": 1
                 }
             ]
         },
@@ -33,7 +41,25 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "F5 BIG-IP Next Access - Introduction",
+                    "name": "Class 1: F5 BIG-IP Next Access - Introduction",
+                    "tags": [
+                        "next",
+                        "access"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class2",
+                    "name": "Class 2: Next SSL-VPN and Machine Tunnel",
+                    "tags": [
+                        "next",
+                        "access"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "Class 3: Next Access as Code",
                     "tags": [
                         "next",
                         "access"
@@ -77,7 +103,7 @@
             "classes": [
                 {
                     "id": "labs",
-                    "name": "Class 1: Introduction to BIG-IP Next",
+                    "name": "Class 1: Introduction to BIG-IP Next WAF",
                     "tags": [
                         "next",
                         "waf"
@@ -100,20 +126,26 @@
             "ga_id": "",
             "classes": [
                 {
+                    "id": "Intro",
+                    "name": "Introduction: Accessing F5 Distributed Cloud Console",
+                    "tags": [],
+                    "level": 1
+                },
+                {
                     "id": "class1",
-                    "name": "F5 Distributed Cloud - Introduction to Deployment Models and Services",
+                    "name": "F5 Distributed Cloud - Foundations of Delivery & Security",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class2",
-                    "name": "F5 Distributed Cloud: Application Firewall & Services",
+                    "name": "F5 Distributed Cloud: Web Application Security & Scanning",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class3",
-                    "name": "F5 Distributed Cloud - Service Policies & Rate Limiting",
+                    "name": "F5 Distributed Cloud - Security Automation & Zero Day Mitigation",
                     "tags": [],
                     "level": 1
                 },
@@ -143,13 +175,7 @@
                 },
                 {
                     "id": "class8",
-                    "name": "F5 Distributed Cloud Automation - NetOps, DevOps, SecOps and Beyond",
-                    "tags": [],
-                    "level": 1
-                },
-                {
-                    "id": "class9",
-                    "name": "F5 Distributed Cloud - WAF Policy Supervisor",
+                    "name": "F5 Distributed Cloud: Automating Build & Operations",
                     "tags": [],
                     "level": 1
                 }
@@ -164,14 +190,15 @@
                 "nginx+",
                 "cicd",
                 "waf",
-                "scripting"
+                "scripting",
+                "ai"
             ],
             "sphinxname": "nginx",
             "ga_id": "",
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Introduction to NGINX Plus",
+                    "name": "Class 1 - Intro to NGINX Plus",
                     "tags": [
                         "nginx",
                         "nginx+"
@@ -180,7 +207,7 @@
                 },
                 {
                     "id": "class2",
-                    "name": "NGINX Plus CICD Lab",
+                    "name": "Class 2 - NGINX Plus CI/CD Lab",
                     "tags": [
                         "nginx",
                         "cicd"
@@ -189,7 +216,7 @@
                 },
                 {
                     "id": "class3",
-                    "name": "NGINX Dataplane Scripting",
+                    "name": "Class 3 - NGINX Dataplane Scripting",
                     "tags": [
                         "nginx",
                         "scripting"
@@ -198,7 +225,7 @@
                 },
                 {
                     "id": "class4",
-                    "name": "Introduction to NGINX Instance Manager",
+                    "name": "Class 4 - Introduction to NGINX Instance Manager",
                     "tags": [
                         "nginx",
                         "cicd"
@@ -207,7 +234,7 @@
                 },
                 {
                     "id": "class5",
-                    "name": "NGINX App Protect WAF & DoS",
+                    "name": "Class 5 - NGINX App Protect WAF & DoS",
                     "tags": [
                         "nginx",
                         "waf"
@@ -216,7 +243,7 @@
                 },
                 {
                     "id": "class6",
-                    "name": "NGINX API Management",
+                    "name": "Class 6 - NGINX API Management",
                     "tags": [
                         "nginx",
                         "api"
@@ -225,7 +252,7 @@
                 },
                 {
                     "id": "class7",
-                    "name": "NGINX Kubernetes Ingress Controller and Rancher",
+                    "name": "Class 7 - NGINX Kubernetes Ingress Controller and Rancher",
                     "tags": [
                         "nginx",
                         "kubernetes",
@@ -235,7 +262,7 @@
                 },
                 {
                     "id": "class8",
-                    "name": "NGINX Performance Tuning NGINX Plus",
+                    "name": "Class 8 - Mastering NGINX One: Performance Tuning and Security Hardening Best Practices",
                     "tags": [
                         "nginx",
                         "performance",
@@ -245,7 +272,7 @@
                 },
                 {
                     "id": "class9",
-                    "name": "Access on NGINX Plus - Authentication for Web Access",
+                    "name": "Class 9: Zero Trust at Scale with F5 NGINX",
                     "tags": [
                         "nginx",
                         "authentication"
@@ -254,7 +281,7 @@
                 },
                 {
                     "id": "class10",
-                    "name": "NMS API Connectivity Manager",
+                    "name": "Class 10 - NMS API Connectivity Manager",
                     "tags": [
                         "nginx",
                         "API",
@@ -264,7 +291,7 @@
                 },
                 {
                     "id": "class11",
-                    "name": "NGINX Plus Ingress Controller as an API Gateway for Kubernetes",
+                    "name": "Class 11 - F5 NGINX Plus Ingress Controller as an API Gateway for Kubernetes",
                     "tags": [
                         "nginx",
                         "API",
@@ -274,7 +301,7 @@
                 },
                 {
                     "id": "class12",
-                    "name": "The Path to Understanding Kubernetes and Containers",
+                    "name": "Class 12 - The Path to Understanding Kubernetes and Containers",
                     "tags": [
                         "nginx",
                         "API",
@@ -284,11 +311,38 @@
                 },
                 {
                     "id": "class13",
-                    "name": "Maximize ROI with F5 NGINX App Protect(NAP) using Observability",
+                    "name": "Class 13 - Maximize ROI with F5 NGINX App Protect(NAP) using Observability",
                     "tags": [
                         "nginx",
                         "NAP",
                         "WAF"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class14",
+                    "name": "Class 14 - F5 AppWorld 2025 – NGINX One Templates",
+                    "tags": [
+                        "nginx",
+                        "WAF"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class15",
+                    "name": "Class 15 - Introduction to F5 AI Gateway",
+                    "tags": [
+                        "nginx",
+                        "AI"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class16",
+                    "name": "Class 16 - Beyond Models: A Practical Guide to Protecting Your AI-Powered Apps",
+                    "tags": [
+                        "nginx",
+                        "AI"
                     ],
                     "level": 1
                 }
@@ -407,7 +461,7 @@
                 },
                 {
                     "id": "class10",
-                    "name": "Class 10: Advanced BIG-IP Configuration Management with Ansible",
+                    "name": "Class 10: Mastering Imperative and Declarative Automation with F5 BIG-IP",
                     "tags": [
                         "automation",
                         "bigip",
@@ -467,15 +521,15 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Introduction to CIS on Kubernetes",
+                    "name": "Class 1: Kubernetes with F5 Container Ingress Service (CIS)",
                     "tags": [],
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "id": "class2",
-                    "name": "Introduction to CIS on OpenShift",
+                    "name": "Class 2: OpenShift with F5 Container Ingress Service (CIS)",
                     "tags": [],
-                    "level": 0
+                    "level": 1
                 }
             ]
         },
@@ -619,6 +673,15 @@
                         "virtual-edition"
                     ],
                     "level": 1
+                },                {
+                    "id": "class13",
+                    "name": "A&O Toolchain: BIG-IP HA in Public Cloud with Terraform (AppWorld 2024)",
+                    "tags": [
+                        "public-cloud",
+                        "automation",
+                        "terraform"
+                    ],
+                    "level": 1
                 },
                 {
                     "id": "class14",
@@ -628,6 +691,16 @@
                         "virtual-edition",
                         "terraform",
                         "icontrol"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class15",
+                    "name": "Event-Driven Service Discovery w/ HashiCorp Consul Terraform Sync and BIG-IP",
+                    "tags": [
+                        "public-cloud",
+                        "automation",
+                        "terraform"
                     ],
                     "level": 1
                 }
@@ -650,23 +723,23 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Intro to GSLB",
+                    "name": "Class 1 - Intro to GSLB",
                     "tags": [
                         "gslb"
                     ],
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "id": "class2",
-                    "name": "Next Generation DNS Services",
+                    "name": "Class 2 - Next Generation DNS Services",
                     "tags": [
                         "gslb"
                     ],
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "id": "class3",
-                    "name": "Data Center Availability Services Using BIG-IP DNS",
+                    "name": "Class 3 - Data Center Availability Services Using BIG-IP DNS",
                     "tags": [
                         "gslb"
                     ],
@@ -674,7 +747,7 @@
                 },
                 {
                     "id": "class4",
-                    "name": "DNS and EDNS0",
+                    "name": "Class 4 - EDNS0 Client Subnet",
                     "tags": [
                         "dns",
                         "edns0"
@@ -683,24 +756,24 @@
                 },
                 {
                     "id": "class5",
-                    "name": "DNS Over HTTPS / DNS Over TLS",
+                    "name": "Class 5 - DNS over HTTPS/DNS over TLS",
                     "tags": [
                         "dns",
                         "https",
                         "tls"
                     ],
-                    "level": 2
+                    "level": 1
                 },
                 {
                     "id": "class6",
-                    "name": "DNS Cloud Service & DNS Load Balancer Cloud Service",
+                    "name": "Class 6 - Native DNS over HTTPS/DNS over TLS",
                     "tags": [
                         "dns",
                         "lb",
                         "gslb",
                         "cloud"
                     ],
-                    "level": 2
+                    "level": 1
                 }
             ]
         },
@@ -723,7 +796,7 @@
                     "tags": [
                         "sslo"
                     ],
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "id": "class2",
@@ -739,7 +812,32 @@
                     "tags": [
                         "sslo"
                     ],
-                    "level": 2
+                    "level": 1
+                },
+                {
+                    "id": "class4",
+                    "name": "SSL Orchestrator with Secure Web Gateway (SWG) as a Service",
+                    "tags": [
+                        "sslo",
+                        "swg"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class5",
+                    "name": "SSLO 102: Diving into SSL Orchestrator for BIG-IP Next",
+                    "tags": [
+                        "sslo"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class6",
+                    "name": "SSLO 202: More Use Cases with F5 BIG-IP SSL Orchestrator",
+                    "tags": [
+                        "sslo"
+                    ],
+                    "level": 1
                 }
             ]
         },
@@ -777,22 +875,22 @@
                         "asm",
                         "security"
                     ],
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "id": "waf111",
-                    "name": "WAF 111 - Protecting Yourself from OWASP Top 10",
+                    "name": "WAF 111 - Protecting Yourself Against the OWASP Top 10",
                     "tags": [
                         "waf",
                         "awaf",
                         "asm",
                         "security"
                     ],
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "id": "waf201",
-                    "name": "WAF 201 – Elevated WAF Protection",
+                    "name": "WAF 201 – Elevated WAF Security",
                     "tags": [
                         "waf",
                         "awaf",
@@ -803,25 +901,47 @@
                 },
                 {
                     "id": "waf301",
-                    "name": "WAF 301 - AWAF in a CI/CD Pipeline (Self Guided)",
+                    "name": "WAF 301 - AWAF in a CI/CD Pipeline",
                     "tags": [
                         "waf",
                         "awaf",
                         "asm",
                         "security"
                     ],
-                    "level": 2
+                    "level": 1
                 },
                 {
-                    "id": "waf341",
-                    "name": "WAF 341 - Advanced Protection and Positive Security",
+                    "id": "waf302",
+                    "name": "WAF 302 - Enabling API Protection with APM and AWAF",
                     "tags": [
                         "waf",
                         "awaf",
                         "asm",
                         "security"
                     ],
-                    "level": 2
+                    "level": 1
+                },                
+                {
+                    "id": "waf341",
+                    "name": "WAF 341 – Advanced Protection and Positive Security",
+                    "tags": [
+                        "waf",
+                        "awaf",
+                        "asm",
+                        "security"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "waf2025",
+                    "name": "WAF 2025 - Mitigating App Vulnerabilities with BIG-IP Advanced WAF",
+                    "tags": [
+                        "waf",
+                        "awaf",
+                        "asm",
+                        "security"
+                    ],
+                    "level": 1
                 }
             ]
         },
@@ -840,15 +960,15 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Introduction to DDoS with F5 Herculon",
+                    "name": "Class 1: Introduction to DDoS with F5 Herculon",
                     "tags": [
                         "herculon"
                     ],
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "id": "class2",
-                    "name": "Intermediate DDoS Protection",
+                    "name": "Class2: Intermediate DDoS Protection",
                     "tags": [
                         ""
                     ],
@@ -856,7 +976,7 @@
                 },
                 {
                     "id": "class3",
-                    "name": "DDoS Hybrid Defender",
+                    "name": "Class 3: DDoS Hybrid Defender",
                     "tags": [
                         ""
                     ],
@@ -864,7 +984,7 @@
                 },
                 {
                     "id": "class4",
-                    "name": "Mitigating Real World DDoS Attacks",
+                    "name": "Class 4: Mitigating Real World DDoS Attacks",
                     "tags": [
                         ""
                     ],
@@ -880,7 +1000,7 @@
                 },
                 {
                     "id": "class6",
-                    "name": "F5 Agility 2018:  DDoS Attack Protection",
+                    "name": "F5 Agility 2018: DDoS Attack Protection",
                     "tags": [
                         ""
                     ],
@@ -913,9 +1033,9 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Introduction to Fraud and F5 WebSafe",
+                    "name": "Class 1: Introduction to Fraud and F5 WebSafe",
                     "tags": [],
-                    "level": 0
+                    "level": 1
                 }
             ]
         },
@@ -937,12 +1057,12 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "100 Series: Access Foundational Concepts",
+                    "name": "100 Series: Zero Trust Application Access (ZTAA)",
                     "tags": [
                         "federation",
                         "saml"
                     ],
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "id": "class2",
@@ -951,31 +1071,7 @@
                         "federation",
                         "oauth"
                     ],
-                    "level": 0
-                },
-                {
-                    "id": "class3",
-                    "name": "300 Series: Advanced Use Cases & Solutions",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class4",
-                    "name": "400 Series: APM Automation Labs",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "class5",
-                    "name": "500 Series: Troubleshooting",
-                    "tags": [],
-                    "level": 0
-                },
-                {
-                    "id": "archived",
-                    "name": "Archived Identity & Access Management Labs",
-                    "tags": [],
-                    "level": 0
+                    "level": 1
                 }
             ]
         },
@@ -999,14 +1095,14 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Single Call Security iControlLX REST Extension",
+                    "name": "Class 1 - Single Call Security iControl LX REST API Lab",
                     "tags": [
                         "automation",
                         "orchestration",
                         "rest",
                         "postman"
                     ],
-                    "level": 0
+                    "level": 1
                 }
             ]
         },
@@ -1032,7 +1128,7 @@
                     "tags": [
                         "irules"
                     ],
-                    "level": 0
+                    "level": 1
                 },
                 {
                     "id": "class2",
@@ -1050,7 +1146,7 @@
                     "tags": [
                         "iruleslx"
                     ],
-                    "level": 2
+                    "level": 1
                 }
             ]
         },
@@ -1071,31 +1167,31 @@
             "classes": [
                 {
                     "id": "lab1",
-                    "name": "VDI the F5 Way",
+                    "name": "Lab1 - VDI the F5 Way",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "lab2",
-                    "name": "Solutions for VMware View",
+                    "name": "Lab 2 - Solutions for VMware View",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "lab3",
-                    "name": "Solutions for Citrix XenDesktop",
+                    "name": "Lab 3 - Solutions for Citrix XenDesktop",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "lab4",
-                    "name": "Proxy for Microsoft RDS",
+                    "name": "Lab 4 - Proxy for Microsoft RDS",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "lab5",
-                    "name": "Consolidate VDI Access",
+                    "name": "Lab 5 - Consolidate VDI Access",
                     "tags": [],
                     "level": 1
                 }
@@ -1144,7 +1240,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Introduction to AVR",
+                    "name": "Class 1 - Introduction to AVR",
                     "tags": [
                         "analytics",
                         "visibility",
@@ -1154,7 +1250,7 @@
                 },
                 {
                     "id": "class2",
-                    "name": "Integration with Splunk",
+                    "name": "Class 2 - Integration with Splunk",
                     "tags": [
                         "analytics",
                         "visibility",
@@ -1164,7 +1260,7 @@
                 },
                 {
                     "id": "class3",
-                    "name": "F5 Telemetry Streaming",
+                    "name": "Class 3 - F5 Telemetry Streaming",
                     "tags": [
                         "analytics",
                         "visibility",
@@ -1208,12 +1304,28 @@
                     "level": 1
                 },
                 {
+                    "id": "class3",
+                    "name": "BIG-IP Local Traffic Manager (LTM) - Getting Started",
+                    "tags": [
+                        "ltm"
+                    ],
+                    "level": 1
+                },
+                {
                     "id": "class4",
                     "name": "Troubleshoot with tcpdump and Wireshark",
                     "tags": [
                         "ltm",
                         "tcpdump",
                         "wireshark"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class5",
+                    "name": "Resilient Data Center Architectures with F5 BIG-IP",
+                    "tags": [
+                        "ltm"
                     ],
                     "level": 1
                 },
@@ -1241,7 +1353,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "F5 Agility 2020: ADC Automation with BIG-IQ 8.0",
+                    "name": "F5 Agility 2022: ADC Automation with BIG-IQ 8.1",
                     "tags": [
                         "bigiq",
                         "big-iq"
@@ -1250,7 +1362,7 @@
                 },
                 {
                     "id": "class2",
-                    "name": "F5 Agility 2021: Security Automation with BIG-IQ 8.0",
+                    "name": "F5 Agility 2022: Security Automation with BIG-IQ 8.2",
                     "tags": [
                         "bigiq",
                         "big-iq",
