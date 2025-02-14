@@ -813,7 +813,7 @@
                         "sslo"
                     ],
                     "level": 1
-                }
+                },
                 {
                     "id": "class3",
                     "name": "SSLO 301: Automating SSL Orchestrator Deployments in Public Cloud",
