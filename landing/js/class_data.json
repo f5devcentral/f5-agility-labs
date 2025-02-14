@@ -127,7 +127,7 @@
             "classes": [
                 {
                     "id": "Intro",
-                    "name": "Introduction: Accessing F5 Distributed Cloud Console",
+                    "name": "Introduction - Accessing F5 Distributed Cloud Console",
                     "tags": [],
                     "level": 1
                 },
@@ -139,7 +139,7 @@
                 },
                 {
                     "id": "class2",
-                    "name": "F5 Distributed Cloud: Web Application Security & Scanning",
+                    "name": "F5 Distributed Cloud - Web Application Security & Scanning",
                     "tags": [],
                     "level": 1
                 },
@@ -151,7 +151,7 @@
                 },
                 {
                     "id": "class4",
-                    "name": "F5 Distributed Cloud: API Discovery & Protection",
+                    "name": "F5 Distributed Cloud - API Discovery & Protection",
                     "tags": [],
                     "level": 1
                 },
@@ -175,7 +175,7 @@
                 },
                 {
                     "id": "class8",
-                    "name": "F5 Distributed Cloud: Automating Build & Operations",
+                    "name": "F5 Distributed Cloud - Automating Build & Operations",
                     "tags": [],
                     "level": 1
                 }
@@ -951,7 +951,7 @@
                 },
                 {
                     "id": "class2",
-                    "name": "Class2: Intermediate DDoS Protection",
+                    "name": "Class 2: Intermediate DDoS Protection",
                     "tags": [
                         ""
                     ],
@@ -1150,7 +1150,7 @@
             "classes": [
                 {
                     "id": "lab1",
-                    "name": "Lab1 - VDI the F5 Way",
+                    "name": "Lab 1 - VDI the F5 Way",
                     "tags": [],
                     "level": 1
                 },
