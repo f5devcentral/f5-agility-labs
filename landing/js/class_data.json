@@ -807,33 +807,16 @@
                     "level": 1
                 },
                 {
-                    "id": "class3",
-                    "name": "SSLO 301: Automating SSL Orchestrator Deployments in Public Cloud",
-                    "tags": [
-                        "sslo"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "class4",
-                    "name": "SSL Orchestrator with Secure Web Gateway (SWG) as a Service",
-                    "tags": [
-                        "sslo",
-                        "swg"
-                    ],
-                    "level": 1
-                },
-                {
-                    "id": "class5",
-                    "name": "SSLO 102: Diving into SSL Orchestrator for BIG-IP Next",
-                    "tags": [
-                        "sslo"
-                    ],
-                    "level": 1
-                },
-                {
                     "id": "class6",
                     "name": "SSLO 202: More Use Cases with F5 BIG-IP SSL Orchestrator",
+                    "tags": [
+                        "sslo"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "SSLO 301: Automating SSL Orchestrator Deployments in Public Cloud",
                     "tags": [
                         "sslo"
                     ],
