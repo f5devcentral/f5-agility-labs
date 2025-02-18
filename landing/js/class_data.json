@@ -1055,6 +1055,16 @@
                         "oauth"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class3",
+                    "name": "301 - F5 Priviledged User Access (PUA)",
+                    "tags": [
+                        "federation",
+                        "oauth",
+                        "pua"
+                    ],
+                    "level": 1
                 }
             ]
         },
