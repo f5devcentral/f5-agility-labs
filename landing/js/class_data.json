@@ -1050,11 +1050,12 @@
                 },
                 {
                     "id": "class3",
-                    "name": "301 - F5 Priviledged User Access (PUA)",
+                    "name": "300 Series: Advanced Use Cases & Solutions",
                     "tags": [
                         "federation",
                         "oauth",
-                        "pua"
+                        "pua",
+                        "zero trust"
                     ],
                     "level": 1
                 }
