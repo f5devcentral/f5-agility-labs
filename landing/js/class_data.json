@@ -118,12 +118,6 @@
             "ga_id": "",
             "classes": [
                 {
-                    "id": "Intro",
-                    "name": "Introduction - Accessing F5 Distributed Cloud Console",
-                    "tags": [],
-                    "level": 1
-                },
-                {
                     "id": "class1",
                     "name": "F5 Distributed Cloud - Foundations of Delivery & Security",
                     "tags": [],
@@ -143,25 +137,25 @@
                 },
                 {
                     "id": "class4",
-                    "name": "F5 Distributed Cloud - API Discovery & Protection",
+                    "name": "F5 Distributed Cloud - Discovering & Securing APIs",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class5",
-                    "name": "F5 Distributed Cloud - Advanced Bot Security",
+                    "name": "F5 Distributed Cloud - Advanced Threat & Fraud Security",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class6",
-                    "name": "F5 Distributed Cloud - Intro to Multi-Cloud Networking",
+                    "name": "F5 Distributed Cloud - Multi-Cloud Networking & Beyond",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class7",
-                    "name": "F5 Distributed Cloud - AppStack CaaS & K8s Delivery Options",
+                    "name": "F5 Distributed Cloud - Container as a Service",
                     "tags": [],
                     "level": 1
                 },
