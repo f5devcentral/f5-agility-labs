@@ -1317,6 +1317,17 @@
                         "ha"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class10",
+                    "name": "AI Data Delivery: Secure and Reliable Object Storage",
+                    "tags": [
+                        "ltm",
+                        "ai",
+                        "object storage",
+                        "irules"
+                    ],
+                    "level": 1
                 }
             ]
         },
