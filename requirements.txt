@@ -5,6 +5,7 @@ sphinx==4.5
 importlib-metadata==4.8.3
 sphinx-js==3.0.1
 jinja2==2.11.3
+markupsafe==2.0.1
 sphinx-copybutton
 sphinxcontrib-blockdiag
 sphinxcontrib-nwdiag
