@@ -2,8 +2,8 @@
     "groups": [
         {
             "id": "Next",
-            "name": "BIG-IP Next",
-            "description": "Next generation of BIG-IP software",
+            "name": "BIG-IP Next for Kubernetes",
+            "description": "BIG-IP Next for Kubernetes",
             "tags": [
                 "next"
             ],
@@ -12,7 +12,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Class 1: Introduction to BIG-IP Next for Kubernetes",
+                    "name": "Introduction to BIG-IP Next for Kubernetes",
                     "tags": [
                         "next"
                     ],
@@ -131,7 +131,7 @@
                 },
                 {
                     "id": "class3",
-                    "name": "F5 Distributed Cloud - Security Automation & Zero Day Mitigation",
+                    "name": "F5 Distributed Cloud: SaaS Happens, Control the Flow",
                     "tags": [],
                     "level": 1
                 },
@@ -155,13 +155,7 @@
                 },
                 {
                     "id": "class7",
-                    "name": "F5 Distributed Cloud - Container as a Service",
-                    "tags": [],
-                    "level": 1
-                },
-                {
-                    "id": "class8",
-                    "name": "F5 Distributed Cloud - Automating Build & Operations",
+                    "name": "F5 Distributed Cloud: Code, Secure, Repeat",
                     "tags": [],
                     "level": 1
                 }
@@ -220,7 +214,7 @@
                 },
                 {
                     "id": "class5",
-                    "name": "Class 5 - NGINX App Protect WAF & DoS",
+                    "name": "Class 5 - Application Security and Observability with NAP",
                     "tags": [
                         "nginx",
                         "waf"
@@ -307,7 +301,7 @@
                 },
                 {
                     "id": "class14",
-                    "name": "Class 14 - F5 AppWorld 2025 – NGINX One Templates",
+                    "name": "Class 14 – Operationalize NGINX One Configuration and Enable Self-Service through Templates",
                     "tags": [
                         "nginx",
                         "WAF"
@@ -315,8 +309,8 @@
                     "level": 1
                 },
                 {
-                    "id": "class15",
-                    "name": "Class 15 - Introduction to F5 AI Gateway",
+                    "id": "class16",
+                    "name": "Class 16 - Beyond Models: A Practical Guide to Protecting Your AI-Powered Apps",
                     "tags": [
                         "nginx",
                         "AI"
@@ -324,8 +318,8 @@
                     "level": 1
                 },
                 {
-                    "id": "class16",
-                    "name": "Class 16 - Beyond Models: A Practical Guide to Protecting Your AI-Powered Apps",
+                    "id": "class17",
+                    "name": "Class 17 - Integrating NGINX Ingress Controller with F5 BIG-IP",
                     "tags": [
                         "nginx",
                         "AI"
@@ -778,7 +772,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "SSLO 101: Essential SSL Visibility with SSL Orchestrator",
+                    "name": "SSLO 101: Introduction to SSL Visibility with SSL Orchestrator",
                     "tags": [
                         "sslo"
                     ],
@@ -793,6 +787,14 @@
                     "level": 1
                 },
                 {
+                    "id": "class3",
+                    "name": "SSLO 301: Automating SSL Orchestrator Deployments in Public Cloud",
+                    "tags": [
+                        "sslo"
+                    ],
+                    "level": 1
+                },
+                {
                     "id": "class6",
                     "name": "SSLO 202: More Use Cases with F5 BIG-IP SSL Orchestrator",
                     "tags": [
@@ -801,8 +803,8 @@
                     "level": 1
                 },
                 {
-                    "id": "class3",
-                    "name": "SSLO 301: Automating SSL Orchestrator Deployments in Public Cloud",
+                    "id": "class7",
+                    "name": "SSLO 203: F5 BIG-IP SSL Orchestrator: Plug, play, automate",
                     "tags": [
                         "sslo"
                     ],
@@ -1247,6 +1249,26 @@
                         "telemetry"
                     ],
                     "level": 0
+                },
+                {
+                    "id": "class4",
+                    "name": "Class 4 - Talking telemetry and observability with F5",
+                    "tags": [
+                        "analytics",
+                        "visibility",
+                        "telemetry"
+                    ],
+                    "level": 0
+                },
+                {
+                    "id": "class5",
+                    "name": "Class 5 - F5 Insight for ADSP",
+                    "tags": [
+                        "analytics",
+                        "visibility",
+                        "telemetry"
+                    ],
+                    "level": 0
                 }
             ]
         },
@@ -1319,8 +1341,59 @@
                     "level": 1
                 },
                 {
+                    "id": "class7",
+                    "name": "F5 AppWorld Lab - TMOS Architecture",
+                    "tags": [
+                        "ltm"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class8",
+                    "name": "TMOS - Performance Tuning",
+                    "tags": [
+                        "ltm"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class9",
+                    "name": "BIG-IP Security Essentials",
+                    "tags": [
+                        "ltm"
+                    ],
+                    "level": 1
+                },
+                {
                     "id": "class10",
                     "name": "AI Data Delivery: Secure and Reliable Object Storage",
+                    "tags": [
+                        "ltm",
+                        "ai",
+                        "object storage",
+                        "irules"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class11",
+                    "name": "Intro to F5OS : Migrating from iSeries",
+                    "tags": [
+                        "ltm"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class12",
+                    "name": "AI Runtime: Building Secure and Optimized AI Apps with F5 Guardrails & Red Teams",
+                    "tags": [
+                        "ltm"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class13",
+                    "name": "AI Data Delivery: Secure and Reliable Object Storage with MinIO",
                     "tags": [
                         "ltm",
                         "ai",
