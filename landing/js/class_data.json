@@ -36,43 +36,43 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "Class 1 - F5 Distributed Cloud - Foundations of Delivery & Security",
+                    "name": "Class 1 - Foundations of Delivery & Security",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class2",
-                    "name": "Class 2 - F5 Distributed Cloud - Web Application Security & Scanning",
+                    "name": "Class 2- Web Application Security & Scanning",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class3",
-                    "name": "Class 3 - F5 Distributed Cloud: SaaS Happens, Control the Flow",
+                    "name": "Class 3 - SaaS Happens, Control the Flow",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class4",
-                    "name": "Class 4 - F5 Distributed Cloud - Discovering & Securing APIs",
+                    "name": "Class 4 - Discovering & Securing APIs",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class5",
-                    "name": "Class 5 - F5 Distributed Cloud - Advanced Threat & Fraud Security",
+                    "name": "Class 5 - Advanced Threat & Fraud Security",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class6",
-                    "name": "Class 6 - F5 Distributed Cloud - Multi-Cloud Networking & Beyond",
+                    "name": "Class 6 - Multi-Cloud Networking & Beyond",
                     "tags": [],
                     "level": 1
                 },
                 {
                     "id": "class7",
-                    "name": "Class 7 - F5 Distributed Cloud: Code, Secure, Repeat",
+                    "name": "Class 7 - Code, Secure, Repeat",
                     "tags": [],
                     "level": 1
                 }
@@ -169,7 +169,7 @@
                 },
                 {
                     "id": "class9",
-                    "name": "Class 9: Zero Trust at Scale with F5 NGINX",
+                    "name": "Class 9 - Zero Trust at Scale with F5 NGINX",
                     "tags": [
                         "nginx",
                         "authentication"
@@ -448,7 +448,7 @@
             "classes": [
                 {
                     "id": "class1",
-                    "name": "F5 Private Cloud Solutions for OpenStack",
+                    "name": "Class 1 - F5 Private Cloud Solutions for OpenStack",
                     "tags": [
                         "openstack"
                     ],
