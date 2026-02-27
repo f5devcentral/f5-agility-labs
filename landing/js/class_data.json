@@ -1,6 +1,39 @@
 {
     "groups": [
         {
+            "id": "ai",
+            "name": "F5 AI Solutions",
+            "description": "Learn about F5 AI Solutions, AI Data Delivery, Guardrails and Red Team",
+            "tags": [
+                "ai"
+            ],
+            "sphinxname": "F5AI",
+            "ga_id": "",
+            "classes": [
+                {
+                    "id": "class1",
+                    "name": "Class 1 - AI Data Delivery: Secure and Reliable Object Storage with MinIO",
+                    "tags": [
+                        "ai",
+                        "data delivery",
+                        "minio"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class2",
+                    "name": "Class 2 - AI Runtime: Building Secure and Optimized AI Apps with F5 Guardrails & Red Teams",
+                    "tags": [
+                        "ai",
+                        "guardrails",
+                        "red teams",
+                        "calypso"
+                    ],
+                    "level": 1
+                }
+            ]
+        },
+        {
             "id": "Next",
             "name": "BIG-IP Next for Kubernetes",
             "description": "BIG-IP Next for Kubernetes",
