@@ -1340,6 +1340,15 @@
                         "irules"
                     ],
                     "level": 1
+                },
+                {
+                    "id": "class14",
+                    "name": "Class 14 - Post-Quantum Crypto (PQC) and F5",
+                    "tags": [
+                        "ltm",
+                        "pqc"
+                    ],
+                    "level": 1
                 }
             ]
         },
