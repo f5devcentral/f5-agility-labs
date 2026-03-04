@@ -108,6 +108,12 @@
                     "name": "Class 7 - Code, Secure, Repeat",
                     "tags": [],
                     "level": 1
+                },
+                {
+                    "id": "class8",
+                    "name": "Class 8 - Security Automation & Zero Day Mitigation",
+                    "tags": [],
+                    "level": 1
                 }
             ]
         },
@@ -270,6 +276,15 @@
                 {
                     "id": "class17",
                     "name": "Class 17 - Integrating NGINX Ingress Controller with F5 BIG-IP",
+                    "tags": [
+                        "nginx",
+                        "AI"
+                    ],
+                    "level": 1
+                },
+                {
+                    "id": "class18",
+                    "name": "Class 18 - Mastering Cloud-Native App Delivery - ADCaaS (NGINXaaS)",
                     "tags": [
                         "nginx",
                         "AI"
